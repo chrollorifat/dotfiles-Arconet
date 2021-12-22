@@ -1,0 +1,7 @@
+
+[alsa]
+mixer-element=Master
+
+[qtui]
+menu_visible=FALSE
+statusbar_visible=FALSE
