@@ -1,0 +1,134 @@
+16:58:22.138: CPU Name: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+16:58:22.138: CPU Speed: 2650.920MHz
+16:58:22.139: Physical Cores: 2, Logical Cores: 4
+16:58:22.139: Physical Memory: 3737MB Total, 257MB Free
+16:58:22.139: Kernel Version: Linux 5.10.79-1-lts
+16:58:22.150: Distribution: ArcoLinux Unknown
+16:58:22.151: Session Type: x11
+16:58:22.151: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+16:58:22.175: Portable mode: false
+16:58:24.050: OBS 27.1.3-1 (linux)
+16:58:24.050: ---------------------------------
+16:58:24.058: ---------------------------------
+16:58:24.059: audio settings reset:
+16:58:24.059: 	samples per sec: 48000
+16:58:24.059: 	speakers:        2
+16:58:24.150: ---------------------------------
+16:58:24.150: Initializing OpenGL...
+16:58:26.051: Loading up OpenGL on adapter Intel Mesa Intel(R) HD Graphics 620 (KBL GT2)
+16:58:26.051: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 21.2.5, shading language 4.60
+16:58:26.528: ---------------------------------
+16:58:26.528: video settings reset:
+16:58:26.528: 	base resolution:   1366x768
+16:58:26.528: 	output resolution: 1364x768
+16:58:26.528: 	downscale filter:  Bicubic
+16:58:26.528: 	fps:               20/1
+16:58:26.528: 	format:            NV12
+16:58:26.528: 	YUV mode:          709/Partial
+16:58:26.528: NV12 texture support not available
+16:58:26.561: Audio monitoring device:
+16:58:26.561: 	name: Default
+16:58:26.561: 	id: default
+16:58:26.585: ---------------------------------
+16:58:26.610: Failed to load 'en-US' text for module: 'decklink-captions.so'
+16:58:26.641: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+16:58:29.201: Failed to load 'en-GB' text for module: 'linux-alsa.so'
+16:58:29.320: Failed to load 'en-GB' text for module: 'linux-capture.so'
+16:58:29.355: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+16:58:29.355: No blackmagic support
+16:58:29.414: Failed to load 'en-GB' text for module: 'linux-jack.so'
+16:58:29.433: Failed to load 'en-GB' text for module: 'linux-pulseaudio.so'
+16:58:30.132: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+16:58:30.132: 
+16:58:30.132: FFMPEG VAAPI supported
+16:58:30.233: Failed to load 'en-GB' text for module: 'obs-libfdk.so'
+16:58:30.347: Failed to load 'en-GB' text for module: 'obs-x264.so'
+16:58:30.359: Failed to load 'en-GB' text for module: 'rtmp-services.so'
+16:58:30.575: Failed to load 'en-GB' text for module: 'sndio.so'
+16:58:30.610: ---------------------------------
+16:58:30.610:   Loaded Modules:
+16:58:30.610:     text-freetype2.so
+16:58:30.610:     sndio.so
+16:58:30.610:     rtmp-services.so
+16:58:30.610:     obs-x264.so
+16:58:30.610:     obs-transitions.so
+16:58:30.610:     obs-outputs.so
+16:58:30.610:     obs-libfdk.so
+16:58:30.610:     obs-filters.so
+16:58:30.610:     obs-ffmpeg.so
+16:58:30.610:     linux-v4l2.so
+16:58:30.610:     linux-pulseaudio.so
+16:58:30.610:     linux-jack.so
+16:58:30.610:     linux-decklink.so
+16:58:30.610:     linux-capture.so
+16:58:30.610:     linux-alsa.so
+16:58:30.610:     image-source.so
+16:58:30.610:     frontend-tools.so
+16:58:30.610:     decklink-ouput-ui.so
+16:58:30.610:     decklink-captions.so
+16:58:30.610: ---------------------------------
+16:58:30.631: ==== Startup complete ===============================================
+16:58:30.829: All scene data cleared
+16:58:30.829: ------------------------------------------------
+16:58:31.100: pulse-input: Server name: 'pulseaudio 15.0'
+16:58:31.101: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+16:58:31.101: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+16:58:31.101: [Loaded global audio device]: 'Desktop Audio'
+16:58:31.133: pulse-input: Server name: 'pulseaudio 15.0'
+16:58:31.134: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+16:58:31.134: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+16:58:31.136: [Loaded global audio device]: 'Mic/Aux'
+16:58:31.177: xshm-input: Geometry 1366x768 @ 0,0
+16:58:31.191: Switched to scene 'Scene'
+16:58:31.192: ------------------------------------------------
+16:58:31.192: Loaded scenes:
+16:58:31.192: - scene 'Scene':
+16:58:31.192:     - source: 'Screen Capture (XSHM)' (xshm_input)
+16:58:31.192: ------------------------------------------------
+16:58:31.875: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+16:58:31.875: 
+16:58:53.122: Starting recording due to hotkey
+16:58:53.154: ---------------------------------
+16:58:53.154: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+16:58:53.154: [x264 encoder: 'simple_h264_recording'] profile: high
+16:58:53.195: [x264 encoder: 'simple_h264_recording'] settings:
+16:58:53.195: 	rate_control: CRF
+16:58:53.195: 	bitrate:      0
+16:58:53.195: 	buffer size:  0
+16:58:53.195: 	crf:          14
+16:58:53.195: 	fps_num:      20
+16:58:53.195: 	fps_den:      1
+16:58:53.195: 	width:        1364
+16:58:53.195: 	height:       768
+16:58:53.195: 	keyint:       250
+16:58:53.195: 
+16:58:53.328: libfdk_aac encoder created
+16:58:53.328: libfdk_aac bitrate: 192, channels: 2
+16:58:54.065: ==== Recording Start ===============================================
+16:58:54.065: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/rifarch/Videos/2021-11-18 16-58-53.mkv'...
+18:29:33.768: adding 42 milliseconds of audio buffering, total audio buffering is now 85 milliseconds (source: Desktop Audio)
+18:29:33.768: 
+18:57:05.036: Stopping recording due to hotkey
+18:57:08.345: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/rifarch/Videos/2021-11-18 16-58-53.mkv' stopped
+18:57:08.345: Output 'simple_file_output': stopping
+18:57:08.345: Output 'simple_file_output': Total frames output: 141839
+18:57:08.345: Output 'simple_file_output': Total drawn frames: 111201 (141886 attempted)
+18:57:08.345: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 30685 (21.6%)
+18:57:08.357: Video stopped, number of skipped frames due to encoding lag: 66210/141892 (46.7%)
+18:57:08.413: ==== Recording Stop ================================================
+18:57:08.553: libfdk_aac encoder destroyed
+18:58:03.843: ==== Shutting down ==================================================
+18:58:03.984: pulse-input: Stopped recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+18:58:03.984: pulse-input: Got 1290920 packets with 344292853 frames
+18:58:03.984: pulse-input: Stopped recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+18:58:03.984: pulse-input: Got 716938 packets with 316310144 frames
+18:58:04.000: All scene data cleared
+18:58:04.000: ------------------------------------------------
+18:58:04.119: Failed to fetch parent window geometry!
+18:58:04.119: Failed to fetch parent window geometry!
+18:58:04.119: Failed to fetch parent window geometry!
+18:58:04.119: Failed to fetch parent window geometry!
+18:58:04.122: Failed to fetch parent window geometry!
+18:58:04.122: Failed to fetch parent window geometry!
+18:58:04.122: Failed to fetch parent window geometry!
+18:58:04.123: Failed to fetch parent window geometry!

@@ -1,0 +1,128 @@
+13:30:09.418: CPU Name: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+13:30:09.418: CPU Speed: 2505.778MHz
+13:30:09.419: Physical Cores: 2, Logical Cores: 4
+13:30:09.419: Physical Memory: 3737MB Total, 244MB Free
+13:30:09.419: Kernel Version: Linux 5.10.79-1-lts
+13:30:09.436: Distribution: ArcoLinux Unknown
+13:30:09.437: Session Type: x11
+13:30:09.437: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+13:30:09.463: Portable mode: false
+13:30:13.170: OBS 27.1.3-1 (linux)
+13:30:13.170: ---------------------------------
+13:30:13.200: ---------------------------------
+13:30:13.200: audio settings reset:
+13:30:13.200: 	samples per sec: 48000
+13:30:13.200: 	speakers:        2
+13:30:13.423: ---------------------------------
+13:30:13.423: Initializing OpenGL...
+13:30:15.943: Loading up OpenGL on adapter Intel Mesa Intel(R) HD Graphics 620 (KBL GT2)
+13:30:15.943: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 21.2.5, shading language 4.60
+13:30:16.603: ---------------------------------
+13:30:16.604: video settings reset:
+13:30:16.604: 	base resolution:   1366x768
+13:30:16.604: 	output resolution: 1364x768
+13:30:16.604: 	downscale filter:  Bicubic
+13:30:16.604: 	fps:               20/1
+13:30:16.604: 	format:            NV12
+13:30:16.604: 	YUV mode:          709/Partial
+13:30:16.606: NV12 texture support not available
+13:30:17.152: Audio monitoring device:
+13:30:17.152: 	name: Default
+13:30:17.152: 	id: default
+13:30:17.183: ---------------------------------
+13:30:17.321: Failed to load 'en-US' text for module: 'decklink-captions.so'
+13:30:17.398: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+13:30:19.943: Failed to load 'en-GB' text for module: 'linux-alsa.so'
+13:30:20.094: Failed to load 'en-GB' text for module: 'linux-capture.so'
+13:30:20.142: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+13:30:20.142: No blackmagic support
+13:30:20.243: Failed to load 'en-GB' text for module: 'linux-jack.so'
+13:30:20.274: Failed to load 'en-GB' text for module: 'linux-pulseaudio.so'
+13:30:21.390: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+13:30:21.390: 
+13:30:21.391: FFMPEG VAAPI supported
+13:30:21.519: Failed to load 'en-GB' text for module: 'obs-libfdk.so'
+13:30:21.668: Failed to load 'en-GB' text for module: 'obs-x264.so'
+13:30:21.689: Failed to load 'en-GB' text for module: 'rtmp-services.so'
+13:30:21.906: Failed to load 'en-GB' text for module: 'sndio.so'
+13:30:21.954: ---------------------------------
+13:30:21.954:   Loaded Modules:
+13:30:21.954:     text-freetype2.so
+13:30:21.954:     sndio.so
+13:30:21.954:     rtmp-services.so
+13:30:21.954:     obs-x264.so
+13:30:21.954:     obs-transitions.so
+13:30:21.954:     obs-outputs.so
+13:30:21.954:     obs-libfdk.so
+13:30:21.954:     obs-filters.so
+13:30:21.954:     obs-ffmpeg.so
+13:30:21.954:     linux-v4l2.so
+13:30:21.954:     linux-pulseaudio.so
+13:30:21.954:     linux-jack.so
+13:30:21.954:     linux-decklink.so
+13:30:21.954:     linux-capture.so
+13:30:21.954:     linux-alsa.so
+13:30:21.954:     image-source.so
+13:30:21.954:     frontend-tools.so
+13:30:21.954:     decklink-ouput-ui.so
+13:30:21.954:     decklink-captions.so
+13:30:21.954: ---------------------------------
+13:30:21.999: ==== Startup complete ===============================================
+13:30:22.222: All scene data cleared
+13:30:22.222: ------------------------------------------------
+13:30:22.737: pulse-input: Server name: 'pulseaudio 15.0'
+13:30:22.749: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+13:30:22.749: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+13:30:22.750: [Loaded global audio device]: 'Desktop Audio'
+13:30:22.851: pulse-input: Server name: 'pulseaudio 15.0'
+13:30:22.868: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+13:30:22.869: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+13:30:22.869: [Loaded global audio device]: 'Mic/Aux'
+13:30:22.962: xshm-input: Geometry 1366x768 @ 0,0
+13:30:23.086: Switched to scene 'Scene'
+13:30:23.087: ------------------------------------------------
+13:30:23.088: Loaded scenes:
+13:30:23.088: - scene 'Scene':
+13:30:23.088:     - source: 'Screen Capture (XSHM)' (xshm_input)
+13:30:23.088: ------------------------------------------------
+13:30:23.514: adding 149 milliseconds of audio buffering, total audio buffering is now 149 milliseconds (source: Desktop Audio)
+13:30:23.514: 
+13:30:38.271: ---------------------------------
+13:30:38.285: [x264 encoder: 'simple_h264_stream'] preset: veryfast
+13:30:38.308: [x264 encoder: 'simple_h264_stream'] settings:
+13:30:38.308: 	rate_control: CBR
+13:30:38.308: 	bitrate:      2500
+13:30:38.308: 	buffer size:  2500
+13:30:38.308: 	crf:          23
+13:30:38.308: 	fps_num:      20
+13:30:38.308: 	fps_den:      1
+13:30:38.308: 	width:        1364
+13:30:38.308: 	height:       768
+13:30:38.308: 	keyint:       40
+13:30:38.308: 
+13:30:38.462: libfdk_aac encoder created
+13:30:38.462: libfdk_aac bitrate: 160, channels: 2
+13:30:38.463: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmps://a.rtmps.youtube.com:443/live2...
+13:30:39.948: [rtmp stream: 'simple_stream'] Connection to rtmps://a.rtmps.youtube.com:443/live2 successful
+13:30:40.987: ==== Streaming Start ===============================================
+13:59:49.211: [rtmp stream: 'simple_stream'] User stopped the stream
+13:59:49.437: Output 'simple_stream': stopping
+13:59:49.439: Output 'simple_stream': Total frames output: 2723 (34949 attempted)
+13:59:49.441: Output 'simple_stream': Total drawn frames: 30368 (35019 attempted)
+13:59:49.441: Output 'simple_stream': Number of lagged frames due to rendering lag/stalls: 4651 (13.3%)
+13:59:49.442: Output 'simple_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 32226 (92.2%)
+13:59:49.442: [rtmp stream: 'simple_stream'] Freeing 55 remaining packets
+13:59:49.442: Video stopped, number of skipped frames due to encoding lag: 7151/34987 (20.4%)
+13:59:49.641: ==== Streaming Stop ================================================
+13:59:50.340: libfdk_aac encoder destroyed
+14:01:44.067: ==== Shutting down ==================================================
+14:01:45.375: pulse-input: Stopped recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+14:01:45.375: pulse-input: Got 468984 packets with 90359253 frames
+14:01:45.385: pulse-input: Stopped recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+14:01:45.385: pulse-input: Got 187362 packets with 83007064 frames
+14:01:45.550: All scene data cleared
+14:01:45.550: ------------------------------------------------
+14:01:46.839: Failed to fetch parent window geometry!
+14:01:46.840: Failed to fetch parent window geometry!
+14:01:46.845: Failed to fetch parent window geometry!
+14:01:46.847: Failed to fetch parent window geometry!
