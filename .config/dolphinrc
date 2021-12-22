@@ -1,0 +1,58 @@
+[CompactMode]
+FontWeight=50
+
+[CreateDialog]
+LastMimeType=application/x-7z-compressed
+
+[DetailsMode]
+FontWeight=50
+
+[ExtractDialog]
+DirHistory[$e]=/mnt/40E226A7E226A160/ANIME/,/mnt/3670E43F70E40807/ANIME/
+eDP1 Height 1366x768=512
+eDP1 Width 1366x768=1062
+
+[General]
+GlobalViewProps=false
+Version=201
+ViewPropsTimestamp=2021,8,16,2,14,58.343
+
+[IconsMode]
+FontWeight=50
+IconSize=80
+
+[KFileDialog Settings]
+Recent Files[$e]=file:///mnt/40E226A7E226A160/ANIME,file:///mnt/40E226A7E226A160/ANIME,file:///mnt/3670E43F70E40807/ANIME
+Recent URLs[$e]=file:///mnt/40E226A7E226A160/ANIME/,file:///mnt/40E226A7E226A160/,file:///mnt/3670E43F70E40807/ANIME/,file:$HOME/Downloads/,file:$HOME/
+iconViewIconSize=43
+
+[KPropertiesDialog]
+eDP1 Height 1366x768=675
+eDP1 Width 1366x768=637
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+eDP1 Height 1280x720=691
+eDP1 Height 1366x768=739
+eDP1 Width 1280x720=1280
+eDP1 Width 1366x768=1366
+eDP1 Window-Maximized 1366x768=true
+eDP1 XPosition 1280x720=0
+eDP1 XPosition 1366x768=0
+eDP1 YPosition 1280x720=29
+eDP1 YPosition 1366x768=29
+
+[Open-with settings]
+CompletionMode=1
+History=nano,godo,shotwe,shot,kate,kden,mpv,fon,font,gean,ap,dead,bak,baka
+
+[PlacesPanel]
+IconSize=32
+
+[PreviewSettings]
+Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mltpreview,opendocumentthumbnail,svgthumbnail,ffmpegthumbs
+
+[SettingsDialog]
+eDP1 Height 1366x768=558
+eDP1 Width 1366x768=907

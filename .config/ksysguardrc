@@ -1,0 +1,16 @@
+[MainWindow]
+CommandList=
+HostList=
+SelectedSheets[$e]=ProcessTable.sgrd,SystemLoad2.sgrd
+SplitterSizeList=10,90
+State=AAAA/wAAAAD9AAAAAAAAA6kAAAIfAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+currentSheet=0
+eDP1 Height 1366x768=600
+eDP1 Width 1366x768=937
+eDP1 XPosition 1366x768=214
+eDP1 YPosition 1366x768=98
+isMinimized=false
+
+[Notification Messages]
+endconfirmation=false

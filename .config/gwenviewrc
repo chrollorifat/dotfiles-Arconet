@@ -1,0 +1,43 @@
+[$Version]
+update_info=gwenview.upd:SideBar_StatusBar_Rename,gwenview.upd:ImageView_AlphaBackgroundMode_Update,gwenview.upd:DeleteThumbnailSetting_Rename
+
+[General]
+LastUsedVersion=210800
+SideBarPage=operations
+
+[KPropertiesDialog]
+eDP1 Height 1366x768=518
+eDP1 Width 1366x768=541
+
+[MainWindow]
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAA2kAAAKrAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+eDP1 Height 1366x768=753
+eDP1 Width 1366x768=873
+eDP1 XPosition 1366x768=246
+eDP1 YPosition 1366x768=32
+
+[Recent Files]
+File1[$e]=$HOME/Pictures/Waifus/Megumi Kato.png
+File2[$e]=$HOME/Pictures/Waifus/mizuhara chizuru.png
+File3[$e]=$HOME/Pictures/Waifus/satella.png
+File4[$e]=$HOME/Pictures/Waifus/senjougahara.jpg
+File5[$e]=$HOME/Pictures/Waifus/tsubasa hanekawa.png
+File6[$e]=$HOME/Pictures/Waifus/tsukasa chan 2.jpg
+File7[$e]=$HOME/Downloads/Shaman King (2021) Episode 28 English Subbed - Watch Anime Subbed Online.mp4
+File8[$e]=$HOME/.face
+File9[$e]=$HOME/Videos/how to install steam on linux.gif
+Name1[$e]=Megumi Kato.png
+Name2[$e]=mizuhara chizuru.png
+Name3[$e]=satella.png
+Name4[$e]=senjougahara.jpg
+Name5[$e]=tsubasa hanekawa.png
+Name6[$e]=tsukasa chan 2.jpg
+Name7[$e]=Shaman King (2021) Episode 28 English Subbed - Watch Anime Subbed Online.mp4
+Name8[$e]=.face
+Name9[$e]=how to install steam on linux.gif
+
+[SideBar]
+IsVisible ViewMode=true
+SideBarSplitterSizes=262,604

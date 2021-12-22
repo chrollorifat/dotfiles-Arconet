@@ -1,0 +1,7 @@
+[Defaults]
+Profile=Default
+
+[PROFILE_Default]
+EmailClient[$e]=vivaldi-stable.desktop
+ServerType=
+TerminalClient=false

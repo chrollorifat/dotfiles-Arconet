@@ -1,0 +1,208 @@
+[$Version]
+update_info=filepicker.upd:filepicker-remove-old-previews-entry,fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar,icons_remove_effects.upd:IconsRemoveEffects,kwin.upd:animation-speed,style_widgetstyle_default_breeze.upd:StyleWidgetStyleDefaultBreeze
+
+[ColorEffects:Disabled]
+ChangeSelectionColor=
+Color=112,111,110
+ColorAmount=0
+ColorEffect=0
+ContrastAmount=0.65
+ContrastEffect=1
+Enable=
+IntensityAmount=0.1
+IntensityEffect=0
+
+[ColorEffects:Inactive]
+ChangeSelectionColor=true
+Color=112,111,110
+ColorAmount=0.025
+ColorEffect=2
+ContrastAmount=0.1
+ContrastEffect=2
+Enable=true
+IntensityAmount=0
+IntensityEffect=0
+
+[Colors:Button]
+BackgroundAlternate=49,51,56
+BackgroundNormal=68,69,75
+DecorationFocus=86,87,245
+DecorationHover=86,87,245
+ForegroundActive=255,128,224
+ForegroundInactive=153,153,153
+ForegroundLink=66,133,244
+ForegroundNegative=191,3,3
+ForegroundNeutral=176,128,0
+ForegroundNormal=234,234,234
+ForegroundPositive=0,110,40
+ForegroundVisited=224,64,251
+
+[Colors:Complementary]
+BackgroundAlternate=54,57,62
+BackgroundNormal=33,35,41
+DecorationFocus=66,133,244
+DecorationHover=89,151,244
+ForegroundActive=255,128,224
+ForegroundInactive=153,153,153
+ForegroundLink=66,133,244
+ForegroundNegative=191,3,3
+ForegroundNeutral=176,128,0
+ForegroundNormal=234,234,234
+ForegroundPositive=0,110,40
+ForegroundVisited=224,64,251
+
+[Colors:Header]
+BackgroundAlternate=54,56,62
+BackgroundNormal=49,49,58
+DecorationFocus=86,87,245
+DecorationHover=86,87,245
+ForegroundActive=255,128,224
+ForegroundInactive=153,153,153
+ForegroundLink=66,133,244
+ForegroundNegative=191,3,3
+ForegroundNeutral=176,128,0
+ForegroundNormal=234,234,234
+ForegroundPositive=0,110,40
+ForegroundVisited=224,64,251
+
+[Colors:Header][Inactive]
+BackgroundAlternate=54,56,62
+BackgroundNormal=49,49,58
+DecorationFocus=86,87,245
+DecorationHover=86,87,245
+ForegroundActive=255,128,224,150
+ForegroundInactive=153,153,153
+ForegroundLink=66,133,244
+ForegroundNegative=191,3,3
+ForegroundNeutral=176,128,0
+ForegroundNormal=234,234,234,150
+ForegroundPositive=0,110,40
+ForegroundVisited=224,64,251
+
+[Colors:Selection]
+BackgroundAlternate=82,148,226
+BackgroundNormal=86,87,245
+DecorationFocus=86,87,245
+DecorationHover=86,87,245
+ForegroundActive=255,128,224
+ForegroundInactive=142,203,233
+ForegroundLink=66,133,244
+ForegroundNegative=156,14,14
+ForegroundNeutral=255,221,0
+ForegroundNormal=255,255,255
+ForegroundPositive=128,255,128
+ForegroundVisited=224,64,251
+
+[Colors:Tooltip]
+BackgroundAlternate=54,57,62
+BackgroundNormal=33,35,41
+DecorationFocus=86,87,245
+DecorationHover=86,87,245
+ForegroundActive=255,128,224
+ForegroundInactive=153,153,153
+ForegroundLink=66,133,244
+ForegroundNegative=191,3,3
+ForegroundNeutral=176,128,0
+ForegroundNormal=221,221,221
+ForegroundPositive=0,110,40
+ForegroundVisited=224,64,251
+
+[Colors:View]
+BackgroundAlternate=54,56,62
+BackgroundNormal=49,49,58
+DecorationFocus=86,87,245
+DecorationHover=86,87,245
+ForegroundActive=255,128,224
+ForegroundInactive=153,153,153
+ForegroundLink=66,133,244
+ForegroundNegative=191,3,3
+ForegroundNeutral=176,128,0
+ForegroundNormal=234,234,234
+ForegroundPositive=0,110,40
+ForegroundVisited=224,64,251
+
+[Colors:Window]
+BackgroundAlternate=54,56,62
+BackgroundNormal=49,49,58
+DecorationFocus=86,87,245
+DecorationHover=86,87,245
+ForegroundActive=255,128,224
+ForegroundInactive=153,153,153
+ForegroundLink=66,133,244
+ForegroundNegative=191,3,3
+ForegroundNeutral=176,128,0
+ForegroundNormal=234,234,234
+ForegroundPositive=0,110,40
+ForegroundVisited=224,64,251
+
+[DirSelect Dialog]
+DirSelectDialog Size=1312,598
+History Items[$e]=file:$HOME/Downloads/Kvantum Themes/Polarnight-dark,file:$HOME/Videos,file:$HOME/Downloads/Kvantum Themes/Nordic,file:$HOME,file:$HOME/Downloads/Kvantum Themes/Kde-Story-Dark-Kvantum,file:$HOME/Downloads/Kvantum Themes/WhiteSur,file:$HOME/Downloads/Kvantum Themes/WhiteSur-dark,file:$HOME/Downloads/Kvantum Themes/Kde-Story-Dark-Kvantum,file:$HOME/Downloads/Kvantum Themes/Dracula,file:$HOME/Downloads/Kvantum Themes/Win11OS-dark,file:$HOME/Downloads/Kvantum Themes/Arch-all-themes/Arch-light,file:$HOME/Downloads/Kvantum Themes/Arch-all-themes/Arch-semi-solid,file:$HOME/Downloads/Kvantum Themes/Arch-all-themes/Arch-solid,file:$HOME/Downloads/Kvantum Themes/Arch-all-themes/Arch-solid-toolbar,file:$HOME/Downloads/Kvantum Themes/Arch-all-themes/Arch-solid-smooth,file:$HOME/Downloads/Kvantum Themes/Arch-all-themes/Arch-transparent-toolbar,file:$HOME/Downloads/Kvantum Themes/com.github.yeyushengfan258.WinSur-dark/contents,file:$HOME/Downloads/Kvantum Themes/com.github.yeyushengfan258.WinSur-dark/contents/previews,file:$HOME/Downloads/Kvantum Themes/com.github.yeyushengfan258.WinSur-dark/contents/splash/images,file:$HOME/Downloads/Kvantum Themes/Fluent-Dark/Fluent-Dark,file:$HOME/Downloads/Kvantum Themes/MoeDark,file:$HOME/Downloads/Kvantum Themes/Monterey,file:$HOME/Downloads/Themes/Sweet,file:$HOME/Downloads/Themes/Fluent-Dark/Fluent-Dark,file:$HOME/Downloads/Themes/Layan/Layan-solid,file:$HOME/Downloads/Themes/Layan/Layan,file:$HOME/Downloads/Themes/Sweet-Mars-transparent-toolbar,file:$HOME/Downloads/Themes/Sweet-transparent-toolbar,file:$HOME/.themes/Qogir-dark,file:$HOME/.themes/Juno-v40,file:$HOME/.icons/Sweet-cursors/cursors,file:$HOME/.themes/Sweet-Dark-v40,file:///usr/local/share/arcolinux,file:$HOME/Downloads/Edna,file:$HOME/Downloads/Edna,file:///run/media/rifarch/New Volume/Anime Wallpaper
+
+[General]
+AllowKDEAppsToRememberWindowPositions=false
+BrowserApplication=chromium.desktop
+Name[en_GB]=Breeze Dark
+Name=Breeze Dark
+TerminalApplication=kitty
+TerminalService=kitty.desktop
+UseSystemBell=true
+XftHintStyle=hintslight
+XftSubPixel=rgb
+fixed=JetBrainsMono Nerd Font,10,-1,5,50,0,0,0,0,0
+font=JetBrainsMono Nerd Font,11,-1,5,50,0,0,0,0,0
+menuFont=JetBrainsMono Nerd Font,10,-1,5,50,0,0,0,0,0
+shadeSortColumn=true
+smallestReadableFont=JetBrainsMono Nerd Font,8,-1,5,50,0,0,0,0,0
+toolBarFont=JetBrainsMono Nerd Font,10,-1,5,50,0,0,0,0,0
+widgetStyle=Breeze
+
+[Icons]
+Theme=Tela-circle
+
+[KDE]
+ColorScheme=Breeze
+LookAndFeelPackage=com.github.vinceliuice.Layan
+ShowDeleteCommand=true
+ShowIconsInMenuItems=true
+ShowIconsOnPushButtons=true
+SingleClick=false
+contrast=4
+widgetStyle=kvantum-dark
+
+[KFileDialog Settings]
+Allow Expansion=false
+Automatically select filename extension=true
+Breadcrumb Navigation=true
+Decoration position=2
+LocationCombo Completionmode=5
+PathCombo Completionmode=5
+Show Bookmarks=false
+Show Full Path=false
+Show Inline Previews=true
+Show Preview=false
+Show Speedbar=true
+Show hidden files=true
+Sort by=Name
+Sort directories first=true
+Sort reversed=false
+Speedbar Width=167
+View Style=Simple
+
+[KShortcutsDialog Settings]
+Dialog Size=600,480
+
+[PreviewSettings]
+MaximumRemoteSize=0
+
+[Toolbar style]
+ToolButtonStyleOtherToolbars=NoText
+
+[WM]
+activeBackground=54,56,62
+activeBlend=59,62,68
+activeFont=JetBrainsMono Nerd Font,10,-1,5,50,0,0,0,0,0
+activeForeground=221,221,221
+inactiveBackground=62,65,71
+inactiveBlend=67,71,77
+inactiveForeground=120,120,120

@@ -1,0 +1,9 @@
+[FileDialogSize]
+eDP1 Height 1366x768=512
+eDP1 Width 1366x768=910
+
+[KFileDialog Settings]
+Recent Files[$e]=Dealing with Worries and Stress.pdf,file:$HOME/Pictures/horizontal line.gif,file:$HOME/Downloads/SPY x FAMILY - SPY x FAMILY Chapter 8.5_ WJ SPECIAL EXTRA MISSION!! - 1.jpg,file:$HOME/Downloads/IMG_20211218_131048_223.jpg,file:$HOME/Pictures/Screenshot_20211217_215518.png,file:$HOME/Pictures/Song-of-the-day.gif,file:$HOME/repos/html-boilerplate/index.html,file:$HOME/Pictures/my anilist  bio 1.png,file:$HOME/Pictures/My anilist bio.png,file:$HOME/Documents/Godot GAMES/Dodge Creeps (GAME2D)/score_above_25.x86_64,file:$HOME/Documents/Backups/proton2factor_recovery_codes.txt,file:$HOME/Documents/Backups/gitlab 2 factor recovery.txt,file:$HOME/Pictures/Screenshots/Screenshot_20211007_220435.png,file:$HOME/Documents/Godot GAMES/Dodge Creeps (GAME2D)/score_above_25_if_you_can.exe,file:$HOME/Videos/my shit game.mp4
+Recent URLs[$e]=file:$HOME/Downloads/,file:$HOME/Documents/CS50- Harvard/,file:$HOME/Pictures/Screenshots/,file:$HOME/Documents/,file:$HOME/Documents/Godot GAMES/Dodge Creeps (GAME2D)/,file:$HOME/,file:$HOME/Documents/Backups/,file:$HOME/Documents/Godot GAMES/,file:$HOME/Pictures/,file:$HOME/repos/html-boilerplate/,file:$HOME/Videos/
+iconViewIconSize=40
+listViewIconSize=16

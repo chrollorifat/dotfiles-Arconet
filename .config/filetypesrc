@@ -1,0 +1,7 @@
+[EmbedSettings]
+embed-application/x-shellscript=false
+embed-font/woff2=false
+embed-text/plain=false
+embed-text/x-lua=false
+embed-text/x-matlab=false
+embed-video/webm=false

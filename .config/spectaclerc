@@ -1,0 +1,11 @@
+[$Version]
+update_info=spectacle_newConfig.upd:spectacle-new-config,spectacle_clipboard.upd:clipboard-settings-change,spectacle_rememberregion.upd:spectacle-migrate-rememberregion
+
+[General]
+rememberLastRectangularRegion=2
+
+[GuiConfig]
+window-position=50,50
+
+[Save]
+lastSaveLocation=file:///home/rifarch/Pictures/Screenshot_20211217_215518.png
