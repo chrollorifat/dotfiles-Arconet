@@ -1,0 +1,61 @@
+{
+	"name": "markdown-extension-pack",
+	"displayName": "Markdown's Extension Pack",
+	"description": "Collection of extensions to improve writing document using Markdown",
+	"keywords": [
+		"markdown",
+		"document",
+		"md",
+		"documentalist",
+		"documenter",
+		"content",
+		"writer",
+		"author"
+	],
+	"version": "0.1.0",
+	"preview": true,
+	"galleryBanner": {
+		"color": "#212121",
+		"theme": "dark"
+	},
+	"categories": [
+		"Extension Packs"
+	],
+	"extensionPack": [
+		"axetroy.vscode-markdown-script",
+		"baincd.markdown-color-plus",
+		"bierner.markdown-yaml-preamble",
+		"darkriszty.markdown-table-prettify",
+		"davidanson.vscode-markdownlint",
+		"eliostruyf.vscode-front-matter",
+		"foam.foam-vscode",
+		"houkanshan.vscode-markdown-footnote",
+		"johnpapa.read-time",
+		"kisstkondoros.vscode-gutter-preview",
+		"mathiassoeholm.markdown-link-updater",
+		"telesoho.vscode-markdown-paste-image",
+		"yanz.markdown-authoring",
+		"yzhang.markdown-all-in-one",
+		"zaaack.markdown-editor"
+	],
+	"engines": {
+		"vscode": "^1.59.0"
+	},
+	"private": true,
+	"license": "MIT",
+	"publisher": "pinage404",
+	"homepage": "https://gitlab.com/pinage404/pinage404-vscode-extension-packs/-/tree/main/packages/markdown",
+	"repository": {
+		"type": "git",
+		"url": "https://gitlab.com/pinage404/pinage404-vscode-extension-packs.git"
+	},
+	"bugs": {
+		"url": "https://gitlab.com/pinage404/pinage404-vscode-extension-packs/-/issues"
+	},
+	"__metadata": {
+		"id": "3a786a25-022e-4d6f-8a19-757ba9cab113",
+		"publisherId": "4dc9ef44-41b6-4fb6-af73-1506fbfa493b",
+		"publisherDisplayName": null,
+		"installedTimestamp": 1639219695230
+	}
+}

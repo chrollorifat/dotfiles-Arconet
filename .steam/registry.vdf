@@ -1,0 +1,73 @@
+"Registry"
+{
+	"HKLM"
+	{
+		"Software"
+		{
+			"Valve"
+			{
+				"Steam"
+				{
+					"SteamPID"		"0"
+					"TempAppCmdLine"		""
+					"ReLaunchCmdLine"		""
+					"ClientLauncherType"		"0"
+				}
+			}
+		}
+	}
+	"HKCU"
+	{
+		"Software"
+		{
+			"Valve"
+			{
+				"Steam"
+				{
+					"RunningAppID"		"0"
+					"steamglobal"
+					{
+						"language"		"english"
+					}
+					"language"		"english"
+					"AutoLoginUser"		"chrollo_vidar"
+					"RememberPassword"		"1"
+					"SourceModInstallPath"		"/home/rifarch/.local/share/Steam/steamapps\\sourcemods"
+					"Rate"		"30000"
+					"AlreadyRetriedOfflineMode"		"0"
+					"apps"
+					{
+						"1782210"
+						{
+							"Installed"		"1"
+							"Updating"		"0"
+							"name"		"Crab Game"
+							"Running"		"0"
+						}
+						"1625450"
+						{
+							"Installed"		"1"
+							"Updating"		"0"
+							"name"		"Muck"
+							"Running"		"0"
+						}
+						"1478050"
+						{
+							"Installed"		"0"
+							"Updating"		"0"
+							"Running"		"0"
+							"name"		"Tomb Rumble"
+						}
+						"1518440"
+						{
+							"Installed"		"0"
+							"Updating"		"0"
+							"name"		"MakerKing"
+							"Running"		"0"
+						}
+					}
+				}
+			}
+		}
+	}
+}

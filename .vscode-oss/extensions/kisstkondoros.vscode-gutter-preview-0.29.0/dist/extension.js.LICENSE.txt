@@ -1,0 +1,7 @@
+/**
+ * filesize
+ *
+ * @copyright 2021 Jason Mulligan <jason.mulligan@avoidwork.com>
+ * @license BSD-3-Clause
+ * @version 8.0.3
+ */
