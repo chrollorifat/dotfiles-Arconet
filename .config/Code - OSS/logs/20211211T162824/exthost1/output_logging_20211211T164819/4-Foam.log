@@ -1,0 +1,26 @@
+Foam Logging: info
+[info - 16:48:19] Starting Foam
+[info - 16:48:19] Workspace folders: 
+[
+  "/home/rifarch/repos/ManjaroXFCE"
+]
+[info - 16:48:19] Glob patterns
+{
+  "includeGlobs": [
+    "/home/rifarch/repos/ManjaroXFCE/**/*"
+  ],
+  "ignoreGlobs": [
+    "/home/rifarch/repos/ManjaroXFCE/**/.vscode/**/*",
+    "/home/rifarch/repos/ManjaroXFCE/**/_layouts/**/*",
+    "/home/rifarch/repos/ManjaroXFCE/**/_site/**/*",
+    "/home/rifarch/repos/ManjaroXFCE/**/node_modules/**/*",
+    "/home/rifarch/repos/ManjaroXFCE/**/.git",
+    "/home/rifarch/repos/ManjaroXFCE/**/.svn",
+    "/home/rifarch/repos/ManjaroXFCE/**/.hg",
+    "/home/rifarch/repos/ManjaroXFCE/**/CVS",
+    "/home/rifarch/repos/ManjaroXFCE/**/.DS_Store",
+    "/home/rifarch/repos/ManjaroXFCE/**/Thumbs.db"
+  ]
+}
+[info - 16:48:19] Found: file:///home/rifarch/repos/ManjaroXFCE/README.md
+[info - 16:48:19] Loaded 1 notes

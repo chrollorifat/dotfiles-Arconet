@@ -1,0 +1,56 @@
+[2021-12-11 16:29:10.276] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds
+[2021-12-11 16:33:42.234] [sharedprocess] [info] Installing extension: pinage404.markdown-extension-pack
+[2021-12-11 16:33:57.494] [sharedprocess] [info] Installing extension: davidanson.vscode-markdownlint
+[2021-12-11 16:34:07.790] [sharedprocess] [info] Installing extension: esbenp.prettier-vscode
+[2021-12-11 16:34:12.168] [sharedprocess] [info] Downloaded extension: davidanson.vscode-markdownlint /home/rifarch/.config/Code - OSS/CachedExtensionVSIXs/davidanson.vscode-markdownlint-0.45.0
+[2021-12-11 16:34:12.361] [sharedprocess] [info] Extracted extension to /home/rifarch/.vscode-oss/extensions/.5976747f-8e7a-43ac-b166-9c580ba6405d: davidanson.vscode-markdownlint
+[2021-12-11 16:34:12.857] [sharedprocess] [info] Renamed to /home/rifarch/.vscode-oss/extensions/davidanson.vscode-markdownlint-0.45.0
+[2021-12-11 16:34:12.865] [sharedprocess] [info] Extracting completed. davidanson.vscode-markdownlint
+[2021-12-11 16:34:12.877] [sharedprocess] [info] Extension installed successfully: davidanson.vscode-markdownlint
+[2021-12-11 16:34:45.421] [sharedprocess] [info] Installing extension: yzhang.markdown-all-in-one
+[2021-12-11 16:36:31.882] [sharedprocess] [info] Installing extension: darkriszty.markdown-table-prettify
+[2021-12-11 16:36:31.882] [sharedprocess] [info] Installing extension: eliostruyf.vscode-front-matter
+[2021-12-11 16:36:31.883] [sharedprocess] [info] Installing extension: foam.foam-vscode
+[2021-12-11 16:36:31.883] [sharedprocess] [info] Installing extension: kisstkondoros.vscode-gutter-preview
+[2021-12-11 16:36:31.884] [sharedprocess] [info] Extension is already requested to install yzhang.markdown-all-in-one
+[2021-12-11 16:36:31.887] [sharedprocess] [info] Installing extension: zaaack.markdown-editor
+[2021-12-11 16:36:47.809] [sharedprocess] [info] Downloaded extension: kisstkondoros.vscode-gutter-preview /home/rifarch/.config/Code - OSS/CachedExtensionVSIXs/kisstkondoros.vscode-gutter-preview-0.29.0
+[2021-12-11 16:36:47.854] [sharedprocess] [info] Extracted extension to /home/rifarch/.vscode-oss/extensions/.67c9b37e-9a01-4e50-8bb3-4646c315cd43: kisstkondoros.vscode-gutter-preview
+[2021-12-11 16:36:47.951] [sharedprocess] [info] Renamed to /home/rifarch/.vscode-oss/extensions/kisstkondoros.vscode-gutter-preview-0.29.0
+[2021-12-11 16:36:47.956] [sharedprocess] [info] Extracting completed. kisstkondoros.vscode-gutter-preview
+[2021-12-11 16:37:06.457] [sharedprocess] [info] Downloaded extension: darkriszty.markdown-table-prettify /home/rifarch/.config/Code - OSS/CachedExtensionVSIXs/darkriszty.markdown-table-prettify-3.6.0
+[2021-12-11 16:37:06.601] [sharedprocess] [info] Extracted extension to /home/rifarch/.vscode-oss/extensions/.2a811e68-4e73-4c12-9113-f558d9da040c: darkriszty.markdown-table-prettify
+[2021-12-11 16:37:07.131] [sharedprocess] [info] Renamed to /home/rifarch/.vscode-oss/extensions/darkriszty.markdown-table-prettify-3.6.0
+[2021-12-11 16:37:07.135] [sharedprocess] [info] Extracting completed. darkriszty.markdown-table-prettify
+[2021-12-11 16:38:04.684] [sharedprocess] [info] Downloaded extension: zaaack.markdown-editor /home/rifarch/.config/Code - OSS/CachedExtensionVSIXs/zaaack.markdown-editor-0.1.9
+[2021-12-11 16:38:04.810] [sharedprocess] [info] Extracted extension to /home/rifarch/.vscode-oss/extensions/.1a92573a-4931-4bf7-9cd1-37afa359d257: zaaack.markdown-editor
+[2021-12-11 16:38:06.015] [sharedprocess] [info] Renamed to /home/rifarch/.vscode-oss/extensions/zaaack.markdown-editor-0.1.9
+[2021-12-11 16:38:06.018] [sharedprocess] [info] Extracting completed. zaaack.markdown-editor
+[2021-12-11 16:41:14.798] [sharedprocess] [info] Downloaded extension: yzhang.markdown-all-in-one /home/rifarch/.config/Code - OSS/CachedExtensionVSIXs/yzhang.markdown-all-in-one-3.4.0
+[2021-12-11 16:41:15.878] [sharedprocess] [info] Extracted extension to /home/rifarch/.vscode-oss/extensions/.3de67d1c-cfbd-4f90-9eb0-cd00340518ff: yzhang.markdown-all-in-one
+[2021-12-11 16:41:16.355] [sharedprocess] [info] Renamed to /home/rifarch/.vscode-oss/extensions/yzhang.markdown-all-in-one-3.4.0
+[2021-12-11 16:41:16.359] [sharedprocess] [info] Extracting completed. yzhang.markdown-all-in-one
+[2021-12-11 16:41:16.395] [sharedprocess] [info] Extension installed successfully: yzhang.markdown-all-in-one
+[2021-12-11 16:42:33.723] [sharedprocess] [info] Downloaded extension: eliostruyf.vscode-front-matter /home/rifarch/.config/Code - OSS/CachedExtensionVSIXs/eliostruyf.vscode-front-matter-5.7.0
+[2021-12-11 16:42:33.953] [sharedprocess] [info] Extracted extension to /home/rifarch/.vscode-oss/extensions/.8aaf9a2a-9f44-47bd-8c72-08291cf2a39e: eliostruyf.vscode-front-matter
+[2021-12-11 16:42:34.460] [sharedprocess] [info] Renamed to /home/rifarch/.vscode-oss/extensions/eliostruyf.vscode-front-matter-5.7.0
+[2021-12-11 16:42:34.464] [sharedprocess] [info] Extracting completed. eliostruyf.vscode-front-matter
+[2021-12-11 16:45:59.094] [sharedprocess] [info] Downloaded extension: esbenp.prettier-vscode /home/rifarch/.config/Code - OSS/CachedExtensionVSIXs/esbenp.prettier-vscode-9.0.0
+[2021-12-11 16:45:59.459] [sharedprocess] [info] Extracted extension to /home/rifarch/.vscode-oss/extensions/.016e6a25-05e7-4239-b96c-483bcb5a60ca: esbenp.prettier-vscode
+[2021-12-11 16:46:00.008] [sharedprocess] [info] Renamed to /home/rifarch/.vscode-oss/extensions/esbenp.prettier-vscode-9.0.0
+[2021-12-11 16:46:00.012] [sharedprocess] [info] Extracting completed. esbenp.prettier-vscode
+[2021-12-11 16:46:00.015] [sharedprocess] [info] Extension installed successfully: esbenp.prettier-vscode
+[2021-12-11 16:48:09.750] [sharedprocess] [info] Downloaded extension: foam.foam-vscode /home/rifarch/.config/Code - OSS/CachedExtensionVSIXs/foam.foam-vscode-0.17.0
+[2021-12-11 16:48:11.472] [sharedprocess] [info] Extracted extension to /home/rifarch/.vscode-oss/extensions/.19d8a3d4-3335-4196-bbf7-c771d8c33fdb: foam.foam-vscode
+[2021-12-11 16:48:11.555] [sharedprocess] [info] Renamed to /home/rifarch/.vscode-oss/extensions/foam.foam-vscode-0.17.0
+[2021-12-11 16:48:11.558] [sharedprocess] [info] Extracting completed. foam.foam-vscode
+[2021-12-11 16:48:15.134] [sharedprocess] [info] Downloaded extension: pinage404.markdown-extension-pack /home/rifarch/.config/Code - OSS/CachedExtensionVSIXs/pinage404.markdown-extension-pack-0.1.0
+[2021-12-11 16:48:15.230] [sharedprocess] [info] Extracted extension to /home/rifarch/.vscode-oss/extensions/.8ffaf7bd-4f1c-479e-9f17-ad79ebbbe5e2: pinage404.markdown-extension-pack
+[2021-12-11 16:48:15.367] [sharedprocess] [info] Renamed to /home/rifarch/.vscode-oss/extensions/pinage404.markdown-extension-pack-0.1.0
+[2021-12-11 16:48:15.370] [sharedprocess] [info] Extracting completed. pinage404.markdown-extension-pack
+[2021-12-11 16:48:15.375] [sharedprocess] [info] Extension installed successfully: kisstkondoros.vscode-gutter-preview
+[2021-12-11 16:48:15.378] [sharedprocess] [info] Extension installed successfully: darkriszty.markdown-table-prettify
+[2021-12-11 16:48:15.379] [sharedprocess] [info] Extension installed successfully: zaaack.markdown-editor
+[2021-12-11 16:48:15.380] [sharedprocess] [info] Extension installed successfully: eliostruyf.vscode-front-matter
+[2021-12-11 16:48:15.380] [sharedprocess] [info] Extension installed successfully: foam.foam-vscode
+[2021-12-11 16:48:15.381] [sharedprocess] [info] Extension installed successfully: pinage404.markdown-extension-pack

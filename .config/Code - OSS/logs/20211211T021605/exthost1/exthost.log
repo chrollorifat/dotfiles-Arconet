@@ -1,0 +1,9 @@
+[2021-12-11 02:18:41.015] [exthost] [info] Extension host with pid 60333 started
+[2021-12-11 02:18:41.981] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-11 02:18:42.362] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-11 02:18:50.046] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-11 02:18:51.430] [exthost] [info] Eager extensions activated
+[2021-12-11 02:18:51.717] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-11 02:18:52.256] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-11 02:19:59.721] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-12-11 02:20:00.737] [exthost] [info] Extension host with pid 60333 exiting with code 0

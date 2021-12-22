@@ -1,0 +1,10 @@
+[2021-12-11 01:25:25.034] [exthost] [info] Extension host with pid 48773 started
+[2021-12-11 01:25:25.171] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+[2021-12-11 01:25:25.262] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-11 01:25:25.332] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-11 01:25:26.516] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-11 01:25:26.654] [exthost] [info] Eager extensions activated
+[2021-12-11 01:25:26.672] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-11 01:25:26.773] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-11 01:25:42.176] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-12-11 01:25:43.396] [exthost] [info] Extension host with pid 48773 exiting with code 0

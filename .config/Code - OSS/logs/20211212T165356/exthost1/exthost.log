@@ -1,0 +1,13 @@
+[2021-12-12 16:54:19.692] [exthost] [info] Extension host with pid 2434 started
+[2021-12-12 16:54:19.750] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-12 16:54:19.779] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-12 16:54:19.934] [exthost] [info] ExtensionService#_doActivateExtension eliostruyf.vscode-front-matter, startup: true, activationEvent: '*'
+[2021-12-12 16:54:20.172] [exthost] [info] ExtensionService#_doActivateExtension kisstkondoros.vscode-gutter-preview, startup: true, activationEvent: '*'
+[2021-12-12 16:54:20.531] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-12 16:54:20.664] [exthost] [info] Eager extensions activated
+[2021-12-12 16:54:20.667] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-12 16:54:20.925] [exthost] [info] ExtensionService#_doActivateExtension darkriszty.markdown-table-prettify, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-12 16:54:22.355] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-12 16:54:23.608] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-12 16:54:28.019] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-12-12 16:54:29.037] [exthost] [info] Extension host with pid 2434 exiting with code 0

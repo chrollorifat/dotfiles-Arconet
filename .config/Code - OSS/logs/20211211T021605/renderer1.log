@@ -1,0 +1,6 @@
+[2021-12-11 02:18:01.746] [renderer1] [info] [LocalProcessExtensionHost]: IExtensionHostStarter.createExtensionHost() took 286 ms.
+[2021-12-11 02:18:02.201] [renderer1] [info] Starting extension host with pid 60333.
+[2021-12-11 02:18:02.202] [renderer1] [info] [LocalProcessExtensionHost]: IExtensionHostStarter.start() took 525 ms.
+[2021-12-11 02:18:21.636] [renderer1] [error] [Extension Host] (node:60333) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `electron --trace-deprecation ...` to show where the warning was created)
+[2021-12-11 02:18:24.917] [renderer1] [error] Error while registering log channel file:///home/rifarch/.config/Code%20-%20OSS/logs/20211211T021605/userDataSync.log Timed out while waiting for file to be created
