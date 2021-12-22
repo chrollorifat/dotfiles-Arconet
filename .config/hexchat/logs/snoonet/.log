@@ -1,0 +1,22 @@
+**** BEGIN LOGGING AT Mon Nov  1 11:16:11 2021
+
+Nov 01 11:16:11 *	Connecting to irc.snoonet.org (178.62.125.123:6697)
+Nov 01 11:16:12 *	* Subject: /C=US/O=Internet Security Research Group/CN=ISRG Root X1
+Nov 01 11:16:12 *	* Issuer: /C=US/O=Internet Security Research Group/CN=ISRG Root X1
+Nov 01 11:16:12 *	* Subject: /C=US/O=Let's Encrypt/CN=R3
+Nov 01 11:16:12 *	* Issuer: /C=US/O=Internet Security Research Group/CN=ISRG Root X1
+Nov 01 11:16:12 *	* Subject: /CN=snoonet.org
+Nov 01 11:16:12 *	* Issuer: /C=US/O=Let's Encrypt/CN=R3
+Nov 01 11:16:13 *	* Certification info:
+Nov 01 11:16:13 *	  Subject:
+Nov 01 11:16:13 *	    CN=snoonet.org
+Nov 01 11:16:13 *	  Issuer:
+Nov 01 11:16:13 *	    C=US
+Nov 01 11:16:13 *	    O=Let's Encrypt
+Nov 01 11:16:13 *	    CN=R3
+Nov 01 11:16:13 *	  Public key algorithm: rsaEncryption (2048 bits)
+Nov 01 11:16:13 *	  Sign algorithm sha256WithRSAEncryption
+Nov 01 11:16:13 *	  Valid since Oct 24 22:20:31 2021 GM to Jan 22 22:20:30 2022 GM
+Nov 01 11:16:13 *	* Cipher info:
+Nov 01 11:16:13 *	  Version: TLSv1.2, cipher ECDHE-RSA-AES256-GCM-SHA384 (256 bits)
+Nov 01 11:16:13 *	Connected. Now logging in.

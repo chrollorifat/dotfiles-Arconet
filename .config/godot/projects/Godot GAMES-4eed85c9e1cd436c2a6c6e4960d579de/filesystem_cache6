@@ -1,0 +1,7 @@
+0ee627c74185e9d030d7f2151a4df6ab
+::res://::1636898743
+CubeScene.tscn::PackedScene::1636898736::0::1::::<><>::res://default_env.tres
+default_env.tres::Environment::1636898736::0::1::::<><>::
+GestureArea.gd::GDScript::1636898736::0::1::::<>Control<>::
+icon.png::StreamTexture::1636898736::1636898745::1::::<><>::
+Main.tscn::PackedScene::1636898736::0::1::::<><>::res://GestureArea.gd<>res://CubeScene.tscn

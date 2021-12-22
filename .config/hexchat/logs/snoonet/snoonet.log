@@ -1,0 +1,94 @@
+**** BEGIN LOGGING AT Mon Nov  1 11:16:13 2021
+
+Nov 01 11:16:13 *	*** Looking up your hostname...
+Nov 01 11:16:13 *	*** Could not resolve your hostname: Domain not found; using your IP address (103.152.105.86) instead.
+Nov 01 11:16:13 *	Capabilities supported: account-notify account-tag away-notify batch cap-notify chghost echo-message extended-join inspircd.org/poison inspircd.org/standard-replies invite-notify labeled-response message-tags multi-prefix sasl=EXTERNAL,PLAIN server-time setname sts=duration=15552000,preload userhost-in-names 
+Nov 01 11:16:13 *	Capabilities requested: account-notify account-tag away-notify cap-notify chghost extended-join invite-notify multi-prefix server-time setname userhost-in-names 
+Nov 01 11:16:13 *	Capabilities acknowledged: account-notify account-tag away-notify cap-notify chghost extended-join invite-notify multi-prefix server-time setname userhost-in-names
+**** ENDING LOGGING AT Mon Nov  1 11:16:14 2021
+
+**** BEGIN LOGGING AT Mon Nov  1 11:16:14 2021
+
+Nov 01 11:16:14 *	Welcome to the Snoonet IRC Network rifarch!rifarch@103.152.105.86
+Nov 01 11:16:14 *	Your host is travincal.snoonet.org, running version InspIRCd-3
+Nov 01 11:16:14 *	This server was created 11:23:38 Jan 04 2021
+Nov 01 11:16:14 *	travincal.snoonet.org InspIRCd-3 BHILRSTWcdghikorswx ABCDFHIJKLMNOPQRSTWXYZbcdefghijklmnoprstuvwxz :FHIJLWXYZbdefghjklovwx
+Nov 01 11:16:14 *	ACCEPT=16 AWAYLEN=200 BOT=B CALLERID=g CASEMAPPING=rfc1459 CHANLIMIT=#:200 CHANMODES=IXZbegw,k,FHJLWdfjlx,ABCDKMNOPQRSTcimnprstuz CHANNELLEN=64 CHANTYPES=# CLIENTTAGDENY=* ELIST=CMNTU ESILENCE=CcdiNnPpTtx :are supported by this server
+Nov 01 11:16:14 *	EXCEPTS=e EXTBAN=,ABCNOQRSTUacjmprsz HOSTLEN=64 INVEX=I KEYLEN=32 KICKLEN=255 LINELEN=512 MAXLIST=I:1024,X:1024,b:1024,e:1024,g:1024,w:1024 MAXTARGETS=20 MODES=50 NAMELEN=128 NAMESX NETWORK=Snoonet :are supported by this server
+Nov 01 11:16:14 *	NICKLEN=27 PREFIX=(Yohv)!@%+ REMOVE SAFELIST SECURELIST=60 SILENCE=32 STATUSMSG=!@%+ TOPICLEN=307 UHNAMES USERIP USERLEN=11 USERMODES=,,s,BHILRSTWcdghikorwx WATCH=30 :are supported by this server
+Nov 01 11:16:14 *	WHOX :are supported by this server
+Nov 01 11:16:14 *	There are 5 users and 3666 invisible on 8 servers
+Nov 01 11:16:14 *	24 :operator(s) online
+Nov 01 11:16:14 *	1 :unknown connections
+Nov 01 11:16:14 *	5590 :channels formed
+Nov 01 11:16:14 *	I have 2415 clients and 1 servers
+Nov 01 11:16:14 *	Current local users: 2415  Max: 2634
+Nov 01 11:16:14 *	Current global users: 3671  Max: 5139
+Nov 01 11:16:14 *	travincal.snoonet.org message of the day
+Nov 01 11:16:14 *	 #/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-
+Nov 01 11:16:14 *	 
+Nov 01 11:16:14 *	 
+Nov 01 11:16:14 *	   _____                              _
+Nov 01 11:16:14 *	  / ____|                            | |
+Nov 01 11:16:14 *	 | (___  _ __   ___   ___  _ __   ___| |_
+Nov 01 11:16:14 *	  \___ \| '_ \ / _ \ / _ \| '_ \ / _ \ __|
+Nov 01 11:16:14 *	  ____) | | | | (_) | (_) | | | |  __/ |_
+Nov 01 11:16:14 *	 |_____/|_| |_|\___/ \___/|_| |_|\___|\__|
+Nov 01 11:16:14 *	 
+Nov 01 11:16:14 *	 
+Nov 01 11:16:14 *	 
+Nov 01 11:16:14 *	 Welcome to the Snoonet Chat Network.
+Nov 01 11:16:14 *	 
+Nov 01 11:16:14 *	 By connecting to Snoonet you indicate that you have read and
+Nov 01 11:16:14 *	 accept our policies as set out on https://snoonet.org/rules
+Nov 01 11:16:14 *	 
+Nov 01 11:16:14 *	 Snoonet runs an open proxy scanner. If you continue connecting
+Nov 01 11:16:14 *	 to Snoonet, you agree to this scanning to protect our network
+Nov 01 11:16:14 *	 from scammers, spammers and the propagation of viruses.
+Nov 01 11:16:14 *	 
+Nov 01 11:16:14 *	 Please visit our ruleset listed at https://snoonet.org/rules
+Nov 01 11:16:14 *	 Yes, this is so important we list it twice. Snoonet does not have
+Nov 01 11:16:14 *	 many network wide rules but the ones we do have we enforce
+Nov 01 11:16:14 *	 to the best of our ability. This may also include the use of
+Nov 01 11:16:14 *	 automated oper utilities and/or standalone network bots that may
+Nov 01 11:16:14 *	 join/part your channel, or the mass setting of channel modes across
+Nov 01 11:16:14 *	 all network channels to protect you and your users during times
+Nov 01 11:16:14 *	 of network turmoil.
+Nov 01 11:16:14 *	 
+Nov 01 11:16:14 *	 Please join #help if you have questions about any of the above
+Nov 01 11:16:14 *	 information.
+Nov 01 11:16:14 *	 
+Nov 01 11:16:14 *	 Network Administration may remove any problem user at any time
+Nov 01 11:16:14 *	 for the betterment of all users. This includes, but is not limited
+Nov 01 11:16:14 *	 to, trolling, attempting to receive or spread users personal
+Nov 01 11:16:14 *	 information (also known as Doxxing), vote brigading on any social
+Nov 01 11:16:14 *	 media websites, or any thing that network administration sees as
+Nov 01 11:16:14 *	 potentially harmful to the atmosphere of Snoonet.
+Nov 01 11:16:14 *	 
+Nov 01 11:16:14 *	 Our network rules are located here: https://snoonet.org/rules
+Nov 01 11:16:14 *	 
+Nov 01 11:16:14 *	 Ignorance is not an excuse - most of the network rules are common sense.
+Nov 01 11:16:14 *	 
+Nov 01 11:16:14 *	 As of the last MOTD Update, Snoonet has never received a National
+Nov 01 11:16:14 *	 Security Letter, an order under the Foreign Intelligence Surveillance
+Nov 01 11:16:14 *	 Act, or any other classified request for user information.
+Nov 01 11:16:14 *	 
+Nov 01 11:16:14 *	 #/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-
+Nov 01 11:16:14 *	 MOTD Last Updated:
+Nov 01 11:16:14 *	 Thu 17 Dec 16:36:00 UTC 2020
+Nov 01 11:16:14 *	End of message of the day.
+Nov 01 11:16:14 *	Snoonet-rtc.jnm.vgma6e.IP :is now your displayed host
+Nov 01 11:16:14 *	rifarch sets mode +I on rifarch
+Nov 01 11:16:14 *	rifarch sets mode +w on rifarch
+Nov 01 11:16:14 *	rifarch sets mode +x on rifarch
+Nov 01 11:16:14 *	rifarch sets mode +i on rifarch
+Nov 01 11:16:14 *	*** You are connected to irc.snoonet.org using TLS (SSL) cipher 'TLSv1.2-ECDHE-RSA-AES256-GCM-SHA384'
+Nov 01 11:16:14 -NickServ-	Your nickname is not registered. To register it, use: /msg NickServ REGISTER password email
+Nov 01 11:17:28 >NickServ<	RGISTER fuckyou 01914rifat@protomail.com
+Nov 01 11:17:28 -NickServ-	Unknown command RGISTER fuckyou 01914rifat@protomail.com. "/msg NickServ HELP" for help.
+Nov 01 11:19:48 FiSHLiM plugin unloaded
+Nov 01 11:19:48 Sysinfo plugin unloaded
+Nov 01 11:19:48 Perl interface unloaded
+Nov 01 11:19:48 Checksum plugin unloaded
+**** ENDING LOGGING AT Mon Nov  1 11:19:48 2021
+

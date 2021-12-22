@@ -1,0 +1,15 @@
+# GIMP user context
+
+(tool "gimp-ink-tool")
+(paint-info "gimp-ink")
+(foreground (color-rgb 0.55686277151107788 0.69803923368453979 0.14509804546833038))
+(brush "2. Hardness 050")
+(dynamics "Dynamics Off")
+(mybrush "100% Opaque")
+(pattern "Pine")
+(gradient "FG to BG (RGB)")
+(palette "Colour History")
+(font "Sans-serif")
+(tool-preset "Core Pointer")
+
+# end of user context
