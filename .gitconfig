@@ -1,0 +1,9 @@
+[user]
+	email = progxprog.office@gmail.com
+	name = ChrolloRifat
+[init]
+	defaultBranch = main
+[color]
+	ui = auto
+[core]
+	editor = nano
