@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=win100-21
+Comment=default GTK theme for linux
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=win100-21
+MetacityTheme=win100-21
+IconTheme=365os
+CursorTheme=365os
+ButtonLayout=menu:minimize,maximize,close

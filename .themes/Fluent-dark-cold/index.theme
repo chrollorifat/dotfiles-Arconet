@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Fluent-dark
+Comment=Light and dark colorful Gtk3.20+ theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Fluent-dark
+MetacityTheme=Fluent-dark
+IconTheme=Boston
+ButtonLayout=:minimize,maximize,close
