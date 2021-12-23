@@ -20,4 +20,17 @@ This repo contains my dotfiles and configs of ArcoLinuxB Plasma.
 		<li>Discord</li>
 		<li>Dolphin</li>
 		<li>Document Viewer</li>
+		<li>Ebook Editor</li>
+		<li>Ebook Viewer</li>
+		<li>Electron</li>
+		<li>Emoji Selector</li>
+		<li>Thuanar</li>
+		<li>Font Manager</li>
+		<li>Flameshot</li>
+		<li>Galculator</li>
+		<li>Git Ahead</li>
+		<li>Git Fiend</li>
+		<li>Gitg</li>
+		<li>GIMP</li>
+		<li>
 	</ul>
