@@ -1,0 +1,10 @@
+{
+    "name": "Anki Simulator",
+    "package": "anki_simulator",
+    "ankiweb_id": "",
+    "author": "giovannihenriksen",
+    "version": "v.1.1.2",
+    "homepage": "https://github.com/giovannihenriksen/Anki-Simulator",
+    "conflicts": [],
+    "mod": 1628363723
+}

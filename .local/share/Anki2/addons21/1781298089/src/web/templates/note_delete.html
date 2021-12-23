@@ -1,0 +1,30 @@
+<div id='siac-del-modal'>
+    <div class='siac-modal-small'>
+        <div class='siac-note-header' style='padding-top: 10px; padding-bottom: 10px;'>
+            <i class='fa fa-trash'></i>
+        </div>
+        <div class='siac-modal-body'>
+            <div class='ta_center' style='font-size: 14px; margin-bottom: 10px;'><b>{title}</b></div>
+            <table class='mt-5'>
+                <tr>
+                    <td class='siac-caps'>Created</td>
+                    <td class='ta_left' style='padding-left: 20px;'>{creation_date}</td>
+                </tr>
+                <tr>
+                    <td class='siac-caps'>Priority</td>
+                    <td class='ta_left' style='padding-left: 20px;'>{priority}</td>
+                </tr>
+            </table>
+            <br><br>
+            <div class='ta_center'>
+                <div class='siac-modal-btn mr-10' style='color: #f0506e;' onclick='deleteNote({nid});'>
+                    <i class='fa fa-trash mr-5'></i>Delete
+                </div>
+                <div class='siac-modal-btn'
+                    onclick='$("#siac-del-modal").remove(); $("#greyout").hide();'>
+                   Cancel
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

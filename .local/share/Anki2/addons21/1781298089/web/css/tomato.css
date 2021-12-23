@@ -1,0 +1,82 @@
+
+/* Tomato timer on main screen */
+.siac-tomato-main {
+    color: grey;
+    vertical-align: top;
+    width: 230px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    background: var(--c-card-bg);
+    box-sizing: border-box;
+    overflow: hidden;
+    user-select: none;
+}
+body.nightMode .siac-tomato-main {
+    background:  var(--c-card-bg);
+}
+.siac-tomato-main .siac-btn-small {
+    text-align: center;
+    font-weight: bold;
+    margin-right: 0;
+    font-size: 13px !important;
+    vertical-align: top;
+    padding: 0 2px;
+    border: none;
+}
+body.nightMode .siac-tomato-main .siac-timer-btn {
+    color: grey;
+}
+.siac-tomato-main .siac-timer-btn.active {
+    color: #2496dc !important;
+}
+.siac-tomato-main .siac-timer-play-btn {
+    display: inline;
+    font-size: 12px !important;
+}
+.siac-tomato-main .siac-timer-play-btn b {
+    display: none;
+}
+.siac-tomato-main .siac-timer-play-btn i {
+    margin: 0 !important;
+}
+.siac-tomato-main .siac-timer-btn:hover, .siac-tomato-main .siac-timer-play-btn:hover {
+    transform: none;
+}
+.siac-tomato-main .siac-timer-btn:hover, .siac-tomato-main .siac-timer-play-btn:hover {
+    color: #2496dc;
+}
+body.nightMode .siac-tomato-main .siac-timer-btn.active:hover {
+    color: #5bc1ff !important;
+}
+.siac-tomato-main .siac-reading-modal-timer-lbl {
+    display: inline-block;
+    min-width: 45px;
+    text-align: center;
+    font-size: 14px;
+    vertical-align: top;
+    line-height: 18px;
+    border-bottom: 2px solid;
+    margin: -2px 7px 0 7px;
+}
+body.nightMode .siac-tomato-main .siac-reading-modal-timer-lbl {
+    color: white;
+}
+
+.siac-tomato-main > div {
+    padding: 4px 5px;
+    display: flex;
+    align-items: center;
+}
+.siac-tomato-main > div:last-child {
+    border-left: 1px solid lightgrey;
+    text-align: center;
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+}
+body.nightMode .siac-tomato-main > div:last-child {
+    border-left: 1px solid #4e4e4e;
+}
+
+/* End tomato timer main screen */

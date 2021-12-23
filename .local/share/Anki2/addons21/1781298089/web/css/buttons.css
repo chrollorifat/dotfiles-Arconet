@@ -1,0 +1,166 @@
+.siac-btn {
+    display: inline-block;
+    padding: 2px 5px 2px 5px;
+    color: var(--c-button-foreground);
+    background: var(--c-button-background);
+    border: 1px solid  var(--c-button-border);
+    cursor: pointer;
+    box-sizing: content-box;
+    user-select: none;
+    font-size: 13px !important;
+    outline: none;
+}
+.siac-btn.siac-btn-dark, .siac-btn.siac-btn-dark-smaller {
+    background-color: var(--c-reading-modal-background);
+    color: lightgrey;
+    border: 1px outset #b2b2a0;
+    border-color: var(--c-reading-modal-button-border-color);
+    border-radius: 3px;
+    box-shadow: 2px 2px #1f1f1f;
+}
+body:not(.nightMode) #leftSide .siac-btn-dark {
+    color: var(--c-button-foreground);
+    background: var(--c-button-background);
+    border: 1px outset var(--c-button-border);
+    font-weight: bold;
+    color: #6e6e6e;
+}
+.siac-btn-row {
+    background-color: var(--c-reading-modal-background);
+    color: white;
+    border: 1px outset #b2b2a0;
+    border-color: var(--c-reading-modal-button-border-color);
+    border-radius: 3px;
+    box-shadow: 2px 2px #1f1f1f;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+}
+.siac-btn-row > div {
+    padding: 6px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: lightgrey;
+    cursor: pointer;
+}
+.siac-btn-row > *:hover {
+    color: white;
+}
+.siac-btn-row > div.active > .fa {
+    color: #32abe4;
+}
+.siac-btn-row > div.active:hover > .fa {
+    color: #55c0f1;
+}
+.siac-btn-row-divider {
+    border-left: 1px solid #4e4e4e;
+    padding: 0 !important;
+    margin: 0 7px;
+}
+
+body.nightMode .modal-content input {
+    background-color: var(--c-modal-background-night);
+    color: var(--c-modal-foreground-night);
+}
+
+.siac-btn-dark-smaller {
+    font-size: 10px !important;
+}
+.siac-btn:hover {
+    color: #2496dc;
+}
+.siac-btn-dark:hover, .siac-btn-dark-smaller:hover {
+    color: white;
+    border-color: lightgrey;
+}
+.siac-btn-small {
+    display: inline;
+    padding: 1px 4px 2px 4px;
+    border: 1px solid var(--c-primary-color);
+    color: var(--c-primary-color); 
+    border-radius: 2px;
+    cursor: pointer;
+    user-select: none;
+    font-size: 12px !important;
+    outline: none;
+    background: inherit;
+}
+body.nightMode .siac-btn-small {
+    color: white;
+    border-color: var(--c-primary-color-night);
+}
+.siac-top-row-btn {
+    background: var(--c-card-bg);
+}
+body.nightMode .siac-top-row-btn {
+    background: #353535;
+}
+.siac-btn-small:hover {
+    border-color: #2496dc !important;
+}
+.siac-btn-small-dropdown {
+    overflow: hidden;
+    display: block;
+    max-height: 0px;
+    position: absolute;
+    box-sizing: content-box !important;
+    color: var(--c-button-color); 
+    background-color: var(--c-card-bg);
+    width: calc(100% - 8px);
+    margin-left: -5px;
+    padding: 0px 4px 0px 4px;
+    font-size: 12px !important;
+    border: 0px solid white;
+    z-index: 5;
+    transition: max-height 0.3s;
+}
+body.nightMode .siac-btn-small-dropdown {
+    background: #353535;
+}
+.siac-btn-small:hover .siac-btn-small-dropdown.hover, .siac-btn-small.expanded .siac-btn-small-dropdown.click {
+    border: 1px solid var(--c-primary-color);
+    max-height: 355px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+body.nightMode #topContainer .siac-btn-small.expanded .siac-btn-small-dropdown.click {
+    border: 1px solid #2496dc;
+}
+.siac-btn-dark.expanded .siac-btn-small-dropdown-inverted.click {
+    display: block;
+}
+.siac-dropdown-item {
+    margin: 3px 0 2px 0;
+    text-align: left;
+}
+
+.siac-btn-small-dropdown .siac-dropdown-item:hover {
+    color: white;
+    background: var(--c-primary-color);
+}
+
+.siac-modal-btn {
+    padding: 3px 9px;
+    border-radius: 3px;
+    text-align: center;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+    /* background: linear-gradient(to top, #efefef, #f9f9f9); */
+    background: var(--c-primary-color);
+    color: #fff;
+    border: none;
+}
+
+body.nightMode .siac-modal-btn, #siac-reading-modal .siac-modal-btn {
+    color: #fff;
+    background: var(--c-primary-color-night);
+}
+body.nightMode .siac-modal-btn:hover {
+    filter: brightness(1.1);
+}

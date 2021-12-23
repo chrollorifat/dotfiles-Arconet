@@ -1,0 +1,36 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=inode/directory;application/octet-stream;
+Icon=meld
+Actions=setArg1;diff;_SEPARATOR_;selected;
+X-KDE-Priority=TopLevel
+X-KDE-StartupNotify=false
+X-KDE-Submenu=Meld menu
+X-KDE-Submenu[de]=Meld Menü
+X-KDE-Submenu[es]=Meld menú
+X-KDE-Submenu[fr]=Meld menu
+
+[Desktop Action setArg1]
+Icon=arrow-left
+Exec=echo "%U" > /tmp/meld-menu-arg1
+Name=Set file/folder
+Name[de]=Setze Datei/Ordner
+Name[es]=Marcar archivo/carpeta
+Name[fr]=Marquer le fichier/dossier
+
+[Desktop Action diff]
+Icon=arrow-right
+Exec=ARG1=$(cat /tmp/meld-menu-arg1);meld "$ARG1" %U; rm /tmp/meld-menu-arg1;
+Name=Compare with file/folder
+Name[de]=Vergleiche mit Datei/Ordner
+Name[es]=Comparar con el archivo/carpeta marcado
+Name[fr]=Comparer avec le fichier/dossier marqué
+
+[Desktop Action selected]
+Icon=page-2sides
+Exec=meld %U; rm /tmp/meld-menu-arg1;
+Name=Compare selected files/folder
+Name[de]=Vergleiche ausgewählte Dateien/Ordner
+Name[es]=Comparar los archivos/carpetas seleccionadas
+Name[fr]=Comparer les fichiers/dossiers sélectionnés

@@ -1,0 +1,7 @@
+{
+  "colours": {
+    "2 answers": ["red", "green"],
+    "3 answers": ["red", "green", "blue"],
+    "4 answers": ["red", "orange", "green", "blue"]
+  }
+}

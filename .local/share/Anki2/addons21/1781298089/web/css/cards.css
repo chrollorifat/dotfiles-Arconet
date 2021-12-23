@@ -1,0 +1,276 @@
+.siac-inner-card {
+    position: relative;
+    font-size: 12px !important;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    max-height: 950px;
+    min-width: 95px;
+    word-break: break-word;
+    box-sizing: border-box;;
+    background: var(--c-card-bg);
+  }
+body.nightMode .siac-inner-card, #siac-reading-modal .siac-inner-card {
+    color: white;
+    background: var(--c-card-bg-night) !important;
+  }
+
+  .siac-note-outer.meta .siac-inner-card {
+    max-height: none;
+}
+.siac-note-outer:hover .siac-note-btns {
+    /* visibility: visible; */
+    opacity: 1;
+}
+.pdf .siac-inner-card{
+    min-width: 200px;
+}
+.siac-inner-card:empty {
+    display: none !important;
+}
+.siac-inner-card > *:first-child {
+    margin-top: 0;
+}
+.siac-inner-card > *:last-child {
+    margin-bottom: 0;
+}
+.siac-inner-card img {
+    max-height: var(--img-max-height) !important;
+    max-width: 100%;
+}
+.siac-inner-card dt {
+    font-weight: bold;
+}
+.siac-inner-card dd {
+    font-style: italic;
+}
+.siac-inner-card dl {
+    border-left: 10px solid var(--c-note-foreground); 
+    padding-left: 10px;
+    margin: 1.5em 10px;
+
+}
+.siac-inner-card blockquote, .siac-inner-card pre {
+  background: #f9f9f9;
+  border-left: 10px solid #2496dc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+}
+body.nightMode .siac-inner-card blockquote, 
+body.nightMode .siac-inner-card pre,
+#siac-reading-modal .siac-inner-card blockquote, 
+#siac-reading-modal .siac-inner-card pre {
+  background: #474749;
+  border-left: 10px solid #2496dc;
+}
+.siac-outer-note.grid .siac-inner-card {
+    word-wrap: break-word;
+}
+.editedStamp {
+    display: inline;
+}
+.retMark {
+    display: inline-block;
+    user-select: none;
+    padding: 1px;
+    margin-left: 13px;
+    font-size: 10px;
+    white-space: nowrap;
+    border-bottom: 2px solid;
+}
+.siac-susp {
+    background: var(--c-suspended-background);
+    color: var(--c-suspended-foreground);
+}
+.siac-susp-lbl {
+    cursor: pointer;
+    margin-left: 10px;
+    user-select: none;
+    font-weight: bold;
+}
+.siac-susp-lbl:hover {
+    color: turquoise;
+}
+.siac-note-outer.siac-sc-0-5 {
+    zoom: 0.5;
+}
+.siac-note-outer.siac-sc-0-6 {
+    zoom: 0.6;
+}
+.siac-note-outer.siac-sc-0-7 {
+    zoom: 0.7;
+}
+.siac-note-outer.siac-sc-0-8 {
+    zoom: 0.8;
+}
+.siac-note-outer.siac-sc-0-9 {
+    zoom: 0.9;
+}
+.siac-note-outer.siac-sc-1-1 {
+    zoom: 1.1;
+}
+.siac-note-outer.siac-sc-1-2 {
+    zoom: 1.2;
+}
+.siac-note-outer.siac-sc-1-3 {
+    zoom: 1.3;
+}
+.siac-note-outer.siac-sc-1-4 {
+    zoom: 1.4;
+}
+.siac-note-outer.siac-sc-1-5 {
+    zoom: 1.5;
+}
+.siac-note-outer.grid:not(.meta) {
+    width: calc(50% - 12px);
+    box-sizing: border-box;
+    vertical-align: top;
+    margin: 0 5px 20px 5px !important;
+    display: inline-block;
+}
+.siac-note-outer.grid.meta {
+    display: block !important;
+    margin: 0 7px 20px 5px !important;
+}
+
+.siac-note-outer .tag-symbol {
+    color: grey;
+}
+.fldSep {
+    color: var(--c-field-separator);
+    margin: 0 5px 0 5px;
+  }
+.siac-note-btns {
+    /* visibility: hidden; */
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.siac-user-note .siac-inner-card p {
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+}
+.siac-note-hr {
+    border-top: 1px solid !important;
+    border-bottom: 0 !important;
+    opacity: 0.2;
+}
+
+.siac-meta-btn {
+    height: 30px; 
+    width: 30px; 
+    font-size: 20px !important; 
+    text-align: center; 
+    display: inline-block; 
+    vertical-align: top;
+    background: #f0f0f0 !important;
+}
+body.nightMode .siac-meta-btn {
+    background: #2f2f31 !important;
+}
+.siac-note-outer {
+    border: none; 
+    display: flex; 
+    flex-direction: column; 
+    margin-bottom: 20px;
+    overflow: hidden;
+    background: var(--c-card-bg);
+    box-shadow: 0 0 7px 1px #dcdcdc;
+}
+body.nightMode .siac-note-outer, #siac-reading-modal .siac-note-outer {
+    background: var(--c-card-bg-night) !important;
+    box-shadow: 0 0 7px 1px #202020;
+}
+.siac-card {
+    background: var(--c-card-bg);
+    box-shadow: 0 0 7px 1px #dcdcdc;
+}
+body.nightMode .siac-card, #siac-reading-modal .siac-card {
+    background: var(--c-card-bg-night) !important;
+    box-shadow: 0 0 7px 1px #202020;
+}
+
+
+/* Header of note card */
+.siac-note-header {
+    padding: 10px; 
+    font-size: 14px; 
+    box-sizing: border-box; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 5px 10px; 
+    background: var(--c-primary-color);
+    color: white;
+}
+body.nightMode .siac-note-header {
+    background: var(--c-primary-color-night);
+}
+.siac-note-footer {
+    border-top: 1px solid #d4d4d4; 
+    padding: 9px 9px 0px 7px; 
+    display: flex; 
+    justify-content: space-between; 
+    background: var(--c-card-bg) !important;
+    overflow: hidden;
+    color: var(--c-primary-color) !important;
+    flex-wrap: wrap;
+}
+body.nightMode .siac-note-footer, #siac-reading-modal .siac-note-footer {
+    border-top-color:rgb(78, 78, 78);
+    background: var(--c-card-bg-night) !important;
+    color: white !important;
+}
+.siac-note-footer > div {
+    margin-bottom: 9px;
+}
+.siac-note-footer > div:first-child {
+    margin-left: 5px;
+}
+/* Label containing 'SIAC' to distinguish add-on notes from anki notes */
+.siac-note-lbl {
+    font-weight: bold;
+    margin-left: 4px;
+}
+.siac-extract-mark {
+    margin-left: 5px;
+    white-space: nowrap;
+    color: #2e6286;
+}
+body.nightMode .siac-extract-mark {
+    color: white;
+}
+.siac-note-tags-container {
+    margin-top: -7px;
+}
+.siac-note-tags-container .tagLbl {
+    /* Tag container has margin top, and each tag has the same negative margin.
+    That nullifies the margin if tags are not wrapping, but if they wrap, the margin applies */
+    margin-top: 7px;
+}
+.siac-meta-note {
+    padding: 15px;
+}
+.siac-results-header {
+    display: inline-block;
+    font-weight: bold;
+    color: var(--c-primary-color);
+}
+body.nightMode .siac-results-header {
+    color: #a2a2a2;
+}
+.siac-results-header-between {
+    font-size: 7px;
+    color: #848484 !important;
+}
+body.nightMode .siac-results-header-between {
+    color: #0096dc !important;
+}
+#siac-results-header-wrapper {
+    padding: 3px 10px 7px 10px;
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+}
+#siac-results-header-wrapper .siac-note-outer {
+    margin-bottom: 0 !important;
+    padding: 5px 7px;
+}
