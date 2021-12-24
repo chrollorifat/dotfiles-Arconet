@@ -32,5 +32,40 @@ This repo contains my dotfiles and configs of ArcoLinuxB Plasma.
 		<li>Git Fiend</li>
 		<li>Gitg</li>
 		<li>GIMP</li>
-		<li>
+		<li>Gparted</li>
+		<li>Grub Customizer</li>
+		<li>Kate</li>
+		<li>Kazam</li>
+		<li>Htop</li>
+		<li>Kdenlive</li>
+		<li>Keepassxc</li>
+		<li>Kitty</li>
+		<li>Konsole</li>
+		<li>Ksysguard</li>
+		<li>Kvantum Manager</li>
+		<li>KDE connect</li>
+		<li>Latte</li>
+		<li>Libre Office suit</li>
+		<li>Onionshare</li>
+		<li>Mpv</li>
+		<li>Nemo</li>
+		<li>OBS</li>
+		<li>Okular</li>
+		<li>Pdf arranger</li>
+		<li>Plank</li>
+		<li>Shotwell</li>
+		<li>Sublime Text</li>
+		<li>Steam</li>
+		<li>Spotify</li>
+		<li>Stacer</li>
+		<li>Telegram</li>
+		<li>Transmission</li>
+		<li>Trello</li>
+		<li>Timeshift</li>
+		<li>Variety</li>
+		<li>Vivaldi</li>
+		<li>Unity Hub</li>
+		<li>Xtreme Download Manager</li>
+		
+
 	</ul>
