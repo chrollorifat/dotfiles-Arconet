@@ -62,14 +62,6 @@ reduce_menu_opacity=20
 respect_DE=true
 scrollable_menu=false
 submenu_delay=250
-click_behavior=0
-contrast=1.00
-dialog_button_layout=0
-drag_from_buttons=false
-intensity=1.00
-no_inactiveness=false
-saturation=1.00
-shadowless_popup=false
 
 [GeneralColors]
 window.color=#263238
@@ -98,7 +90,7 @@ transparent_dolphin_view=true
 transparent_pcmanfm_sidepane=true
 blur_translucent=true
 transparent_menutitle=true
-respect_darkness=true
+respect_darkness=false
 kcapacitybar_as_progressbar=true
 force_size_grip=true
 iconless_pushbutton=true
@@ -111,11 +103,6 @@ tint_on_mouseover=0
 transparent_pcmanfm_view=true
 no_selection_tint=true
 transparent_arrow_button=true
-centered_forms=false
-kinetic_scrolling=false
-middle_click_scroll=false
-noninteger_translucency=false
-style_vertical_toolbars=false
 
 [PanelButtonCommand]
 frame=true

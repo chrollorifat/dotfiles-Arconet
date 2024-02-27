@@ -70,7 +70,6 @@ intensity=1.00
 saturation=1.00
 scrollable_menu=true
 shadowless_popup=false
-drag_from_buttons=false
 
 [GeneralColors]
 window.color=#242424
@@ -124,7 +123,6 @@ scroll_jump_workaround=false
 centered_forms=false
 kinetic_scrolling=false
 noninteger_translucency=false
-style_vertical_toolbars=false
 
 [PanelButtonCommand]
 frame=true

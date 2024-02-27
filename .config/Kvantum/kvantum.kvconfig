@@ -1,2 +1,5 @@
 [General]
-theme=Layan
+theme=Carl
+
+[Applications]
+KvGnomeDark=virtualbox

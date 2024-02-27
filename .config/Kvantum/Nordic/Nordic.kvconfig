@@ -28,9 +28,9 @@ progressbar_thickness=2
 menubar_mouse_tracking=true
 toolbutton_style=1
 double_click=false
-translucent_windows=false
-blurring=false
-popup_blurring=false
+translucent_windows=true
+blurring=true
+popup_blurring=true
 vertical_spin_indicators=false
 spin_button_width=32
 fill_rubberband=false
@@ -57,7 +57,7 @@ submenu_overlap=0
 tooltip_delay=-1
 tree_branch_line=true
 dark_titlebar=true
-opaque=
+opaque=QMPlay2,kaffeine,kmplayer,subtitlecomposer,kdenlive,vlc,avidemux,avidemux2_qt4,avidemux3_qt4,avidemux3_qt5,kamoso,QtCreator,VirtualBox,trojita,dragon,digikam
 reduce_window_opacity=18
 scrollable_menu=false
 submenu_delay=250
@@ -68,10 +68,7 @@ respect_DE=true
 contrast=1.00
 dialog_button_layout=0
 intensity=1.00
-saturation=1.30
-click_behavior=0
-drag_from_buttons=false
-shadowless_popup=false
+saturation=1.00
 
 [GeneralColors]
 window.color=#434c5e
@@ -95,11 +92,11 @@ link.visited.color=#7f8c8d
 progress.indicator.text.color=#d8dee9
 
 [Hacks]
-transparent_ktitle_label=false
-transparent_dolphin_view=false
-transparent_pcmanfm_sidepane=false
-blur_translucent=false
-transparent_menutitle=false
+transparent_ktitle_label=true
+transparent_dolphin_view=true
+transparent_pcmanfm_sidepane=true
+blur_translucent=true
+transparent_menutitle=true
 respect_darkness=true
 kcapacitybar_as_progressbar=true
 force_size_grip=true
@@ -110,15 +107,11 @@ lxqtmainmenu_iconsize=22
 normal_default_pushbutton=true
 single_top_toolbar=true
 tint_on_mouseover=0
-transparent_pcmanfm_view=false
+transparent_pcmanfm_view=true
 middle_click_scroll=false
 no_selection_tint=false
 opaque_colors=false
 scroll_jump_workaround=false
-centered_forms=false
-kinetic_scrolling=false
-noninteger_translucency=false
-style_vertical_toolbars=false
 
 [PanelButtonCommand]
 frame=true
