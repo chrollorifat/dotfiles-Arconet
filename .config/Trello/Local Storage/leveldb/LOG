@@ -1,6 +1,0 @@
-2021/12/06-21:14:27.297 2b3f Reusing MANIFEST /home/rifarch/.config/Trello/Local Storage/leveldb/MANIFEST-000001
-2021/12/06-21:14:27.347 2b3f Recovering log #129
-2021/12/06-21:14:27.396 2b3f Reusing old log /home/rifarch/.config/Trello/Local Storage/leveldb/000129.log 
-2021/12/06-21:16:50.904 2b3f Level-0 table #134: started
-2021/12/06-21:16:51.146 2b3f Level-0 table #134: 43623 bytes OK
-2021/12/06-21:16:51.452 2b3f Delete type=0 #129
