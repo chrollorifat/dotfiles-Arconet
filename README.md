@@ -3,8 +3,9 @@
 <details>
   <summary>My Setup </summary>
 </details>
+
 ## Following config files are included in the repo:
 * Alacritty
 * Alsi
 * Atom
-* 
+
