@@ -3,10 +3,10 @@ Encoding=UTF-8
 Version=1.0
 Type=Application
 Terminal=false
-Exec="/opt/xdman/jre/bin/java" -Xmx1024m -jar "/opt/xdman/xdman.jar" -m
+Exec=env GTK_USE_PORTAL=1 "/opt/xdman/xdm-app" --background
 Name=Xtreme Download Manager
 Comment=Xtreme Download Manager
 Categories=Network;
-Icon=/opt/xdman/icon.png
+Icon=/opt/xdman/xdm-logo.svg
 Hidden=false
 
