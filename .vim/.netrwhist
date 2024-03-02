@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/rif/.vim'
+let g:netrw_dirhist_2='/home/rif/.vim/plugin/codeium.vim/autoload/codeium'
+let g:netrw_dirhist_1='/home/rif/.config/alacritty'
