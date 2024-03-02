@@ -1,7 +1,7 @@
 import pyperclip
 import argparse
 
-def save_clipboard_to_file(n_entries, filename="clipboard_data.txt", mode="a"):
+def save_clipboard_to_file(n_entries, filename="Names_from_clipboard.txt", mode="a"):
     """
     Saves the latest n entries from the clipboard to a file.
 
