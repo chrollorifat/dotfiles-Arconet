@@ -1,39 +1,49 @@
+1366x768 screen: Window-Maximized=true
+State=AAAA/wAAAAD9AAAAAQAAAAAAAAEjAAACnvwCAAAAAfsAAAAcAG8AawB1AGwAYQByAF8AcwBpAGQAZQBiAGEAcgAAAABFAAACngAAARwA///+AAAFVgAAApwAAAAEAAAABAAAAAgAAAAI/AAAAAMAAAABAAAAAQAAACwAcQB1AGkAYwBrAEEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgIAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAiAGEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+
 [Desktop Entry]
 FullScreen=false
 
-[KFileDialog Settings]
-Recent Files[$e]=file:$HOME/Downloads/Islamic University admission circular.pdf,file:$HOME/Downloads/Islamic University admission circular.pdf
-Recent URLs[$e]=file:$HOME/Downloads/
-iconViewIconSize=43
+[General]
+LockSidebar=true
+ShowSidebar=true
 
 [MainWindow]
-MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAABVYAAAKyAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAQAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHICAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
+1366x768 screen: Height=740
+1366x768 screen: Width=683
+1366x768 screen: Window-Maximized=true
+1366x768 screen: XPosition=683
+1366x768 screen: YPosition=28
+State=AAAA/wAAAAD9AAAAAQAAAAAAAACOAAACkvwCAAAAAfsAAAAcAG8AawB1AGwAYQByAF8AcwBpAGQAZQBiAGEAcgEAAABSAAACkgAAASoA///+AAAExAAAApIAAAAEAAAABAAAAAgAAAAI/AAAAAMAAAABAAAAAQAAACwAcQB1AGkAYwBrAEEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgIAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAiAGEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
-eDP1 Height 1366x768=739
-eDP1 Width 1366x768=1366
-eDP1 Window-Maximized 1366x768=true
-eDP1 XPosition 1366x768=0
-eDP1 YPosition 1366x768=29
+eDP-1=eDP-1
+eDP-1 Height 1366x768 eDP-1=739
+eDP-1 Width 1366x768 eDP-1=1366
+eDP-1 Window-Maximized 1366x768 eDP-1=true
+eDP-1 XPosition 1366x768 eDP-1=0
+eDP-1 YPosition 1366x768 eDP-1=29
 
 [Recent Files]
-File1[$e]=$HOME/Downloads/Faculty of Science (FS) Total result 2020-2021.pdf
-File10[$e]=$HOME/Downloads/PUST_202021_21656.pdf
-File2[$e]=$HOME/Downloads/Central Notice for Admission Test 2020-2021 Results Publication.pdf
-File3[$e]=$HOME/Documents/Notes/Git.pdf
-File4[$e]=$HOME/Downloads/CAO_100065.pdf
-File5[$e]=$HOME/Downloads/DU Gha unit interview.pdf
-File6[$e]=$HOME/Downloads/GHA_100053.pdf
-File7[$e]=$HOME/Downloads/A_Result_According Merit_17857.pdf
-File8[$e]=$HOME/Downloads/Admission Notice 2020-2021.pdf
-File9[$e]=$HOME/Downloads/Interview Schedule PUST 2020-2021 U.pdf
-Name1[$e]=Faculty of Science (FS) Total result 2020-2021.pdf
-Name10[$e]=PUST_202021_21656.pdf
-Name2[$e]=Central Notice for Admission Test 2020-2021 Results Publication.pdf
-Name3[$e]=Git.pdf
-Name4[$e]=CAO_100065.pdf
-Name5[$e]=DU Gha unit interview.pdf
-Name6[$e]=GHA_100053.pdf
-Name7[$e]=A_Result_According Merit_17857.pdf
-Name8[$e]=Admission Notice 2020-2021.pdf
-Name9[$e]=Interview Schedule PUST 2020-2021 U.pdf
+File1[$e]=$HOME/Documents/5th Semester/ECO101/Chapter 4.pdf
+File10[$e]=/run/media/rif/fca08709-dd82-437b-b265-2e772b7bb0dc/home/rif/Documents/nixos-configurations/README.md
+File2[$e]=$HOME/Documents/5th Semester/ECO101/Chapter 3 Sample Questions 1.pdf
+File3[$e]=$HOME/Documents/5th Semester/ECO101/Chapter 1& 3 Set 2.pdf
+File4[$e]=$HOME/Documents/5th Semester/ECO101/PPF questions.pdf
+File5[$e]=$HOME/Documents/5th Semester/ECO101/Trade Sample Questions.pdf
+File6[$e]=$HOME/Desktop/NixOS4Noobs.pdf
+File7[$e]=$HOME/Documents/5th Semester/MAT350/Modelling with First Order ODE_Section_3.1.pdf
+File8[$e]=$HOME/Documents/5th Semester/MAT350/Dennis-G.-Zill-Diff-eqn-10th-edi.pdf
+File9[$e]=$HOME/Documents/5th Semester/MAT350/A First Course in Differential Equations with Modeling -- Dennis G. Zill -- 11, 2018 -- Cengage Learning -- 9781305965720 -- 26ffd1aad057b51440068ed79ca34e3a -- Anna’s Archive.pdf
+Name1[$e]=Chapter 4.pdf
+Name10[$e]=README.md
+Name2[$e]=Chapter 3 Sample Questions 1.pdf
+Name3[$e]=Chapter 1& 3 Set 2.pdf
+Name4[$e]=PPF questions.pdf
+Name5[$e]=Trade Sample Questions.pdf
+Name6[$e]=NixOS4Noobs.pdf
+Name7[$e]=Modelling with First Order ODE_Section_3.1.pdf
+Name8[$e]=Dennis-G.-Zill-Diff-eqn-10th-edi.pdf
+Name9[$e]=A First Course in Differential Equations with Modeling -- Dennis G. Zill -- 11, 2018 -- Cengage Learning -- 9781305965720 -- 26ffd1aad057b51440068ed79ca34e3a -- Anna’s Archive.pdf
+
+[UiSettings]
+ColorScheme=cherry

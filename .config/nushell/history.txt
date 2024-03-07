@@ -1,0 +1,46 @@
+ls
+ils
+.config
+ls
+nushell/
+ls
+config.nu
+nvim config.nu
+clear
+status
+uptime
+clear
+cd
+ls
+la
+last
+clear
+cler
+clear
+cd
+clear
+colortest 
+clear
+colorpicker
+exit
+alacritty-themes 
+kt
+st
+where nu
+whereis nu
+clear
+colorpicker
+k    An End Of Life (EOL) package scannner for container images and<\n>dk
+paru nu
+paru nushell
+clear
+whereis nu
+nz
+nvim .zshrc
+whereis config.nu
+whereis nu
+whereis nushell
+clear
+exit
+cd {{directory_name}}
+help {{command_name}}

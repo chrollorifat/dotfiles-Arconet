@@ -1,22 +1,21 @@
 [$Version]
-update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend
+update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend,kwin.upd:enable-scale-effect-by-default,kwin.upd:overview-group-plugin-id,kwin.upd:animation-speed-cleanup,kwin.upd:replace-cascaded-zerocornered
 
 [Compositing]
 OpenGLIsUnsafe=false
 
 [Desktops]
+BorderActivate=9
+BorderActivateCylinder=9
+BorderActivateSphere=9
 Id_1=3ecc69d2-d092-4829-89bf-f52f0f24af30
-Id_2=28b080cc-e68a-45da-a20b-29379a123b14
-Id_3=bb13a863-0742-46d3-a1d1-4d9f99d7bf74
-Name_1=1
-Name_2=2
-Name_3=3
-Number=3
-Rows=1
-
-[Effect-Blur]
-BlurStrength=9
-NoiseStrength=0
+Id_2=ff89bc8b-7e5f-4fd2-b268-d8481580aa97
+Id_3=f03e7e33-b797-4a04-b569-52377fe1095d
+Id_4=e20f2039-598d-4f12-8e11-3fe6503780bb
+Name_1=Casual
+Name_3=Study
+Number=4
+Rows=2
 
 [Effect-Cube]
 BorderActivate=9
@@ -26,25 +25,18 @@ BorderActivateSphere=9
 [Effect-DesktopGrid]
 BorderActivate=9
 
-[Effect-DimInactive]
-Strength=7
-
 [Effect-PresentWindows]
 BorderActivate=9
 BorderActivateAll=7
 BorderActivateClass=9
 
-[Effect-Wobbly]
-Drag=90
-Stiffness=6
-WobblynessLevel=2
+[Effect-desktopgrid]
+BorderActivate=9
 
-[Effect-kwin4_effect_translucency]
-ComboboxPopups=91
-Dialogs=89
-Inactive=93
-Menus=93
-MoveResize=79
+[Effect-presentwindows]
+BorderActivate=9
+BorderActivateAll=7
+BorderActivateClass=9
 
 [ElectricBorders]
 Bottom=None
@@ -56,52 +48,45 @@ Top=None
 TopLeft=None
 TopRight=None
 
-[ModifierOnlyShortcuts]
-Meta=org.kde.lattedock,/Latte,org.kde.LatteDock,activateLauncherMenu
-
-[MouseBindings]
-CommandTitlebarWheel=Change Opacity
-
 [NightColor]
 Active=true
-EveningBeginFixed=1700
+LatitudeAuto=24.3633
+LongitudeAuto=88.6072
 Mode=Constant
-MorningBeginFixed=0600
 NightTemperature=4000
 
 [Plugins]
-blurEnabled=true
-contrastEnabled=true
 cubeEnabled=true
-desktopchangeosdEnabled=false
-diminactiveEnabled=true
-forceblurEnabled=true
-glideEnabled=true
-invertEnabled=true
-krohnkiteEnabled=false
-kwin-script-tilingEnabled=false
+desktopchangeosdEnabled=true
+krohnkiteEnabled=true
 kwin4_effect_dimscreenEnabled=true
-kwin4_effect_fadeEnabled=false
-kwin4_effect_translucencyEnabled=true
-lattewindowcolorsEnabled=false
-minimizeallEnabled=false
-opacify-kwinEnabled=false
 screenedgeEnabled=false
-slidebackEnabled=true
-synchronizeskipswitcherEnabled=false
-videowallEnabled=false
 wobblywindowsEnabled=true
 
-[Script-forceblur]
-patterns=yakuake\nalacritty\nkitty\nurxvt\nnemo\nthunar\ndolphin\nbrave\ntelegram-desktop\nsystemsettings5\nlibrewolf\ntransmission-gtk\npamac\nanki\nchromium\ndiscord\naudacious\nplanner\nkate\nstacer\nmicrosoft-edge-dev\ngwenview\nshotwell\nxdman\npamac-manager\ngodot\n
+[Script-desktopchangeosd]
+PopupHideDelay=500
 
 [TabBox]
 BorderActivate=9
 BorderAlternativeActivate=9
-LayoutName=com.github.vinceliuice.Layan
 
-[TabBoxAlternative]
-LayoutName=com.github.vinceliuice.McMojave
+[Tiling]
+padding=4
+
+[Tiling][213a9620-187e-58a6-b80b-85d8fb95dfce]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][84602a41-be57-55d8-afdc-e1c0c467a9ae]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][a7d99d5c-389d-5baf-9d5f-c20222abc17e]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][f3be29ea-4359-59ba-be24-f1036166bc27]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Wayland]
+InputMethod[$e]=/usr/share/applications/fcitx5-wayland-launcher.desktop
 
 [Windows]
 ActiveMouseScreen=true
@@ -110,14 +95,15 @@ ElectricBorderCornerRatio=0.25
 ElectricBorderDelay=150
 ElectricBorderMaximize=true
 ElectricBorderTiling=true
+ElectricBorders=1
 MaximizeButtonLeftClickCommand=Maximize
-Placement=Centered
 RollOverDesktops=true
 TitlebarDoubleClickCommand=Maximize
+
+[Xwayland]
+Scale=1
 
 [org.kde.kdecoration2]
 BorderSize=None
 BorderSizeAuto=false
-ButtonsOnLeft=IA
-ButtonsOnRight=X
-theme=__aurorae__svg__Layan
+theme=__aurorae__svg__Carl

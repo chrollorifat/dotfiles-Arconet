@@ -1,5 +1,5 @@
 [$Version]
-update_info=spectacle_shortcuts.upd:spectacle-migrate-shortcuts
+update_info=spectacle_shortcuts.upd:spectacle-migrate-shortcuts,konsole_globalaccel.upd:konsole_globalaccel,konsole.upd:konsole_globalaccel
 
 [ColorEffects:Disabled]
 ChangeSelectionColor[$d]
@@ -38,34 +38,6 @@ ForegroundPositive[$d]
 ForegroundVisited[$d]
 
 [Colors:Complementary]
-BackgroundAlternate[$d]
-BackgroundNormal[$d]
-DecorationFocus[$d]
-DecorationHover[$d]
-ForegroundActive[$d]
-ForegroundInactive[$d]
-ForegroundLink[$d]
-ForegroundNegative[$d]
-ForegroundNeutral[$d]
-ForegroundNormal[$d]
-ForegroundPositive[$d]
-ForegroundVisited[$d]
-
-[Colors:Header]
-BackgroundAlternate[$d]
-BackgroundNormal[$d]
-DecorationFocus[$d]
-DecorationHover[$d]
-ForegroundActive[$d]
-ForegroundInactive[$d]
-ForegroundLink[$d]
-ForegroundNegative[$d]
-ForegroundNeutral[$d]
-ForegroundNormal[$d]
-ForegroundPositive[$d]
-ForegroundVisited[$d]
-
-[Colors:Header][Inactive]
 BackgroundAlternate[$d]
 BackgroundNormal[$d]
 DecorationFocus[$d]
@@ -136,11 +108,11 @@ ForegroundPositive[$d]
 ForegroundVisited[$d]
 
 [Data]
-DataCount=6
+DataCount=5
 
 [Data_1]
 Comment=KMenuEdit Global Shortcuts
-DataCount=2
+DataCount=1
 Enabled=true
 Name=KMenuEdit
 SystemGroup=1
@@ -175,32 +147,6 @@ TriggersCount=1
 Key=
 Type=SHORTCUT
 Uuid={d03619b6-9b3c-48cc-9d9c-a2aadb485550}
-
-[Data_1_2]
-Comment=Global keyboard shortcut to launch Konsole
-Enabled=true
-Name=Launch Konsole
-Type=MENUENTRY_SHORTCUT_ACTION_DATA
-
-[Data_1_2Actions]
-ActionsCount=1
-
-[Data_1_2Actions0]
-CommandURL=org.kde.konsole.desktop
-Type=MENUENTRY
-
-[Data_1_2Conditions]
-Comment=
-ConditionsCount=0
-
-[Data_1_2Triggers]
-Comment=Simple_action
-TriggersCount=1
-
-[Data_1_2Triggers0]
-Key=
-Type=SHORTCUT
-Uuid={1f17146a-c5dc-471d-a252-c8ecb73ee696}
 
 [Data_2]
 Comment=This group contains various examples demonstrating most of the features of KHotkeys. (Note that this group and all its actions are disabled by default.)
@@ -1021,7 +967,7 @@ Type=GESTURE
 
 [Data_4]
 Comment=Comment
-DataCount=38
+DataCount=39
 Enabled=true
 ImportId=9999
 Name=ArcoLinux
@@ -1086,21 +1032,21 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_4_11Triggers0]
-Key=
+Key=Meta+Shift+Return
 Type=SHORTCUT
 Uuid={44173454-431b-47c1-858e-932f8e9eff7c}
 
 [Data_4_12]
 Comment=Comment
 Enabled=true
-Name=atom
+Name=vivaldi
 Type=SIMPLE_ACTION_DATA
 
 [Data_4_12Actions]
 ActionsCount=1
 
 [Data_4_12Actions0]
-CommandURL=atom
+CommandURL=vivaldi-stable
 Type=COMMAND_URL
 
 [Data_4_12Conditions]
@@ -1112,21 +1058,21 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_4_12Triggers0]
-Key=Meta+F2
+Key=Meta+F1
 Type=SHORTCUT
-Uuid={20c24088-6460-4b65-a547-db15f8010452}
+Uuid={3a6140e2-3567-4350-94e3-03df8d02b545}
 
 [Data_4_13]
 Comment=Comment
 Enabled=true
-Name=inkscape
+Name=atom
 Type=SIMPLE_ACTION_DATA
 
 [Data_4_13Actions]
 ActionsCount=1
 
 [Data_4_13Actions0]
-CommandURL=inkscape
+CommandURL=atom
 Type=COMMAND_URL
 
 [Data_4_13Conditions]
@@ -1138,21 +1084,21 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_4_13Triggers0]
-Key=Meta+F3
+Key=Meta+F2
 Type=SHORTCUT
-Uuid={18656125-a9f8-4251-b560-9ee1bd385fcb}
+Uuid={20c24088-6460-4b65-a547-db15f8010452}
 
 [Data_4_14]
 Comment=Comment
 Enabled=true
-Name=gimp
+Name=inkscape
 Type=SIMPLE_ACTION_DATA
 
 [Data_4_14Actions]
 ActionsCount=1
 
 [Data_4_14Actions0]
-CommandURL=gimp
+CommandURL=inkscape
 Type=COMMAND_URL
 
 [Data_4_14Conditions]
@@ -1164,21 +1110,21 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_4_14Triggers0]
-Key=Meta+F4
+Key=Meta+F3
 Type=SHORTCUT
-Uuid={cec7c2e1-7c86-4b9e-888c-f74eae3dd159}
+Uuid={18656125-a9f8-4251-b560-9ee1bd385fcb}
 
 [Data_4_15]
 Comment=Comment
 Enabled=true
-Name=meld
+Name=gimp
 Type=SIMPLE_ACTION_DATA
 
 [Data_4_15Actions]
 ActionsCount=1
 
 [Data_4_15Actions0]
-CommandURL=meld
+CommandURL=gimp
 Type=COMMAND_URL
 
 [Data_4_15Conditions]
@@ -1190,21 +1136,21 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_4_15Triggers0]
-Key=Meta+F5
+Key=Meta+F4
 Type=SHORTCUT
-Uuid={1992a8c1-24c9-4364-a51e-7af45c9f1566}
+Uuid={cec7c2e1-7c86-4b9e-888c-f74eae3dd159}
 
 [Data_4_16]
 Comment=Comment
 Enabled=true
-Name=vlc
+Name=meld
 Type=SIMPLE_ACTION_DATA
 
 [Data_4_16Actions]
 ActionsCount=1
 
 [Data_4_16Actions0]
-CommandURL=vlc
+CommandURL=meld
 Type=COMMAND_URL
 
 [Data_4_16Conditions]
@@ -1216,21 +1162,21 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_4_16Triggers0]
-Key=
+Key=Meta+F5
 Type=SHORTCUT
-Uuid={7451628c-be2a-4635-b046-6d0a85f6419b}
+Uuid={1992a8c1-24c9-4364-a51e-7af45c9f1566}
 
 [Data_4_17]
 Comment=Comment
 Enabled=true
-Name=dolphin
+Name=vlc
 Type=SIMPLE_ACTION_DATA
 
 [Data_4_17Actions]
 ActionsCount=1
 
 [Data_4_17Actions0]
-CommandURL=dolphin
+CommandURL=vlc
 Type=COMMAND_URL
 
 [Data_4_17Conditions]
@@ -1242,21 +1188,21 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_4_17Triggers0]
-Key=Meta+F8
+Key=Meta+F6
 Type=SHORTCUT
-Uuid={fdaa9310-506c-409e-82de-bf2c559177b1}
+Uuid={7451628c-be2a-4635-b046-6d0a85f6419b}
 
 [Data_4_18]
 Comment=Comment
 Enabled=true
-Name=evolution
+Name=dolphin
 Type=SIMPLE_ACTION_DATA
 
 [Data_4_18Actions]
 ActionsCount=1
 
 [Data_4_18Actions0]
-CommandURL=evolution
+CommandURL=dolphin
 Type=COMMAND_URL
 
 [Data_4_18Conditions]
@@ -1268,21 +1214,21 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_4_18Triggers0]
-Key=Meta+F9
+Key=Meta+F8
 Type=SHORTCUT
-Uuid={fbca5ae9-fc95-4918-9e99-a28339775ac2}
+Uuid={fdaa9310-506c-409e-82de-bf2c559177b1}
 
 [Data_4_19]
 Comment=Comment
 Enabled=true
-Name=spotify
+Name=evolution
 Type=SIMPLE_ACTION_DATA
 
 [Data_4_19Actions]
 ActionsCount=1
 
 [Data_4_19Actions0]
-CommandURL=spotify
+CommandURL=evolution
 Type=COMMAND_URL
 
 [Data_4_19Conditions]
@@ -1294,9 +1240,9 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_4_19Triggers0]
-Key=Meta+F10
+Key=Meta+F9
 Type=SHORTCUT
-Uuid={cbc24563-660e-4343-923a-7534a3f949de}
+Uuid={fbca5ae9-fc95-4918-9e99-a28339775ac2}
 
 [Data_4_1Actions]
 ActionsCount=1
@@ -1327,14 +1273,14 @@ Type=SIMPLE_ACTION_DATA
 [Data_4_20]
 Comment=Comment
 Enabled=true
-Name=systemsettings5
+Name=spotify
 Type=SIMPLE_ACTION_DATA
 
 [Data_4_20Actions]
 ActionsCount=1
 
 [Data_4_20Actions0]
-CommandURL=systemsettings5
+CommandURL=spotify
 Type=COMMAND_URL
 
 [Data_4_20Conditions]
@@ -1346,21 +1292,21 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_4_20Triggers0]
-Key=Ctrl+Alt+M
+Key=Meta+F10
 Type=SHORTCUT
-Uuid={60862ebd-a33e-4704-8798-160093eb0c56}
+Uuid={cbc24563-660e-4343-923a-7534a3f949de}
 
 [Data_4_21]
 Comment=Comment
 Enabled=true
-Name=ksysguard
+Name=systemsettings5
 Type=SIMPLE_ACTION_DATA
 
 [Data_4_21Actions]
 ActionsCount=1
 
 [Data_4_21Actions0]
-CommandURL=ksysguard
+CommandURL=systemsettings5
 Type=COMMAND_URL
 
 [Data_4_21Conditions]
@@ -1372,21 +1318,21 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_4_21Triggers0]
-Key=Ctrl+Shift+Esc
+Key=Ctrl+Alt+M
 Type=SHORTCUT
-Uuid={6974e3f8-bde2-43ae-b7d7-1c22e54bcc23}
+Uuid={60862ebd-a33e-4704-8798-160093eb0c56}
 
 [Data_4_22]
 Comment=Comment
 Enabled=true
-Name=xkill
+Name=ksysguard
 Type=SIMPLE_ACTION_DATA
 
 [Data_4_22Actions]
 ActionsCount=1
 
 [Data_4_22Actions0]
-CommandURL=xkill
+CommandURL=ksysguard
 Type=COMMAND_URL
 
 [Data_4_22Conditions]
@@ -1398,21 +1344,21 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_4_22Triggers0]
-Key=Meta+Esc
+Key=Ctrl+Shift+Esc
 Type=SHORTCUT
-Uuid={73454729-badf-44f5-8023-f52761c4d117}
+Uuid={6974e3f8-bde2-43ae-b7d7-1c22e54bcc23}
 
 [Data_4_23]
 Comment=Comment
 Enabled=true
-Name=shutdown
+Name=xkill
 Type=SIMPLE_ACTION_DATA
 
 [Data_4_23Actions]
 ActionsCount=1
 
 [Data_4_23Actions0]
-CommandURL=qdbus org.kde.ksmserver /KSMServer logout 1 3 3
+CommandURL=xkill
 Type=COMMAND_URL
 
 [Data_4_23Conditions]
@@ -1424,21 +1370,21 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_4_23Triggers0]
-Key=Meta+Ctrl+Del
+Key=Meta+Esc
 Type=SHORTCUT
-Uuid={3554d826-39e1-423e-b736-7089605ff3a8}
+Uuid={73454729-badf-44f5-8023-f52761c4d117}
 
 [Data_4_24]
 Comment=Comment
 Enabled=true
-Name=urxvt
+Name=shutdown
 Type=SIMPLE_ACTION_DATA
 
 [Data_4_24Actions]
 ActionsCount=1
 
 [Data_4_24Actions0]
-CommandURL=urxvt
+CommandURL=qdbus org.kde.ksmserver /KSMServer logout 1 3 3
 Type=COMMAND_URL
 
 [Data_4_24Conditions]
@@ -1450,21 +1396,21 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_4_24Triggers0]
-Key=Ctrl+Alt+T
+Key=Meta+X
 Type=SHORTCUT
-Uuid={dc8fae18-6c35-4906-ab45-7ef6764adc81}
+Uuid={3554d826-39e1-423e-b736-7089605ff3a8}
 
 [Data_4_25]
 Comment=Comment
 Enabled=true
-Name=chromium
+Name=urxvt
 Type=SIMPLE_ACTION_DATA
 
 [Data_4_25Actions]
 ActionsCount=1
 
 [Data_4_25Actions0]
-CommandURL=chromium
+CommandURL=urxvt
 Type=COMMAND_URL
 
 [Data_4_25Conditions]
@@ -1476,21 +1422,21 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_4_25Triggers0]
-Key=Ctrl+Alt+G
+Key=Meta+T
 Type=SHORTCUT
-Uuid={8897d7a2-0583-4720-a2b9-05363688ba4e}
+Uuid={dc8fae18-6c35-4906-ab45-7ef6764adc81}
 
 [Data_4_26]
 Comment=Comment
 Enabled=true
-Name=dolphin
+Name=chromium
 Type=SIMPLE_ACTION_DATA
 
 [Data_4_26Actions]
 ActionsCount=1
 
 [Data_4_26Actions0]
-CommandURL=dolphin
+CommandURL=chromium
 Type=COMMAND_URL
 
 [Data_4_26Conditions]
@@ -1502,21 +1448,21 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_4_26Triggers0]
-Key=
+Key=Ctrl+Alt+G
 Type=SHORTCUT
-Uuid={e20b2d65-f5bd-4819-b3fe-9871ad8c43a0}
+Uuid={8897d7a2-0583-4720-a2b9-05363688ba4e}
 
 [Data_4_27]
 Comment=Comment
 Enabled=true
-Name=atom
+Name=dolphin
 Type=SIMPLE_ACTION_DATA
 
 [Data_4_27Actions]
 ActionsCount=1
 
 [Data_4_27Actions0]
-CommandURL=atom
+CommandURL=dolphin
 Type=COMMAND_URL
 
 [Data_4_27Conditions]
@@ -1530,19 +1476,19 @@ TriggersCount=1
 [Data_4_27Triggers0]
 Key=
 Type=SHORTCUT
-Uuid={c193d63c-6570-45a3-9fc3-a1a206efb1d8}
+Uuid={e20b2d65-f5bd-4819-b3fe-9871ad8c43a0}
 
 [Data_4_28]
 Comment=Comment
 Enabled=true
-Name=pamac-manager
+Name=atom
 Type=SIMPLE_ACTION_DATA
 
 [Data_4_28Actions]
 ActionsCount=1
 
 [Data_4_28Actions0]
-CommandURL=pamac-manager
+CommandURL=atom
 Type=COMMAND_URL
 
 [Data_4_28Conditions]
@@ -1554,21 +1500,21 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_4_28Triggers0]
-Key=Ctrl+Alt+P
+Key=
 Type=SHORTCUT
-Uuid={70f72937-91cb-4591-9694-973958efe5b8}
+Uuid={c193d63c-6570-45a3-9fc3-a1a206efb1d8}
 
 [Data_4_29]
 Comment=Comment
 Enabled=true
-Name=ArcoLinux-Welcome-App
+Name=pamac-manager
 Type=SIMPLE_ACTION_DATA
 
 [Data_4_29Actions]
 ActionsCount=1
 
 [Data_4_29Actions0]
-CommandURL=arcolinux-welcome-app
+CommandURL=pamac-manager
 Type=COMMAND_URL
 
 [Data_4_29Conditions]
@@ -1580,9 +1526,9 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_4_29Triggers0]
-Key=Ctrl+Alt+W
+Key=Ctrl+Alt+P
 Type=SHORTCUT
-Uuid={9a618ca9-3b05-4c25-8f13-019c04190597}
+Uuid={70f72937-91cb-4591-9694-973958efe5b8}
 
 [Data_4_2Actions]
 ActionsCount=1
@@ -1613,14 +1559,14 @@ Type=SIMPLE_ACTION_DATA
 [Data_4_30]
 Comment=Comment
 Enabled=true
-Name=thunar
+Name=ArcoLinux-Welcome-App
 Type=SIMPLE_ACTION_DATA
 
 [Data_4_30Actions]
 ActionsCount=1
 
 [Data_4_30Actions0]
-CommandURL=thunar
+CommandURL=arcolinux-welcome-app
 Type=COMMAND_URL
 
 [Data_4_30Conditions]
@@ -1632,21 +1578,21 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_4_30Triggers0]
-Key=
+Key=Ctrl+Alt+W
 Type=SHORTCUT
-Uuid={10de7d96-63a9-4746-b323-4bf106497412}
+Uuid={9a618ca9-3b05-4c25-8f13-019c04190597}
 
 [Data_4_31]
 Comment=Comment
 Enabled=true
-Name=htop
+Name=thunar
 Type=SIMPLE_ACTION_DATA
 
 [Data_4_31Actions]
 ActionsCount=1
 
 [Data_4_31Actions0]
-CommandURL=urxvt -T 'htop task manager' -e htop
+CommandURL=thunar
 Type=COMMAND_URL
 
 [Data_4_31Conditions]
@@ -1658,21 +1604,21 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_4_31Triggers0]
-Key=
+Key=Ctrl+Alt+B
 Type=SHORTCUT
-Uuid={da62b0eb-7321-4ade-ba2b-85d1eed4813b}
+Uuid={10de7d96-63a9-4746-b323-4bf106497412}
 
 [Data_4_32]
 Comment=Comment
 Enabled=true
-Name=variety -f
+Name=htop
 Type=SIMPLE_ACTION_DATA
 
 [Data_4_32Actions]
 ActionsCount=1
 
 [Data_4_32Actions0]
-CommandURL=variety -f
+CommandURL=urxvt -T 'htop task manager' -e htop
 Type=COMMAND_URL
 
 [Data_4_32Conditions]
@@ -1684,21 +1630,21 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_4_32Triggers0]
-Key=Alt+F
+Key=Meta+Alt+H
 Type=SHORTCUT
-Uuid={4941e5ca-b4f3-4b1b-b566-33d3fc94e4ad}
+Uuid={da62b0eb-7321-4ade-ba2b-85d1eed4813b}
 
 [Data_4_33]
 Comment=Comment
 Enabled=true
-Name=conky-toggle
+Name=variety -f
 Type=SIMPLE_ACTION_DATA
 
 [Data_4_33Actions]
 ActionsCount=1
 
 [Data_4_33Actions0]
-CommandURL=conky-toggle
+CommandURL=variety -f
 Type=COMMAND_URL
 
 [Data_4_33Conditions]
@@ -1710,21 +1656,21 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_4_33Triggers0]
-Key=Meta+C
+Key=Alt+F
 Type=SHORTCUT
-Uuid={c9e2644b-c28c-478b-8cac-6d08fa7e117e}
+Uuid={4941e5ca-b4f3-4b1b-b566-33d3fc94e4ad}
 
 [Data_4_34]
 Comment=Comment
 Enabled=true
-Name=conky-rotate next
+Name=conky-toggle
 Type=SIMPLE_ACTION_DATA
 
 [Data_4_34Actions]
 ActionsCount=1
 
 [Data_4_34Actions0]
-CommandURL=conky-rotate -n
+CommandURL=conky-toggle
 Type=COMMAND_URL
 
 [Data_4_34Conditions]
@@ -1736,21 +1682,21 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_4_34Triggers0]
-Key=Ctrl+Alt+PgUp
+Key=Meta+C
 Type=SHORTCUT
-Uuid={b532ba71-4e40-452d-9346-403342ff23c5}
+Uuid={c9e2644b-c28c-478b-8cac-6d08fa7e117e}
 
 [Data_4_35]
 Comment=Comment
 Enabled=true
-Name=conky-rotate previous
+Name=conky-rotate next
 Type=SIMPLE_ACTION_DATA
 
 [Data_4_35Actions]
 ActionsCount=1
 
 [Data_4_35Actions0]
-CommandURL=conky-rotate -p
+CommandURL=conky-rotate -n
 Type=COMMAND_URL
 
 [Data_4_35Conditions]
@@ -1762,21 +1708,21 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_4_35Triggers0]
-Key=Ctrl+Alt+PgDown
+Key=Ctrl+Alt+PgUp
 Type=SHORTCUT
-Uuid={548fecdb-c1e0-4d97-8102-3314df40cd2d}
+Uuid={b532ba71-4e40-452d-9346-403342ff23c5}
 
 [Data_4_36]
 Comment=Comment
 Enabled=true
-Name=meld (alt)
+Name=conky-rotate previous
 Type=SIMPLE_ACTION_DATA
 
 [Data_4_36Actions]
 ActionsCount=1
 
 [Data_4_36Actions0]
-CommandURL=meld
+CommandURL=conky-rotate -p
 Type=COMMAND_URL
 
 [Data_4_36Conditions]
@@ -1788,21 +1734,21 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_4_36Triggers0]
-Key=Alt+F5
+Key=Ctrl+Alt+PgDown
 Type=SHORTCUT
-Uuid={797fe08f-5d4c-4e50-8273-cb935c130818}
+Uuid={548fecdb-c1e0-4d97-8102-3314df40cd2d}
 
 [Data_4_37]
 Comment=Comment
 Enabled=true
-Name=krunner
+Name=meld (alt)
 Type=SIMPLE_ACTION_DATA
 
 [Data_4_37Actions]
 ActionsCount=1
 
 [Data_4_37Actions0]
-CommandURL=krunner
+CommandURL=meld
 Type=COMMAND_URL
 
 [Data_4_37Conditions]
@@ -1814,21 +1760,21 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_4_37Triggers0]
-Key=Meta+Shift+D
+Key=Alt+F5
 Type=SHORTCUT
-Uuid={724847d0-a2da-4779-8fb5-3deb43e643c5}
+Uuid={797fe08f-5d4c-4e50-8273-cb935c130818}
 
 [Data_4_38]
 Comment=Comment
 Enabled=true
-Name=ArcoLinux-Tweak-Tool
+Name=krunner
 Type=SIMPLE_ACTION_DATA
 
 [Data_4_38Actions]
 ActionsCount=1
 
 [Data_4_38Actions0]
-CommandURL=arcolinux-tweak-tool
+CommandURL=krunner
 Type=COMMAND_URL
 
 [Data_4_38Conditions]
@@ -1840,6 +1786,32 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_4_38Triggers0]
+Key=Meta+Shift+D
+Type=SHORTCUT
+Uuid={724847d0-a2da-4779-8fb5-3deb43e643c5}
+
+[Data_4_39]
+Comment=Comment
+Enabled=true
+Name=ArchLinux-Tweak-Tool
+Type=SIMPLE_ACTION_DATA
+
+[Data_4_39Actions]
+ActionsCount=1
+
+[Data_4_39Actions0]
+CommandURL=archlinux-tweak-tool
+Type=COMMAND_URL
+
+[Data_4_39Conditions]
+Comment=
+ConditionsCount=0
+
+[Data_4_39Triggers]
+Comment=Simple_action
+TriggersCount=1
+
+[Data_4_39Triggers0]
 Key=Ctrl+Alt+E
 Type=SHORTCUT
 Uuid={c9ab3ae7-adc3-4212-b2c0-9903c21f8cf7}
@@ -1938,7 +1910,7 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_4_6Triggers0]
-Key=
+Key=Ctrl+Alt+V
 Type=SHORTCUT
 Uuid={27bfde7f-1f88-4527-8738-1ae22c0a3911}
 
@@ -2022,68 +1994,187 @@ Uuid={05e0c4c6-bc8c-4bd3-b364-848b8c283b71}
 
 [Data_5]
 Comment=Comment
+DataCount=6
 Enabled=true
-Name=rofi
-Type=SIMPLE_ACTION_DATA
-
-[Data_5Actions]
-ActionsCount=1
-
-[Data_5Actions0]
-CommandURL=rofi -show run
-Type=COMMAND_URL
+Name=Scripts
+SystemGroup=0
+Type=ACTION_DATA_GROUP
 
 [Data_5Conditions]
 Comment=
 ConditionsCount=0
 
-[Data_5Triggers]
-Comment=Simple_action
-TriggersCount=1
-
-[Data_5Triggers0]
-Key=Meta+Shift+Return
-Type=SHORTCUT
-Uuid={a5c01934-093d-4c58-830f-7089f5b02795}
-
-[Data_6]
-Comment=Open the Brave Browser
+[Data_5_1]
+Comment=Comment
 Enabled=true
-Name=Brave
+Name=AnkiMining
 Type=SIMPLE_ACTION_DATA
 
-[Data_6Actions]
+[Data_5_1Actions]
 ActionsCount=1
 
-[Data_6Actions0]
-CommandURL=brave
+[Data_5_1Actions0]
+CommandURL=/bin/bash /home/rif/Downloads/Programs/ankiMine.sh
 Type=COMMAND_URL
 
-[Data_6Conditions]
+[Data_5_1Conditions]
 Comment=
 ConditionsCount=0
 
-[Data_6Triggers]
+[Data_5_1Triggers]
 Comment=Simple_action
 TriggersCount=1
 
-[Data_6Triggers0]
-Key=Meta+B
+[Data_5_1Triggers0]
+Key=Alt+Shift+M
 Type=SHORTCUT
-Uuid={04f75c96-5e50-4855-b641-414555c1868a}
+Uuid={e79d129b-2764-4eaf-b8da-b049d16b8e19}
+
+[Data_5_2]
+Comment=press once to start recording, and again to stop and export the audio clip to your latest-created Anki card.\n
+Enabled=true
+Name=Ames Record
+Type=SIMPLE_ACTION_DATA
+
+[Data_5_2Actions]
+ActionsCount=1
+
+[Data_5_2Actions0]
+CommandURL=ames -r
+Type=COMMAND_URL
+
+[Data_5_2Conditions]
+Comment=
+ConditionsCount=0
+
+[Data_5_2Triggers]
+Comment=Simple_action
+TriggersCount=1
+
+[Data_5_2Triggers0]
+Key=Alt+Shift+A
+Type=SHORTCUT
+Uuid={00e7e576-76fd-4e77-b843-6ca00347d07f}
+
+[Data_5_3]
+Comment=prompt for an interactive screenshot selection.
+Enabled=true
+Name=Ames Screenshot
+Type=SIMPLE_ACTION_DATA
+
+[Data_5_3Actions]
+ActionsCount=1
+
+[Data_5_3Actions0]
+CommandURL=ames -s
+Type=COMMAND_URL
+
+[Data_5_3Conditions]
+Comment=
+ConditionsCount=0
+
+[Data_5_3Triggers]
+Comment=Simple_action
+TriggersCount=1
+
+[Data_5_3Triggers0]
+Key=Alt+Shift+S
+Type=SHORTCUT
+Uuid={b2bd4450-bd94-4fe0-b204-de72a0e4209c}
+
+[Data_5_4]
+Comment=repeat the previous screenshot selection. If there is no previous selection, default to -s
+Enabled=true
+Name=Ames SS previous selection
+Type=SIMPLE_ACTION_DATA
+
+[Data_5_4Actions]
+ActionsCount=1
+
+[Data_5_4Actions0]
+CommandURL=ames -a
+Type=COMMAND_URL
+
+[Data_5_4Conditions]
+Comment=
+ConditionsCount=0
+
+[Data_5_4Triggers]
+Comment=Simple_action
+TriggersCount=1
+
+[Data_5_4Triggers0]
+Key=Alt+Shift+P
+Type=SHORTCUT
+Uuid={dce4ddcf-7ae1-45eb-acce-030904223f06}
+
+[Data_5_5]
+Comment=screenshot the currently active window (requires xdotool)
+Enabled=true
+Name=Ames SS active window
+Type=SIMPLE_ACTION_DATA
+
+[Data_5_5Actions]
+ActionsCount=1
+
+[Data_5_5Actions0]
+CommandURL=ames -w
+Type=COMMAND_URL
+
+[Data_5_5Conditions]
+Comment=
+ConditionsCount=0
+
+[Data_5_5Triggers]
+Comment=Simple_action
+TriggersCount=1
+
+[Data_5_5Triggers0]
+Key=Alt+Shift+W
+Type=SHORTCUT
+Uuid={2dc50f60-b3c8-402f-a085-04fee5f9268a}
+
+[Data_5_6]
+Comment=exports the currently copied text in the clipboard to the sentence field (requires xsel).
+Enabled=true
+Name=Ames clipboard to sentence
+Type=SIMPLE_ACTION_DATA
+
+[Data_5_6Actions]
+ActionsCount=1
+
+[Data_5_6Actions0]
+CommandURL=ames -c
+Type=COMMAND_URL
+
+[Data_5_6Conditions]
+Comment=
+ConditionsCount=0
+
+[Data_5_6Triggers]
+Comment=Simple_action
+TriggersCount=1
+
+[Data_5_6Triggers0]
+Key=Alt+Shift+C
+Type=SHORTCUT
+Uuid={ce27339f-7d00-4cf5-898c-7405598d147a}
 
 [DirSelect Dialog]
 DirSelectDialog Size[$d]
 History Items[$d]
 
 [General]
+AccentColor[$d]
 AllowKDEAppsToRememberWindowPositions[$d]
 BrowserApplication[$d]
 ColorScheme[$d]
+ColorSchemeHash[$d]
+LastUsedCustomAccentColor[$d]
 Name[$d]
 TerminalApplication[$d]
 TerminalService[$d]
-UseSystemBell[$d]
+XftAntialias[$d]
 XftHintStyle[$d]
 XftSubPixel[$d]
 fixed[$d]
@@ -2092,7 +2183,6 @@ menuFont[$d]
 shadeSortColumn[$d]
 smallestReadableFont[$d]
 toolBarFont[$d]
-widgetStyle[$d]
 
 [Gestures]
 Disabled=true
@@ -2131,6 +2221,7 @@ Show Speedbar[$d]
 Show hidden files[$d]
 Sort by[$d]
 Sort directories first[$d]
+Sort hidden files last[$d]
 Sort reversed[$d]
 Speedbar Width[$d]
 View Style[$d]
@@ -2145,6 +2236,32 @@ Version=2
 
 [PreviewSettings]
 MaximumRemoteSize[$d]
+
+[Shortcuts]
+AboutApp[$d]
+AboutKDE[$d]
+Clear[$d]
+ConfigureNotifications[$d]
+ConfigureToolbars[$d]
+Donate[$d]
+EditBookmarks[$d]
+FitToHeight[$d]
+FitToPage[$d]
+FitToWidth[$d]
+Goto[$d]
+GotoPage[$d]
+Mail[$d]
+OpenRecent[$d]
+PrintPreview[$d]
+ReportBug[$d]
+Revert[$d]
+SaveOptions[$d]
+ShowStatusbar[$d]
+ShowToolbar[$d]
+Spelling[$d]
+SwitchApplicationLanguage[$d]
+TipofDay[$d]
+Zoom[$d]
 
 [Toolbar style]
 ToolButtonStyle[$d]

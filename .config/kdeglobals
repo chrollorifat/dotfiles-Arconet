@@ -3,166 +3,129 @@ update_info=filepicker.upd:filepicker-remove-old-previews-entry,fonts_global.upd
 
 [ColorEffects:Disabled]
 ChangeSelectionColor=
-Color=112,111,110
+Color=56,56,56
 ColorAmount=0
 ColorEffect=0
 ContrastAmount=0.65
 ContrastEffect=1
 Enable=
 IntensityAmount=0.1
-IntensityEffect=0
+IntensityEffect=2
 
 [ColorEffects:Inactive]
 ChangeSelectionColor=true
 Color=112,111,110
-ColorAmount=0.025
+ColorAmount=0.025000000000000001
 ColorEffect=2
-ContrastAmount=0.1
+ContrastAmount=0.10000000000000001
 ContrastEffect=2
-Enable=true
+Enable=false
 IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=49,51,56
-BackgroundNormal=68,69,75
-DecorationFocus=86,87,245
-DecorationHover=86,87,245
-ForegroundActive=255,128,224
-ForegroundInactive=153,153,153
-ForegroundLink=66,133,244
-ForegroundNegative=191,3,3
-ForegroundNeutral=176,128,0
-ForegroundNormal=234,234,234
-ForegroundPositive=0,110,40
-ForegroundVisited=224,64,251
+BackgroundAlternate=5,154,138
+BackgroundNormal=18,21,31
+DecorationFocus=0,211,184
+DecorationHover=0,211,184
+ForegroundActive=0,211,184
+ForegroundInactive=254,254,254
+ForegroundLink=0,211,184
+ForegroundNegative=255,83,112
+ForegroundNeutral=247,140,108
+ForegroundNormal=191,195,196
+ForegroundPositive=195,232,141
+ForegroundVisited=82,148,226
 
 [Colors:Complementary]
-BackgroundAlternate=54,57,62
-BackgroundNormal=33,35,41
-DecorationFocus=66,133,244
-DecorationHover=89,151,244
-ForegroundActive=255,128,224
-ForegroundInactive=153,153,153
-ForegroundLink=66,133,244
-ForegroundNegative=191,3,3
-ForegroundNeutral=176,128,0
-ForegroundNormal=234,234,234
-ForegroundPositive=0,110,40
-ForegroundVisited=224,64,251
-
-[Colors:Header]
-BackgroundAlternate=54,56,62
-BackgroundNormal=49,49,58
-DecorationFocus=86,87,245
-DecorationHover=86,87,245
-ForegroundActive=255,128,224
-ForegroundInactive=153,153,153
-ForegroundLink=66,133,244
-ForegroundNegative=191,3,3
-ForegroundNeutral=176,128,0
-ForegroundNormal=234,234,234
-ForegroundPositive=0,110,40
-ForegroundVisited=224,64,251
-
-[Colors:Header][Inactive]
-BackgroundAlternate=54,56,62
-BackgroundNormal=49,49,58
-DecorationFocus=86,87,245
-DecorationHover=86,87,245
-ForegroundActive=255,128,224,150
-ForegroundInactive=153,153,153
-ForegroundLink=66,133,244
-ForegroundNegative=191,3,3
-ForegroundNeutral=176,128,0
-ForegroundNormal=234,234,234,150
-ForegroundPositive=0,110,40
-ForegroundVisited=224,64,251
+DecorationFocus=0,211,184
+DecorationHover=0,211,184
+ForegroundActive=0,211,184
+ForegroundLink=0,211,184
 
 [Colors:Selection]
-BackgroundAlternate=82,148,226
-BackgroundNormal=86,87,245
-DecorationFocus=86,87,245
-DecorationHover=86,87,245
-ForegroundActive=255,128,224
-ForegroundInactive=142,203,233
-ForegroundLink=66,133,244
-ForegroundNegative=156,14,14
-ForegroundNeutral=255,221,0
+BackgroundAlternate=5,154,138
+BackgroundNormal=5,154,138
+DecorationFocus=0,211,184
+DecorationHover=0,211,184
+ForegroundActive=0,211,184
+ForegroundInactive=255,255,255
+ForegroundLink=0,211,184
+ForegroundNegative=255,83,112
+ForegroundNeutral=247,140,108
 ForegroundNormal=255,255,255
-ForegroundPositive=128,255,128
-ForegroundVisited=224,64,251
+ForegroundPositive=195,232,141
+ForegroundVisited=189,195,199
 
 [Colors:Tooltip]
-BackgroundAlternate=54,57,62
-BackgroundNormal=33,35,41
-DecorationFocus=86,87,245
-DecorationHover=86,87,245
-ForegroundActive=255,128,224
-ForegroundInactive=153,153,153
-ForegroundLink=66,133,244
-ForegroundNegative=191,3,3
-ForegroundNeutral=176,128,0
-ForegroundNormal=221,221,221
-ForegroundPositive=0,110,40
-ForegroundVisited=224,64,251
+BackgroundAlternate=47,52,63
+BackgroundNormal=53,57,69
+DecorationFocus=0,211,184
+DecorationHover=0,211,184
+ForegroundActive=0,211,184
+ForegroundInactive=254,254,254
+ForegroundLink=0,211,184
+ForegroundNegative=255,83,112
+ForegroundNeutral=247,140,108
+ForegroundNormal=211,218,227
+ForegroundPositive=195,232,141
+ForegroundVisited=82,148,226
 
 [Colors:View]
-BackgroundAlternate=54,56,62
-BackgroundNormal=49,49,58
-DecorationFocus=86,87,245
-DecorationHover=86,87,245
-ForegroundActive=255,128,224
-ForegroundInactive=153,153,153
-ForegroundLink=66,133,244
-ForegroundNegative=191,3,3
-ForegroundNeutral=176,128,0
-ForegroundNormal=234,234,234
-ForegroundPositive=0,110,40
-ForegroundVisited=224,64,251
+BackgroundAlternate=20,26,33
+BackgroundNormal=19,21,32
+DecorationFocus=0,211,184
+DecorationHover=0,211,184
+ForegroundActive=0,211,184
+ForegroundInactive=254,254,254
+ForegroundLink=0,211,184
+ForegroundNegative=255,83,112
+ForegroundNeutral=247,140,108
+ForegroundNormal=191,195,196
+ForegroundPositive=195,232,141
+ForegroundVisited=124,183,255
 
 [Colors:Window]
-BackgroundAlternate=54,56,62
-BackgroundNormal=49,49,58
-DecorationFocus=86,87,245
-DecorationHover=86,87,245
-ForegroundActive=255,128,224
-ForegroundInactive=153,153,153
-ForegroundLink=66,133,244
-ForegroundNegative=191,3,3
-ForegroundNeutral=176,128,0
-ForegroundNormal=234,234,234
-ForegroundPositive=0,110,40
-ForegroundVisited=224,64,251
+BackgroundAlternate=47,52,63
+BackgroundNormal=15,17,26
+DecorationFocus=0,211,184
+DecorationHover=0,211,184
+ForegroundActive=0,211,184
+ForegroundInactive=254,254,254
+ForegroundLink=0,211,184
+ForegroundNegative=255,83,112
+ForegroundNeutral=247,140,108
+ForegroundNormal=191,195,196
+ForegroundPositive=195,232,141
+ForegroundVisited=0,169,165
 
 [DirSelect Dialog]
-DirSelectDialog Size=1312,598
-History Items[$e]=file:$HOME/Downloads/Kvantum Themes/Polarnight-dark,file:$HOME/Videos,file:$HOME/Downloads/Kvantum Themes/Nordic,file:$HOME,file:$HOME/Downloads/Kvantum Themes/Kde-Story-Dark-Kvantum,file:$HOME/Downloads/Kvantum Themes/WhiteSur,file:$HOME/Downloads/Kvantum Themes/WhiteSur-dark,file:$HOME/Downloads/Kvantum Themes/Kde-Story-Dark-Kvantum,file:$HOME/Downloads/Kvantum Themes/Dracula,file:$HOME/Downloads/Kvantum Themes/Win11OS-dark,file:$HOME/Downloads/Kvantum Themes/Arch-all-themes/Arch-light,file:$HOME/Downloads/Kvantum Themes/Arch-all-themes/Arch-semi-solid,file:$HOME/Downloads/Kvantum Themes/Arch-all-themes/Arch-solid,file:$HOME/Downloads/Kvantum Themes/Arch-all-themes/Arch-solid-toolbar,file:$HOME/Downloads/Kvantum Themes/Arch-all-themes/Arch-solid-smooth,file:$HOME/Downloads/Kvantum Themes/Arch-all-themes/Arch-transparent-toolbar,file:$HOME/Downloads/Kvantum Themes/com.github.yeyushengfan258.WinSur-dark/contents,file:$HOME/Downloads/Kvantum Themes/com.github.yeyushengfan258.WinSur-dark/contents/previews,file:$HOME/Downloads/Kvantum Themes/com.github.yeyushengfan258.WinSur-dark/contents/splash/images,file:$HOME/Downloads/Kvantum Themes/Fluent-Dark/Fluent-Dark,file:$HOME/Downloads/Kvantum Themes/MoeDark,file:$HOME/Downloads/Kvantum Themes/Monterey,file:$HOME/Downloads/Themes/Sweet,file:$HOME/Downloads/Themes/Fluent-Dark/Fluent-Dark,file:$HOME/Downloads/Themes/Layan/Layan-solid,file:$HOME/Downloads/Themes/Layan/Layan,file:$HOME/Downloads/Themes/Sweet-Mars-transparent-toolbar,file:$HOME/Downloads/Themes/Sweet-transparent-toolbar,file:$HOME/.themes/Qogir-dark,file:$HOME/.themes/Juno-v40,file:$HOME/.icons/Sweet-cursors/cursors,file:$HOME/.themes/Sweet-Dark-v40,file:///usr/local/share/arcolinux,file:$HOME/Downloads/Edna,file:$HOME/Downloads/Edna,file:///run/media/rifarch/New Volume/Anime Wallpaper
+DirSelectDialog Size=915,587
+History Items[$e]=file:$HOME/Downloads/Kvantum Themes/Vimix/VimixRuby,file:$HOME/Downloads/Kvantum Themes/Vimix/VimixDoder,file:$HOME/Downloads/Kvantum Themes/Vimix/VimixBeryl,file:$HOME/Downloads/Kvantum Themes/Vimix/VimixAmethyst,file:$HOME/Downloads/Kvantum Themes/Vimix/Vimix,file:$HOME/Downloads/Kvantum Themes/Utterly-Nord,file:$HOME/Downloads/Kvantum Themes/Qogir/Qogir-ubuntu-dark-solid,file:$HOME/Downloads/Kvantum Themes/Qogir/Qogir-ubuntu,file:$HOME/Downloads/Kvantum Themes/Qogir/Qogir-ubuntu-dark,file:$HOME/Downloads/Kvantum Themes/Qogir/Qogir-manjaro-dark-solid,file:$HOME/Downloads/Kvantum Themes/Qogir/Qogir-manjaro-dark,file:$HOME/Downloads/Kvantum Themes/Qogir/Qogir-manjaro,file:$HOME/Downloads/Kvantum Themes/Qogir/Qogir-dark-solid,file:$HOME/Downloads/Kvantum Themes/Qogir/Qogir-dark,file:$HOME/Downloads/Kvantum Themes/Qogir/Qogir,file:$HOME/Downloads/Kvantum Themes/Otto,file:$HOME/Downloads/Kvantum Themes/MoeDark,file:$HOME/Downloads/Kvantum Themes/MateriaBreath_Kvantum/MateriaBreathLight,file:$HOME/Downloads/Kvantum Themes/MateriaBreath_Kvantum/MateriaBreathDark,file:$HOME/Downloads/Kvantum Themes/MateriaBreath_Kvantum/MateriaBreath,file:$HOME/Downloads/Kvantum Themes/KvNitruxDark,file:$HOME/Downloads/Kvantum Themes/Kvantum-materia-themes/MateriaLight,file:$HOME/Downloads/Kvantum Themes/Kvantum-materia-themes/MateriaDark,file:$HOME/Downloads/Kvantum Themes/Kvantum-materia-themes/Materia,file:$HOME/Downloads/Kvantum Themes/Kvantum/ProfLight,file:$HOME/Downloads/Kvantum Themes/Kvantum/ProfDarker,file:$HOME/Downloads/Kvantum Themes/Kvantum,file:$HOME/Downloads/Kvantum Themes/Kvantum/ProfDark,file:$HOME/Downloads/Kvantum Themes/Dracula-purple-solid,file:$HOME/Downloads/Kvantum Themes/Dracula,file:$HOME/Downloads/Kvantum Themes/Carl,file:$HOME/Downloads/Kvantum Themes/Aether-kv,file:$HOME/Downloads/Kvantum Themes/Aesthetic-Night,file:$HOME/Downloads/Kvantum Themes/adapta-kvantum/AdaptaNokto,file:$HOME/Downloads/Kvantum Themes/adapta-kvantum/Adapta,file:$HOME/Downloads/Kvantum Themes,file:$HOME/Documents/Japanese Books,file:$HOME/Documents/Japanese Books,file:///opt/xdman/chrome-extension,file:$HOME/Downloads/Compressed/xdman_gtk-8.0.29-1-x86_64.pkg/opt/xdman/chrome-extension,file:$HOME/Downloads/Kvantum Themes/Arch-all-themes/Arch-solid-toolbar,file:$HOME/Downloads/Kvantum Themes/Arch-all-themes/Arch-semi-solid,file:$HOME/Downloads/Kvantum Themes/Arch-all-themes/Arch-solid,file:$HOME/Downloads/Kvantum Themes/com.github.yeyushengfan258.WinSur-dark,file:$HOME/Downloads/Kvantum Themes/com.github.yeyushengfan258.WinSur-dark/contents,file:$HOME/Downloads/Kvantum Themes/com.github.yeyushengfan258.WinSur-dark/contents/splash,file:$HOME/Downloads/Kvantum Themes/Kde-Story-Dark-Kvantum,file:$HOME/Downloads/Kvantum Themes/WhiteSur-dark,file:$HOME/Downloads/Kvantum Themes/Win11OS-dark,file:$HOME/Downloads/Kvantum Themes/virtual-desktop-bar/plugin
 
 [General]
-AllowKDEAppsToRememberWindowPositions=false
-BrowserApplication=chromium.desktop
-Name[en_GB]=Breeze Dark
-Name=Breeze Dark
-TerminalApplication=kitty
-TerminalService=kitty.desktop
-UseSystemBell=true
+AccentColor=0,211,184
+BrowserApplication=google-chrome.desktop
+ColorSchemeHash=4818284d06ec5909010c0bf8d676fd40b58b6704
+LastUsedCustomAccentColor=0,211,184
+Name=Breeze Light
+TerminalApplication=alacritty
+TerminalService=Alacritty.desktop
 XftHintStyle=hintslight
 XftSubPixel=rgb
-fixed=JetBrainsMono Nerd Font,10,-1,5,50,0,0,0,0,0
-font=JetBrainsMono Nerd Font,11,-1,5,50,0,0,0,0,0
-menuFont=JetBrainsMono Nerd Font,10,-1,5,50,0,0,0,0,0
+fixed=Noto Sans CJK JP Light,9,-1,5,25,0,0,0,0,0,Regular
+font=Noto Sans CJK JP,10,-1,5,50,0,0,0,0,0
+menuFont=Noto Sans CJK JP,12,-1,5,50,0,0,0,0,0
 shadeSortColumn=true
-smallestReadableFont=JetBrainsMono Nerd Font,8,-1,5,50,0,0,0,0,0
-toolBarFont=JetBrainsMono Nerd Font,10,-1,5,50,0,0,0,0,0
-widgetStyle=Breeze
+smallestReadableFont=Noto Sans CJK JP,10,-1,5,50,0,0,0,0,0
+toolBarFont=Noto Sans CJK JP,12,-1,5,50,0,0,0,0,0
 
 [Icons]
-Theme=Tela-circle
+Theme=BeautySolar
 
 [KDE]
 ColorScheme=Breeze
-LookAndFeelPackage=com.github.vinceliuice.Layan
+LookAndFeelPackage=Mondrian-Dark
 ShowDeleteCommand=true
 ShowIconsInMenuItems=true
 ShowIconsOnPushButtons=true
@@ -183,9 +146,10 @@ Show Inline Previews=true
 Show Preview=false
 Show Speedbar=true
 Show hidden files=true
-Sort by=Name
+Sort by=Date
 Sort directories first=true
-Sort reversed=false
+Sort hidden files last=false
+Sort reversed=true
 Speedbar Width=167
 View Style=Simple
 
@@ -195,14 +159,41 @@ Dialog Size=600,480
 [PreviewSettings]
 MaximumRemoteSize=0
 
+[Shortcuts]
+AboutApp=
+AboutKDE=
+Clear=
+ConfigureNotifications=
+ConfigureToolbars=
+Donate=
+EditBookmarks=
+FitToHeight=
+FitToPage=
+FitToWidth=
+Goto=
+GotoPage=
+Mail=
+OpenRecent=
+PrintPreview=
+ReportBug=
+Revert=
+SaveOptions=
+ShowStatusbar=
+ShowToolbar=
+Spelling=
+SwitchApplicationLanguage=
+TipofDay=
+Zoom=
+
 [Toolbar style]
-ToolButtonStyleOtherToolbars=NoText
+ToolButtonStyle=TextBesideIcon
+ToolButtonStyleOtherToolbars=TextBesideIcon
 
 [WM]
-activeBackground=54,56,62
-activeBlend=59,62,68
-activeFont=JetBrainsMono Nerd Font,10,-1,5,50,0,0,0,0,0
-activeForeground=221,221,221
-inactiveBackground=62,65,71
-inactiveBlend=67,71,77
-inactiveForeground=120,120,120
+activeBackground=47,52,63
+activeBlend=47,52,63
+activeFont=Noto Sans CJK JP,12,-1,5,50,0,0,0,0,0
+activeForeground=211,218,227
+inactiveBackground=47,52,63
+inactiveBlend=47,52,63
+inactiveForeground=102,106,115
