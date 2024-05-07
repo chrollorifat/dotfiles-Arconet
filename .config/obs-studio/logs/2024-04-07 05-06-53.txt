@@ -1,0 +1,494 @@
+05:06:53.464: Platform: Wayland
+05:06:53.464: CPU Name: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+05:06:53.464: CPU Speed: 3100.000MHz
+05:06:53.464: Physical Cores: 2, Logical Cores: 4
+05:06:53.464: Physical Memory: 3728MB Total, 1474MB Free
+05:06:53.464: Kernel Version: Linux 6.8.2-arch2-1
+05:06:53.464: Distribution: ArcoLinux Unknown
+05:06:53.464: Desktop Environment: Hyprland (Hyprland)
+05:06:53.464: Session Type: wayland
+05:06:53.467: Qt Version: 6.6.3 (runtime), 6.6.3 (compiled)
+05:06:53.467: Portable mode: false
+05:06:53.531: OBS 30.1.1-1 (linux)
+05:06:53.531: ---------------------------------
+05:06:53.531: ---------------------------------
+05:06:53.531: audio settings reset:
+05:06:53.531: 	samples per sec: 48000
+05:06:53.531: 	speakers:        2
+05:06:53.531: 	max buffering:   960 milliseconds
+05:06:53.531: 	buffering type:  dynamically increasing
+05:06:53.533: ---------------------------------
+05:06:53.533: Initializing OpenGL...
+05:06:53.533: Using EGL/Wayland
+05:06:53.582: Initialized EGL 1.5
+05:06:53.600: Loading up OpenGL on adapter Intel Mesa Intel(R) HD Graphics 620 (KBL GT2)
+05:06:53.600: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 24.0.4-arch1.2, shading language 4.60
+05:06:53.642: ---------------------------------
+05:06:53.642: video settings reset:
+05:06:53.642: 	base resolution:   1366x768
+05:06:53.642: 	output resolution: 852x480
+05:06:53.642: 	downscale filter:  Bicubic
+05:06:53.642: 	fps:               30/1
+05:06:53.642: 	format:            NV12
+05:06:53.642: 	YUV mode:          Rec. 709/Partial
+05:06:53.642: NV12 texture support enabled
+05:06:53.642: P010 texture support not available
+05:06:53.648: Audio monitoring device:
+05:06:53.648: 	name: Default
+05:06:53.648: 	id: default
+05:06:53.648: ---------------------------------
+05:06:53.657: Failed to load 'en-US' text for module: 'decklink-captions.so'
+05:06:53.667: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+05:06:53.676: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+05:06:53.676: Failed to initialize module 'decklink.so'
+05:06:53.857: [pipewire] Available captures:
+05:06:53.857: [pipewire]     - Desktop capture
+05:06:53.857: [pipewire]     - Window capture
+05:06:53.882: v4l2loopback not installed, virtual camera disabled
+05:06:53.948: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+05:06:53.948: FFmpeg VAAPI H264 encoding not supported
+05:06:53.948: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+05:06:53.948: FFmpeg VAAPI AV1 encoding not supported
+05:06:53.948: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+05:06:53.948: FFmpeg VAAPI HEVC encoding not supported
+05:06:54.071: ---------------------------------
+05:06:54.071:   Loaded Modules:
+05:06:54.071:     text-freetype2.so
+05:06:54.071:     rtmp-services.so
+05:06:54.071:     obs-x264.so
+05:06:54.071:     obs-webrtc.so
+05:06:54.071:     obs-vst.so
+05:06:54.071:     obs-transitions.so
+05:06:54.071:     obs-qsv11.so
+05:06:54.071:     obs-outputs.so
+05:06:54.071:     obs-libfdk.so
+05:06:54.071:     obs-filters.so
+05:06:54.071:     obs-ffmpeg.so
+05:06:54.071:     linux-v4l2.so
+05:06:54.071:     linux-pulseaudio.so
+05:06:54.071:     linux-pipewire.so
+05:06:54.071:     linux-jack.so
+05:06:54.071:     linux-capture.so
+05:06:54.071:     linux-alsa.so
+05:06:54.071:     image-source.so
+05:06:54.071:     frontend-tools.so
+05:06:54.071:     decklink-output-ui.so
+05:06:54.071:     decklink-captions.so
+05:06:54.071: ---------------------------------
+05:06:54.071: ==== Startup complete ===============================================
+05:06:54.135: All scene data cleared
+05:06:54.135: ------------------------------------------------
+05:06:54.142: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.4) 15.0.0'
+05:06:54.142: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+05:06:54.142: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor' (default)
+05:06:54.142: [Loaded global audio device]: 'Desktop Audio'
+05:06:54.144: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.4) 15.0.0'
+05:06:54.144: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+05:06:54.145: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo' (default)
+05:06:54.145: [Loaded global audio device]: 'Mic/Aux'
+05:06:54.145: Source ID 'xshm_input' not found
+05:06:54.146: Failed to create source 'Screen Capture (XSHM)'!
+05:06:54.146: PipeWire initialized
+05:06:54.149: Switched to scene 'Scene'
+05:06:54.149: ------------------------------------------------
+05:06:54.149: Loaded scenes:
+05:06:54.149: - scene 'Scene':
+05:06:54.149:     - source: 'Screen Capture (XSHM)' (xshm_input)
+05:06:54.149:     - source: 'Screen Capture (PipeWire)' (pipewire-desktop-capture-source)
+05:06:54.149: ------------------------------------------------
+05:06:54.203: [pipewire] Screencast session created
+05:06:54.769: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+05:06:54.769: 
+05:06:54.833: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+05:06:54.833: 
+05:06:56.936: [pipewire] Asking for desktop
+05:06:56.940: [pipewire] desktop selected, setting up screencast
+05:06:56.954: [pipewire] Server version: 1.0.4
+05:06:56.955: [pipewire] Library version: 1.0.4
+05:06:56.955: [pipewire] Header version: 1.0.4
+05:06:56.955: [pipewire] Created stream 0x62c03b022e50
+05:06:56.955: [pipewire] Stream 0x62c03b022e50 state: "connecting" (error: none)
+05:06:56.955: [pipewire] Playing stream 0x62c03b022e50
+05:06:56.958: [pipewire] Stream 0x62c03b022e50 state: "paused" (error: none)
+05:06:56.973: [pipewire] Negotiated format:
+05:06:56.973: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+05:06:56.973: [pipewire]     Modifier: 0x0
+05:06:56.973: [pipewire]     Size: 1366x768
+05:06:56.973: [pipewire]     Framerate: 0/1
+05:06:56.975: [pipewire] Negotiated format:
+05:06:56.975: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+05:06:56.975: [pipewire]     Modifier: 0x100000000000004
+05:06:56.975: [pipewire]     Size: 1366x768
+05:06:56.975: [pipewire]     Framerate: 0/1
+05:06:56.986: [pipewire] Stream 0x62c03b022e50 state: "streaming" (error: none)
+05:06:56.996: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+05:06:56.996: [pipewire] Renegotiating stream
+05:06:56.997: [pipewire] Negotiated format:
+05:06:56.997: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+05:06:56.997: [pipewire]     Modifier: 0x100000000000004
+05:06:56.997: [pipewire]     Size: 1366x768
+05:06:56.997: [pipewire]     Framerate: 0/1
+05:06:57.002: [pipewire] Negotiated format:
+05:06:57.002: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+05:06:57.002: [pipewire]     Modifier: 0x100000000000002
+05:06:57.002: [pipewire]     Size: 1366x768
+05:06:57.002: [pipewire]     Framerate: 0/1
+05:07:20.097:   OpenType support missing for "Open Sans", script 11
+05:07:20.103:   OpenType support missing for "Arial", script 11
+05:07:20.140:   OpenType support missing for "Droid Sans", script 11
+05:07:20.266:   OpenType support missing for "Open Sans", script 12
+05:07:20.274:   OpenType support missing for "Arial", script 12
+05:07:20.308:   OpenType support missing for "Open Sans", script 16
+05:07:20.322:   OpenType support missing for "Arial", script 16
+05:07:20.325:   OpenType support missing for "Droid Sans", script 16
+05:07:20.325:   OpenType support missing for "Noto Sans", script 16
+05:07:20.327:   OpenType support missing for "DejaVu Sans", script 16
+05:07:20.329:   OpenType support missing for "Verdana", script 16
+05:07:20.339:   OpenType support missing for "Nimbus Sans", script 16
+05:07:20.348:   OpenType support missing for "URW Gothic", script 16
+05:07:20.351:   OpenType support missing for "Nimbus Sans Narrow", script 16
+05:07:20.353:   OpenType support missing for "CaskaydiaCove Nerd Font Mono", script 16
+05:07:20.387:   OpenType support missing for "CaskaydiaCove Nerd Font", script 16
+05:07:20.410:   OpenType support missing for "Font Awesome 6 Brands", script 16
+05:07:20.437:   OpenType support missing for "Font Awesome 6 Free", script 16
+05:07:20.449:   OpenType support missing for "Font Awesome v4 Compatibility", script 16
+05:07:20.476:   OpenType support missing for "Zekton", script 16
+05:07:20.485:   OpenType support missing for "IPAexGothic", script 16
+05:07:20.529:   OpenType support missing for "IPAexMincho", script 16
+05:07:20.567:   OpenType support missing for "FontAwesome", script 16
+05:07:20.605:   OpenType support missing for "FiraMono Nerd Font", script 16
+05:07:20.662:   OpenType support missing for "FiraMono Nerd Font Mono", script 16
+05:07:20.699:   OpenType support missing for "FiraMono Nerd Font Propo", script 16
+05:07:20.734:   OpenType support missing for "Source Sans 3", script 16
+05:07:20.761:   OpenType support missing for "SourceSans3VF", script 16
+05:07:20.787:   OpenType support missing for "Noto Nastaliq Urdu", script 16
+05:07:20.802:   OpenType support missing for "Source Sans Pro", script 16
+05:07:20.822:   OpenType support missing for "Source Sans Variable", script 16
+05:07:20.860:   OpenType support missing for "Hack", script 16
+05:07:20.883:   OpenType support missing for "Hack Nerd Font", script 16
+05:07:20.923:   OpenType support missing for "Hack Nerd Font Mono", script 16
+05:07:20.967:   OpenType support missing for "Hack Nerd Font Propo", script 16
+05:07:20.986:   OpenType support missing for "Noto Sans Warang Citi", script 16
+05:07:21.007:   OpenType support missing for "Xirod", script 16
+05:07:21.022:   OpenType support missing for "Noto Sans Adlam", script 16
+05:07:21.054:   OpenType support missing for "Noto Sans Adlam Unjoined", script 16
+05:07:21.093:   OpenType support missing for "Noto Sans Duployan", script 16
+05:07:21.114:   OpenType support missing for "Noto Sans Mongolian", script 16
+05:07:21.132:   OpenType support missing for "Noto Sans Syriac Eastern", script 16
+05:07:21.153:   OpenType support missing for "Noto Sans Thaana", script 16
+05:07:21.177:   OpenType support missing for "Inconsolata", script 16
+05:07:21.197:   OpenType support missing for "Ligconsolata", script 16
+05:07:21.221:   OpenType support missing for "Roboto Mono", script 16
+05:07:21.257:   OpenType support missing for "Maple Mono", script 16
+05:07:21.275:   OpenType support missing for "Noto Sans Syriac", script 16
+05:07:21.293:   OpenType support missing for "Noto Sans Syriac Western", script 16
+05:07:21.310:   OpenType support missing for "Times New Roman", script 16
+05:07:21.337:   OpenType support missing for "Courier New", script 16
+05:07:21.362:   OpenType support missing for "Noto Sans Math", script 16
+05:07:21.388:   OpenType support missing for "Larabiefont", script 16
+05:07:21.416:   OpenType support missing for "DejaVu Math TeX Gyre", script 16
+05:07:21.443:   OpenType support missing for "DejaVu Sans Mono", script 16
+05:07:21.459:   OpenType support missing for "DejaVu Serif", script 16
+05:07:21.478:   OpenType support missing for "JetBrains Mono", script 16
+05:07:21.487:   OpenType support missing for "JetBrains Mono NL", script 16
+05:07:21.509:   OpenType support missing for "JetBrainsMonoNL Nerd Font", script 16
+05:07:21.529:   OpenType support missing for "JetBrainsMonoNL Nerd Font Mono", script 16
+05:07:21.559:   OpenType support missing for "JetBrainsMonoNL Nerd Font Propo", script 16
+05:07:21.566:   OpenType support missing for "JetBrainsMono Nerd Font", script 16
+05:07:21.593:   OpenType support missing for "JetBrainsMono Nerd Font Mono", script 16
+05:07:21.617:   OpenType support missing for "JetBrainsMono Nerd Font Propo", script 16
+05:07:21.646:   OpenType support missing for "Cartograph CF", script 16
+05:07:21.684:   OpenType support missing for "Noto Serif Tangut", script 16
+05:07:21.702:   OpenType support missing for "Roboto", script 16
+05:07:21.728:   OpenType support missing for "Roboto Condensed", script 16
+05:07:21.757:   OpenType support missing for "Noto Kufi Arabic", script 16
+05:07:21.773:   OpenType support missing for "Noto Sans Myanmar", script 16
+05:07:21.802:   OpenType support missing for "Noto Sans Gujarati", script 16
+05:07:21.833:   OpenType support missing for "Noto Sans Gujarati UI", script 16
+05:07:21.848:   OpenType support missing for "Noto Serif Gujarati", script 16
+05:07:21.871:   OpenType support missing for "Noto Serif Myanmar", script 16
+05:07:21.891:   OpenType support missing for "Noto Sans Malayalam", script 16
+05:07:21.911:   OpenType support missing for "Noto Sans Malayalam UI", script 16
+05:07:21.926:   OpenType support missing for "Noto Serif Malayalam", script 16
+05:07:21.962:   OpenType support missing for "Noto Serif Tibetan", script 16
+05:07:21.985:   OpenType support missing for "Noto Sans Ethiopic", script 16
+05:07:22.005:   OpenType support missing for "Noto Sans Hanifi Rohingya", script 16
+05:07:22.015:   OpenType support missing for "Noto Sans Lisu", script 16
+05:07:22.033:   OpenType support missing for "Noto Serif Ethiopic", script 16
+05:07:22.053:   OpenType support missing for "Noto Sans Sora Sompeng", script 16
+05:07:22.079:   OpenType support missing for "Liberation Mono", script 16
+05:07:22.115:   OpenType support missing for "Liberation Sans", script 16
+05:07:22.128:   OpenType support missing for "Liberation Serif", script 16
+05:07:22.140:   OpenType support missing for "Arial Black", script 16
+05:07:22.166:   OpenType support missing for "Source Code Pro", script 16
+05:07:22.197:   OpenType support missing for "Hasklug Nerd Font", script 16
+05:07:22.231:   OpenType support missing for "Hasklug Nerd Font Mono", script 16
+05:07:22.276:   OpenType support missing for "Hasklug Nerd Font Propo", script 16
+05:07:22.306:   OpenType support missing for "SauceCodePro Nerd Font Mono", script 16
+05:07:22.336:   OpenType support missing for "SauceCodePro Nerd Font", script 16
+05:07:22.382:   OpenType support missing for "MesloLGS NF", script 16
+05:07:22.398:   OpenType support missing for "Noto Naskh Arabic", script 16
+05:07:22.401:   OpenType support missing for "Noto Sans Mono", script 16
+05:07:22.422:   OpenType support missing for "Noto Naskh Arabic UI", script 16
+05:07:22.441:   OpenType support missing for "Noto Serif", script 16
+05:07:22.462:   OpenType support missing for "Noto Sans Arabic", script 16
+05:07:22.483:   OpenType support missing for "Noto Serif Display", script 16
+05:07:22.500:   OpenType support missing for "Noto Sans Armenian", script 16
+05:07:22.503:   OpenType support missing for "Noto Sans Symbols 2", script 16
+05:07:22.512:   OpenType support missing for "Noto Serif Armenian", script 16
+05:07:22.537:   OpenType support missing for "Noto Sans Newa", script 16
+05:07:22.555:   OpenType support missing for "Noto Serif Ahom", script 16
+05:07:22.581:   OpenType support missing for "Noto Serif Sinhala", script 16
+05:07:22.602:   OpenType support missing for "Noto Sans Lepcha", script 16
+05:07:22.622:   OpenType support missing for "Noto Sans Oriya", script 16
+05:07:22.642:   OpenType support missing for "Noto Sans Sharada", script 16
+05:07:22.664:   OpenType support missing for "Noto Sans Sinhala", script 16
+05:07:22.678:   OpenType support missing for "Noto Sans Sinhala UI", script 16
+05:07:22.698:   OpenType support missing for "Noto Sans Tifinagh", script 16
+05:07:22.707:   OpenType support missing for "Noto Sans Tifinagh APT", script 16
+05:07:22.713:   OpenType support missing for "Noto Sans Tifinagh Adrar", script 16
+05:07:22.721:   OpenType support missing for "Noto Sans Tifinagh Agraw Imazighen", script 16
+05:07:22.725:   OpenType support missing for "Noto Sans Tifinagh Ahaggar", script 16
+05:07:22.729:   OpenType support missing for "Noto Sans Tifinagh Air", script 16
+05:07:22.731:   OpenType support missing for "Noto Sans Tifinagh Azawagh", script 16
+05:07:22.735:   OpenType support missing for "Noto Sans Tifinagh Ghat", script 16
+05:07:22.737:   OpenType support missing for "Noto Sans Tifinagh Hawad", script 16
+05:07:22.743:   OpenType support missing for "Noto Sans Tifinagh Rhissa Ixa", script 16
+05:07:22.745:   OpenType support missing for "Noto Sans Tifinagh SIL", script 16
+05:07:22.749:   OpenType support missing for "Noto Sans Tifinagh Tawellemmet", script 16
+05:07:22.764:   OpenType support missing for "Noto Sans Zanabazar Square", script 16
+05:07:22.780:   OpenType support missing for "Noto Sans Balinese", script 16
+05:07:22.799:   OpenType support missing for "Noto Sans Caucasian Albanian", script 16
+05:07:22.804:   OpenType support missing for "Noto Sans Georgian", script 16
+05:07:22.822:   OpenType support missing for "Noto Sans Javanese", script 16
+05:07:22.829:   OpenType support missing for "Noto Sans Kaithi", script 16
+05:07:22.845:   OpenType support missing for "Noto Sans Kannada", script 16
+05:07:22.858:   OpenType support missing for "Noto Sans Kannada UI", script 16
+05:07:22.874:   OpenType support missing for "Noto Sans Khojki", script 16
+05:07:22.880:   OpenType support missing for "Noto Sans Manichaean", script 16
+05:07:22.885:   OpenType support missing for "Noto Sans Old Hungarian", script 16
+05:07:22.891:   OpenType support missing for "Noto Sans Siddham", script 16
+05:07:22.925:   OpenType support missing for "Noto Sans SignWriting", script 16
+05:07:22.947:   OpenType support missing for "Noto Sans Sundanese", script 16
+05:07:22.966:   OpenType support missing for "Noto Sans Takri", script 16
+05:07:22.987:   OpenType support missing for "Noto Sans Telugu", script 16
+05:07:23.007:   OpenType support missing for "Noto Sans Telugu UI", script 16
+05:07:23.025:   OpenType support missing for "Noto Serif Balinese", script 16
+05:07:23.042:   OpenType support missing for "Noto Serif Kannada", script 16
+05:07:23.059:   OpenType support missing for "Noto Serif Khojki", script 16
+05:07:23.085:   OpenType support missing for "Noto Serif Telugu", script 16
+05:07:23.124:   OpenType support missing for "Open Sans", script 20
+05:07:23.137:   OpenType support missing for "Arial", script 20
+05:07:32.197:   OpenType support missing for "Droid Sans", script 11
+05:07:32.302:   OpenType support missing for "Droid Sans", script 16
+05:07:32.302:   OpenType support missing for "Noto Sans", script 16
+05:07:32.302:   OpenType support missing for "DejaVu Sans", script 16
+05:07:32.304:   OpenType support missing for "Verdana", script 16
+05:07:32.306:   OpenType support missing for "Arial", script 16
+05:07:32.308:   OpenType support missing for "Nimbus Sans", script 16
+05:07:32.309:   OpenType support missing for "URW Gothic", script 16
+05:07:32.311:   OpenType support missing for "Nimbus Sans Narrow", script 16
+05:07:32.314:   OpenType support missing for "CaskaydiaCove Nerd Font Mono", script 16
+05:07:32.317:   OpenType support missing for "CaskaydiaCove Nerd Font", script 16
+05:07:32.319:   OpenType support missing for "Font Awesome 6 Brands", script 16
+05:07:32.321:   OpenType support missing for "Font Awesome 6 Free", script 16
+05:07:32.325:   OpenType support missing for "Font Awesome v4 Compatibility", script 16
+05:07:32.327:   OpenType support missing for "Zekton", script 16
+05:07:32.329:   OpenType support missing for "IPAexGothic", script 16
+05:07:32.331:   OpenType support missing for "IPAexMincho", script 16
+05:07:32.333:   OpenType support missing for "FontAwesome", script 16
+05:07:32.336:   OpenType support missing for "FiraMono Nerd Font", script 16
+05:07:32.339:   OpenType support missing for "FiraMono Nerd Font Mono", script 16
+05:07:32.341:   OpenType support missing for "FiraMono Nerd Font Propo", script 16
+05:07:32.342:   OpenType support missing for "Source Sans 3", script 16
+05:07:32.345:   OpenType support missing for "SourceSans3VF", script 16
+05:07:32.349:   OpenType support missing for "Noto Nastaliq Urdu", script 16
+05:07:32.351:   OpenType support missing for "Source Sans Pro", script 16
+05:07:32.354:   OpenType support missing for "Source Sans Variable", script 16
+05:07:32.359:   OpenType support missing for "Hack", script 16
+05:07:32.362:   OpenType support missing for "Hack Nerd Font", script 16
+05:07:32.365:   OpenType support missing for "Hack Nerd Font Mono", script 16
+05:07:32.368:   OpenType support missing for "Hack Nerd Font Propo", script 16
+05:07:32.370:   OpenType support missing for "Noto Sans Warang Citi", script 16
+05:07:32.372:   OpenType support missing for "Xirod", script 16
+05:07:32.375:   OpenType support missing for "Noto Sans Adlam", script 16
+05:07:32.376:   OpenType support missing for "Noto Sans Adlam Unjoined", script 16
+05:07:32.381:   OpenType support missing for "Noto Sans Duployan", script 16
+05:07:32.384:   OpenType support missing for "Noto Sans Mongolian", script 16
+05:07:32.387:   OpenType support missing for "Noto Sans Syriac Eastern", script 16
+05:07:32.392:   OpenType support missing for "Noto Sans Thaana", script 16
+05:07:32.393:   OpenType support missing for "Inconsolata", script 16
+05:07:32.397:   OpenType support missing for "Ligconsolata", script 16
+05:07:32.399:   OpenType support missing for "Roboto Mono", script 16
+05:07:32.402:   OpenType support missing for "Maple Mono", script 16
+05:07:32.405:   OpenType support missing for "Noto Sans Syriac", script 16
+05:07:32.407:   OpenType support missing for "Noto Sans Syriac Western", script 16
+05:07:32.409:   OpenType support missing for "Times New Roman", script 16
+05:07:32.412:   OpenType support missing for "Courier New", script 16
+05:07:32.414:   OpenType support missing for "Noto Sans Math", script 16
+05:07:32.417:   OpenType support missing for "Larabiefont", script 16
+05:07:32.419:   OpenType support missing for "DejaVu Math TeX Gyre", script 16
+05:07:32.422:   OpenType support missing for "DejaVu Sans Mono", script 16
+05:07:32.426:   OpenType support missing for "DejaVu Serif", script 16
+05:07:32.429:   OpenType support missing for "JetBrains Mono", script 16
+05:07:32.432:   OpenType support missing for "JetBrains Mono NL", script 16
+05:07:32.434:   OpenType support missing for "JetBrainsMonoNL Nerd Font", script 16
+05:07:32.438:   OpenType support missing for "JetBrainsMonoNL Nerd Font Mono", script 16
+05:07:32.439:   OpenType support missing for "JetBrainsMonoNL Nerd Font Propo", script 16
+05:07:32.441:   OpenType support missing for "JetBrainsMono Nerd Font", script 16
+05:07:32.443:   OpenType support missing for "JetBrainsMono Nerd Font Mono", script 16
+05:07:32.446:   OpenType support missing for "JetBrainsMono Nerd Font Propo", script 16
+05:07:32.449:   OpenType support missing for "Cartograph CF", script 16
+05:07:32.452:   OpenType support missing for "Noto Serif Tangut", script 16
+05:07:32.456:   OpenType support missing for "Roboto", script 16
+05:07:32.460:   OpenType support missing for "Roboto Condensed", script 16
+05:07:32.463:   OpenType support missing for "Noto Kufi Arabic", script 16
+05:07:32.467:   OpenType support missing for "Noto Sans Myanmar", script 16
+05:07:32.470:   OpenType support missing for "Noto Sans Gujarati", script 16
+05:07:32.473:   OpenType support missing for "Noto Sans Gujarati UI", script 16
+05:07:32.475:   OpenType support missing for "Noto Serif Gujarati", script 16
+05:07:32.478:   OpenType support missing for "Noto Serif Myanmar", script 16
+05:07:32.482:   OpenType support missing for "Noto Sans Malayalam", script 16
+05:07:32.485:   OpenType support missing for "Noto Sans Malayalam UI", script 16
+05:07:32.488:   OpenType support missing for "Noto Serif Malayalam", script 16
+05:07:32.493:   OpenType support missing for "Noto Serif Tibetan", script 16
+05:07:32.496:   OpenType support missing for "Noto Sans Ethiopic", script 16
+05:07:32.499:   OpenType support missing for "Noto Sans Hanifi Rohingya", script 16
+05:07:32.502:   OpenType support missing for "Noto Sans Lisu", script 16
+05:07:32.506:   OpenType support missing for "Noto Serif Ethiopic", script 16
+05:07:32.508:   OpenType support missing for "Noto Sans Sora Sompeng", script 16
+05:07:32.510:   OpenType support missing for "Liberation Mono", script 16
+05:07:32.513:   OpenType support missing for "Liberation Sans", script 16
+05:07:32.516:   OpenType support missing for "Liberation Serif", script 16
+05:07:32.518:   OpenType support missing for "Arial Black", script 16
+05:07:32.522:   OpenType support missing for "Source Code Pro", script 16
+05:07:32.526:   OpenType support missing for "Hasklug Nerd Font", script 16
+05:07:32.530:   OpenType support missing for "Hasklug Nerd Font Mono", script 16
+05:07:32.533:   OpenType support missing for "Hasklug Nerd Font Propo", script 16
+05:07:32.535:   OpenType support missing for "SauceCodePro Nerd Font Mono", script 16
+05:07:32.539:   OpenType support missing for "SauceCodePro Nerd Font", script 16
+05:07:32.541:   OpenType support missing for "MesloLGS NF", script 16
+05:07:32.544:   OpenType support missing for "Noto Naskh Arabic", script 16
+05:07:32.544:   OpenType support missing for "Noto Sans Mono", script 16
+05:07:32.547:   OpenType support missing for "Noto Naskh Arabic UI", script 16
+05:07:32.550:   OpenType support missing for "Noto Serif", script 16
+05:07:32.554:   OpenType support missing for "Noto Sans Arabic", script 16
+05:07:32.559:   OpenType support missing for "Noto Serif Display", script 16
+05:07:32.561:   OpenType support missing for "Noto Sans Armenian", script 16
+05:07:32.565:   OpenType support missing for "Noto Sans Symbols 2", script 16
+05:07:32.567:   OpenType support missing for "Noto Serif Armenian", script 16
+05:07:32.571:   OpenType support missing for "Noto Sans Newa", script 16
+05:07:32.573:   OpenType support missing for "Noto Serif Ahom", script 16
+05:07:32.575:   OpenType support missing for "Noto Serif Sinhala", script 16
+05:07:32.576:   OpenType support missing for "Noto Sans Lepcha", script 16
+05:07:32.579:   OpenType support missing for "Noto Sans Oriya", script 16
+05:07:32.582:   OpenType support missing for "Noto Sans Sharada", script 16
+05:07:32.584:   OpenType support missing for "Noto Sans Sinhala", script 16
+05:07:32.586:   OpenType support missing for "Noto Sans Sinhala UI", script 16
+05:07:32.590:   OpenType support missing for "Noto Sans Tifinagh", script 16
+05:07:32.593:   OpenType support missing for "Noto Sans Tifinagh APT", script 16
+05:07:32.596:   OpenType support missing for "Noto Sans Tifinagh Adrar", script 16
+05:07:32.598:   OpenType support missing for "Noto Sans Tifinagh Agraw Imazighen", script 16
+05:07:32.600:   OpenType support missing for "Noto Sans Tifinagh Ahaggar", script 16
+05:07:32.603:   OpenType support missing for "Noto Sans Tifinagh Air", script 16
+05:07:32.605:   OpenType support missing for "Noto Sans Tifinagh Azawagh", script 16
+05:07:32.607:   OpenType support missing for "Noto Sans Tifinagh Ghat", script 16
+05:07:32.608:   OpenType support missing for "Noto Sans Tifinagh Hawad", script 16
+05:07:32.610:   OpenType support missing for "Noto Sans Tifinagh Rhissa Ixa", script 16
+05:07:32.612:   OpenType support missing for "Noto Sans Tifinagh SIL", script 16
+05:07:32.616:   OpenType support missing for "Noto Sans Tifinagh Tawellemmet", script 16
+05:07:32.618:   OpenType support missing for "Noto Sans Zanabazar Square", script 16
+05:07:32.620:   OpenType support missing for "Noto Sans Balinese", script 16
+05:07:32.624:   OpenType support missing for "Noto Sans Caucasian Albanian", script 16
+05:07:32.626:   OpenType support missing for "Noto Sans Georgian", script 16
+05:07:32.628:   OpenType support missing for "Noto Sans Javanese", script 16
+05:07:32.631:   OpenType support missing for "Noto Sans Kaithi", script 16
+05:07:32.633:   OpenType support missing for "Noto Sans Kannada", script 16
+05:07:32.636:   OpenType support missing for "Noto Sans Kannada UI", script 16
+05:07:32.638:   OpenType support missing for "Noto Sans Khojki", script 16
+05:07:32.640:   OpenType support missing for "Noto Sans Manichaean", script 16
+05:07:32.642:   OpenType support missing for "Noto Sans Old Hungarian", script 16
+05:07:32.643:   OpenType support missing for "Noto Sans Siddham", script 16
+05:07:32.646:   OpenType support missing for "Noto Sans SignWriting", script 16
+05:07:32.649:   OpenType support missing for "Noto Sans Sundanese", script 16
+05:07:32.651:   OpenType support missing for "Noto Sans Takri", script 16
+05:07:32.653:   OpenType support missing for "Noto Sans Telugu", script 16
+05:07:32.658:   OpenType support missing for "Noto Sans Telugu UI", script 16
+05:07:32.660:   OpenType support missing for "Noto Serif Balinese", script 16
+05:07:32.663:   OpenType support missing for "Noto Serif Kannada", script 16
+05:07:32.665:   OpenType support missing for "Noto Serif Khojki", script 16
+05:07:32.668:   OpenType support missing for "Noto Serif Telugu", script 16
+05:07:59.224: Settings changed (general)
+05:07:59.224: ------------------------------------------------
+05:08:23.762: Settings changed (general)
+05:08:23.763: ------------------------------------------------
+05:08:48.676: ==== Shutting down ==================================================
+05:08:48.683: pulse-input: Stopped recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+05:08:48.683: pulse-input: Got 4578 packets with 5493600 frames
+05:08:48.684: pulse-input: Stopped recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+05:08:48.684: pulse-input: Got 4576 packets with 5491200 frames
+05:08:48.685: [pipewire] Stream 0x62c03b022e50 state: "paused" (error: none)
+05:08:48.685: [pipewire] Stream 0x62c03b022e50 state: "unconnected" (error: none)
+05:08:48.737: All scene data cleared
+05:08:48.738: ------------------------------------------------
+05:08:48.838: [Scripting] Total detached callbacks: 0
+05:08:48.839: Freeing OBS context data
+05:08:48.868: == Profiler Results =============================
+05:08:48.868: run_program_init: 784.449 ms
+05:08:48.868:  ┣OBSApp::AppInit: 6.984 ms
+05:08:48.868:  ┃ ┗OBSApp::InitLocale: 1.01 ms
+05:08:48.868:  ┗OBSApp::OBSInit: 731.999 ms
+05:08:48.868:    ┣obs_startup: 2.787 ms
+05:08:48.868:    ┗OBSBasic::OBSInit: 664.852 ms
+05:08:48.868:      ┣OBSBasic::InitBasicConfig: 0.122 ms
+05:08:48.868:      ┣OBSBasic::ResetAudio: 0.328 ms
+05:08:48.868:      ┣OBSBasic::ResetVideo: 115.992 ms
+05:08:48.868:      ┃ ┗obs_init_graphics: 109.99 ms
+05:08:48.868:      ┃   ┗shader compilation: 40.788 ms
+05:08:48.868:      ┣OBSBasic::InitOBSCallbacks: 0.005 ms
+05:08:48.868:      ┣OBSBasic::InitHotkeys: 0.038 ms
+05:08:48.868:      ┣obs_load_all_modules2: 422.939 ms
+05:08:48.868:      ┃ ┣obs_init_module(decklink-captions.so): 0 ms
+05:08:48.868:      ┃ ┣obs_init_module(decklink-output-ui.so): 0 ms
+05:08:48.868:      ┃ ┣obs_init_module(decklink.so): 0.137 ms
+05:08:48.868:      ┃ ┣obs_init_module(frontend-tools.so): 97.178 ms
+05:08:48.868:      ┃ ┣obs_init_module(image-source.so): 0.017 ms
+05:08:48.868:      ┃ ┣obs_init_module(linux-alsa.so): 0.001 ms
+05:08:48.868:      ┃ ┣obs_init_module(linux-capture.so): 0.001 ms
+05:08:48.868:      ┃ ┣obs_init_module(linux-jack.so): 0.01 ms
+05:08:48.868:      ┃ ┣obs_init_module(linux-pipewire.so): 17.72 ms
+05:08:48.868:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.004 ms
+05:08:48.868:      ┃ ┣obs_init_module(linux-v4l2.so): 5.736 ms
+05:08:48.868:      ┃ ┣obs_init_module(obs-ffmpeg.so): 2.066 ms
+05:08:48.868:      ┃ ┃ ┗nvenc_check: 0.908 ms
+05:08:48.868:      ┃ ┣obs_init_module(obs-filters.so): 0.056 ms
+05:08:48.868:      ┃ ┣obs_init_module(obs-libfdk.so): 0.002 ms
+05:08:48.868:      ┃ ┣obs_init_module(obs-outputs.so): 0.004 ms
+05:08:48.868:      ┃ ┣obs_init_module(obs-qsv11.so): 1.335 ms
+05:08:48.868:      ┃ ┣obs_init_module(obs-transitions.so): 0.017 ms
+05:08:48.868:      ┃ ┣obs_init_module(obs-vst.so): 0.011 ms
+05:08:48.868:      ┃ ┣obs_init_module(obs-webrtc.so): 0.008 ms
+05:08:48.868:      ┃ ┣obs_init_module(obs-x264.so): 0.003 ms
+05:08:48.868:      ┃ ┣obs_init_module(rtmp-services.so): 0.797 ms
+05:08:48.868:      ┃ ┗obs_init_module(text-freetype2.so): 0.016 ms
+05:08:48.868:      ┣OBSBasic::InitService: 1.161 ms
+05:08:48.868:      ┣OBSBasic::ResetOutputs: 0.212 ms
+05:08:48.868:      ┣OBSBasic::CreateHotkeys: 0.022 ms
+05:08:48.868:      ┣OBSBasic::InitPrimitives: 0.107 ms
+05:08:48.868:      ┗OBSBasic::Load: 84.912 ms
+05:08:48.868: obs_hotkey_thread(25 ms): min=0 ms, median=0.001 ms, max=0.375 ms, 99th percentile=0.011 ms, 100% below 25 ms
+05:08:48.868: audio_thread(Audio): min=0.011 ms, median=0.136 ms, max=2.578 ms, 99th percentile=1.151 ms
+05:08:48.868: obs_graphics_thread(33.3333 ms): min=0.057 ms, median=1.85 ms, max=36.522 ms, 99th percentile=3.722 ms, 99.9421% below 33.333 ms
+05:08:48.868:  ┣tick_sources: min=0.001 ms, median=0.026 ms, max=35.851 ms, 99th percentile=0.145 ms
+05:08:48.868:  ┣output_frame: min=0.03 ms, median=0.85 ms, max=3.325 ms, 99th percentile=2.042 ms
+05:08:48.868:  ┃ ┗gs_context(video->graphics): min=0.03 ms, median=0.849 ms, max=3.317 ms, 99th percentile=2.036 ms
+05:08:48.868:  ┃   ┣render_video: min=0.018 ms, median=0.241 ms, max=1.818 ms, 99th percentile=0.906 ms
+05:08:48.868:  ┃   ┃ ┗render_main_texture: min=0.014 ms, median=0.228 ms, max=1.802 ms, 99th percentile=0.86 ms
+05:08:48.868:  ┃   ┗gs_flush: min=0.005 ms, median=0.503 ms, max=3.207 ms, 99th percentile=1.303 ms
+05:08:48.868:  ┗render_displays: min=0.004 ms, median=0.804 ms, max=33.927 ms, 99th percentile=2.608 ms
+05:08:48.868: =================================================
+05:08:48.868: == Profiler Time Between Calls ==================
+05:08:48.868: obs_hotkey_thread(25 ms): min=25.034 ms, median=25.139 ms, max=28.657 ms, 99.3893% within ±2% of 25 ms (0% lower, 0.610687% higher)
+05:08:48.868: obs_graphics_thread(33.3333 ms): min=28.903 ms, median=33.333 ms, max=37.745 ms, 99.421% within ±2% of 33.333 ms (0.289519% lower, 0.289519% higher)
+05:08:48.868: =================================================
+05:08:48.880: Number of memory leaks: 0
