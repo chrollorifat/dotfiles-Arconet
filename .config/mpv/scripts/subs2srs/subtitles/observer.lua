@@ -134,10 +134,17 @@ autoclip_method = (function()
     }
 end)()
 
+local function copy_subtitle(subtitle_id)
+    self.copy_to_clipboard("copy-on-demand", mp.get_property(subtitle_id))
+end
+
 ------------------------------------------------------------
 -- public
 
 self.copy_to_clipboard = function(_, text)
+    if platform.healthy == false then
+        h.notify(platform.clip_util .. " is not installed.", "error", 5)
+    end
     if not h.is_empty(text) then
         platform.copy_to_clipboard(self.clipboard_prepare(text))
     end
@@ -157,8 +164,12 @@ self.maybe_remove_all_spaces = function(str)
     end
 end
 
-self.copy_current_to_clipboard = function()
-    self.copy_to_clipboard("copy-on-demand", mp.get_property("sub-text"))
+self.copy_current_primary_to_clipboard = function()
+    copy_subtitle("sub-text")
+end
+
+self.copy_current_secondary_to_clipboard = function()
+    copy_subtitle("secondary-sub-text")
 end
 
 self.user_altered = function()
@@ -241,12 +252,20 @@ self.recorded_subs = function()
     return dialogs.get_subs_list()
 end
 
+self.recorded_secondary_subs = function()
+    return secondary_dialogs.get_subs_list()
+end
+
 self.autocopy_status_str = function()
     return string.format(
             "%s (%s)",
             (autoclip_enabled and 'enabled' or 'disabled'),
             autoclip_method.get():gsub('_', ' ')
     )
+end
+
+self.autocopy_current_method = function()
+    return autoclip_method.get()
 end
 
 local function notify_autocopy()

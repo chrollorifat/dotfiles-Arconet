@@ -44,7 +44,7 @@ while watching your favorite TV show.
     <td>Installed by default on all platforms except Windows 7.</td>
 </tr>
 <tr>
-    <td><a href="https://www.archlinux.org/packages/extra/x86_64/xclip/">xclip</a> or <a href="https://archlinux.org/packages/community/x86_64/wl-clipboard/">wl-copy</a></td>
+    <td><a href="https://www.archlinux.org/packages/extra/x86_64/xclip/">xclip</a> or <a href="https://archlinux.org/packages/extra/x86_64/wl-clipboard">wl-copy</a></td>
     <td></td>
     <td>pbcopy</td>
     <td>To copy subtitle text to clipboard.</td>
@@ -98,7 +98,8 @@ but we acknowledge that some people haven't switched to GNU/Linux yet.
 Clone the repo to the `scripts` directory.
 
 ```
-$ git clone 'https://github.com/Ajatt-Tools/mpvacious.git' ~/.config/mpv/scripts/subs2srs
+mkdir -p ~/.config/mpv/scripts/
+git clone 'https://github.com/Ajatt-Tools/mpvacious.git' ~/.config/mpv/scripts/subs2srs
 ```
 
 To update, run the following command.
@@ -112,6 +113,9 @@ cd ~/.config/mpv/scripts/subs2srs && git pull
 `mpvacious` can be installed with the [mpv-mpvacious](https://aur.archlinux.org/packages/mpv-mpvacious/) package.
 
 ### Manually
+
+This way is not recommended because it's easy to make a mistake during the process
+and end up with a broken install.
 
 Download
 [the repository](https://github.com/Ajatt-Tools/mpvacious/archive/refs/heads/master.zip)
@@ -191,6 +195,13 @@ set `audio_format` to `mp3` and/or `snapshot_format` to `jpg`.
 Otherwise, I recommend sticking with `opus` and `webp`,
 as they greatly reduce the size of the generated files.
 
+If you still use AnkiMobile (the [proprietary](https://www.gnu.org/proprietary/) Anki app),
+set `audio_format` to [caf](https://en.wikipedia.org/wiki/Core_Audio_Format) for compatibility.
+The resulting files will use `Opus` as the coding format and Apple's Core Audio
+format as the container format, but will still have the `.ogg` extension to make
+it easier to open in media players because the `.caf` extension is not commonly
+recognized.
+
 If no matter what mpvacious fails to create audio clips and/or snapshots,
 change `use_ffmpeg` to `yes`.
 By using ffmpeg instead of the encoder built in mpv you can work around most encoder issues.
@@ -218,7 +229,8 @@ Ctrl+n       script-binding mpvacious-export-note
 Ctrl+m       script-binding mpvacious-update-last-note
 Ctrl+M       script-binding mpvacious-overwrite-last-note
 
-Ctrl+c       script-binding mpvacious-copy-sub-to-clipboard
+Ctrl+c       script-binding mpvacious-copy-primary-sub-to-clipboard
+Ctrl+C       script-binding mpvacious-copy-secondary-sub-to-clipboard
 Ctrl+t       script-binding mpvacious-autocopy-toggle
 
 H            script-binding mpvacious-sub-seek-back

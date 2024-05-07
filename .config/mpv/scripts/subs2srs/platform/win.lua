@@ -9,7 +9,7 @@ local mp = require('mp')
 local h = require('helpers')
 local utils = require('mp.utils')
 local curl_tmpfile_path = utils.join_path(os.getenv('TEMP'), 'curl_tmp.txt')
-local self = { windows = true, }
+local self = { windows = true, healthy = true, clip_util="cmd", }
 
 mp.register_event('shutdown', function()
     os.remove(curl_tmpfile_path)
@@ -20,8 +20,7 @@ self.tmp_dir = function()
 end
 
 self.copy_to_clipboard = function(text)
-    text = text:gsub("&", "^^^&"):gsub("[<>|]", ""):gsub("\"", '“')
-    mp.commandv("run", "cmd.exe", "/d", "/c", string.format("@echo off & chcp 65001 >nul & echo %s|clip", text))
+    mp.commandv("run", "powershell", "-command", string.format('Set-Clipboard -Value "%s"', text:gsub('"', '`"')))
 end
 
 self.curl_request = function(url, request_json, completion_fn)

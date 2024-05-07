@@ -348,12 +348,6 @@ local function maybe_reload_config()
 end
 
 local function get_anki_media_dir_path()
-    -- Try to find the collection.media directory without AnkiConnect first.
-    local r = h.subprocess{utils.join_path(mp.get_script_directory(), 'find_anki_col.sh')}
-    if r.status == 0 then
-        return r.stdout:gsub("[\r\n]*", ""):gsub("%.anki2$", ".media")
-    end
-    -- Call AnkiConnect if failed.
     return ankiconnect.get_media_dir_path()
 end
 
@@ -442,7 +436,7 @@ end
 -- main menu
 
 menu = Menu:new {
-    hints_state = switch.new { 'hidden', 'menu', 'global', },
+    hints_state = switch.new { 'basic', 'menu', 'global', 'hidden', },
 }
 
 menu.keybindings = {
@@ -465,6 +459,9 @@ menu.keybindings = {
 }
 
 function menu:print_header(osd)
+    if self.hints_state.get() == 'hidden' then
+        return
+    end
     osd:submenu('mpvacious options'):newline()
     osd:item('Timings: '):text(h.human_readable_time(subs_observer.get_timing('start')))
     osd:item(' to '):text(h.human_readable_time(subs_observer.get_timing('end'))):newline()
@@ -482,7 +479,7 @@ function menu:print_bindings(osd)
         osd:tab():item('ctrl+shift+h: '):text('Replay current subtitle'):newline()
         osd:tab():item('shift+h/l: '):text('Seek to the previous/next subtitle'):newline()
         osd:tab():item('alt+h/l: '):text('Seek to the previous/next subtitle and pause'):newline()
-        osd:italics("Press "):item('i'):italics(" to hide bindings."):newline()
+        osd:italics("Press "):item('i'):italics(" to hide mpvacious options."):newline()
     elseif self.hints_state.get() == 'menu' then
         osd:submenu('Menu bindings'):newline()
         osd:tab():item('c: '):text('Set timings to the current sub'):newline()
@@ -499,6 +496,8 @@ function menu:print_bindings(osd)
         osd:tab():item('p: '):text('Switch to next profile'):newline()
         osd:tab():item('ESC: '):text('Close'):newline()
         osd:italics("Press "):item('i'):italics(" to show global bindings."):newline()
+    elseif self.hints_state.get() == 'hidden' then
+        -- Menu bindings are active but hidden
     else
         osd:italics("Press "):item('i'):italics(" to show menu bindings."):newline()
     end
@@ -519,19 +518,34 @@ function menu:warn_formats(osd)
     end
 end
 
+function menu:warn_clipboard(osd)
+    if subs_observer.autocopy_current_method() == "clipboard" and platform.healthy == false then
+        osd:red('warning: '):text(string.format("%s is not installed.", platform.clip_util)):newline()
+    end
+end
+
 function menu:print_legend(osd)
     osd:new_layer():size(config.menu_font_size):font(config.menu_font_name):align(4)
     self:print_header(osd)
     self:print_bindings(osd)
     self:warn_formats(osd)
+    self:warn_clipboard(osd)
 end
 
 function menu:print_selection(osd)
     if subs_observer.is_appending() and config.show_selected_text then
         osd:new_layer():size(config.menu_font_size):font(config.menu_font_name):align(6)
-        osd:submenu("Selected text"):newline()
+        osd:submenu("Primary text"):newline()
         for _, s in ipairs(subs_observer.recorded_subs()) do
             osd:text(escape_for_osd(s['text'])):newline()
+        end
+        if not h.is_empty(config.secondary_field) then
+            -- If the user wants to add secondary subs to Anki,
+            -- it's okay to print them on the screen.
+            osd:submenu("Secondary text"):newline()
+            for _, s in ipairs(subs_observer.recorded_secondary_subs()) do
+                osd:text(escape_for_osd(s['text'])):newline()
+            end
         end
     end
 end
@@ -564,7 +578,8 @@ local main = (function()
         subs_observer.init(menu, config)
 
         -- Key bindings
-        mp.add_forced_key_binding("Ctrl+c", "mpvacious-copy-sub-to-clipboard", subs_observer.copy_current_to_clipboard)
+        mp.add_forced_key_binding("Ctrl+c", "mpvacious-copy-sub-to-clipboard", subs_observer.copy_current_primary_to_clipboard)
+        mp.add_key_binding("Ctrl+C", "mpvacious-copy-secondary-sub-to-clipboard", subs_observer.copy_current_secondary_to_clipboard)
         mp.add_key_binding("Ctrl+t", "mpvacious-autocopy-toggle", subs_observer.toggle_autocopy)
         mp.add_key_binding("Ctrl+g", "mpvacious-animated-snapshot-toggle", encoder.snapshot.toggle_animation)
 
