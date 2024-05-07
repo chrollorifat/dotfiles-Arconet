@@ -9,7 +9,7 @@ window-width=800
 alignment='center'
 auto-pinning=true
 current-workspace-only=false
-dock-items=['termite.dockitem', 'simplescreenrecorder.dockitem', 'sublime_text_3.dockitem', 'firefox.dockitem']
+dock-items=['simplescreenrecorder.dockitem', 'vivaldi-stable.dockitem', 'sublime_text_3.dockitem', 'firefox.dockitem', 'urxvt.dockitem']
 hide-delay=0
 hide-mode='intelligent'
 icon-size=36
@@ -32,6 +32,10 @@ use-symbolic-icons=false
 
 [org/gnome/desktop/background]
 picture-uri='file:///usr/share/backgrounds/arcolinux/arco-wallpaper.jpg'
+picture-uri-dark='file:///usr/share/backgrounds/arcolinux/arco-wallpaper.jpg'
+
+[org/gnome/desktop/interface]
+gtk-theme='Arc-Dark'
 
 [org/gnome/desktop/screensaver]
 picture-uri='file:///usr/share/backgrounds/arcolinux/arco-wallpaper.jpg'

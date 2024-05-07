@@ -1,9 +1,0 @@
-[Desktop Entry]
-Type=X-GNOME-Metatheme
-Name=Dark-Aurora-Black
-Comment=Easy On The Eyes Gnome Theme
-Encoding=UTF-8
-
-[X-GNOME-Metatheme]
-GtkTheme=Dark-Aurora-Black
-ButtonLayout=:minimize,maximize,close
