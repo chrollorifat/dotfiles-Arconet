@@ -3,8 +3,10 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
+
 #installation via script from github
 #export ZSH="/home/$USER/.oh-my-zsh"
+
 #installation via paru -S oh-my-zsh-git
 export ZSH=/usr/share/oh-my-zsh/
 
@@ -14,6 +16,32 @@ export ZSH=/usr/share/oh-my-zsh/
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 # if you installed the package oh-my-zsh-powerline-theme-git then you type here "powerline" as zsh theme
 ZSH_THEME="fino"
+
+
+
+#  ┬  ┌─┐┌─┐┌┬┐  ┌─┐┌┐┌┌─┐┬┌┐┌┌─┐
+#  │  │ │├─┤ ││  ├┤ ││││ ┬││││├┤ 
+#  ┴─┘└─┘┴ ┴─┴┘  └─┘┘└┘└─┘┴┘└┘└─┘
+autoload -Uz compinit
+
+for dump in ~/.config/zsh/zcompdump(N.mh+24); do
+  compinit -d ~/.config/zsh/zcompdump
+done
+
+compinit -C -d ~/.config/zsh/zcompdump
+
+autoload -Uz add-zsh-hook
+autoload -Uz vcs_info
+precmd () { vcs_info }
+_comp_options+=(globdots)
+
+zstyle ':completion:*' verbose true
+zstyle ':completion:*:*:*:*:*' menu select
+zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS} 'ma=48;5;197;1'
+zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
+zstyle ':completion:*:warnings' format "%B%F{red}No matches for:%f %F{magenta}%d%b"
+zstyle ':completion:*:descriptions' format '%F{yellow}[-- %d --]%f'
+zstyle ':vcs_info:*' formats ' %B%s-[%F{magenta}%f %F{yellow}%b%f]-'
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -50,10 +78,23 @@ ZSH_THEME="fino"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
+ ENABLE_CORRECTION="true"
 
+#  ┬ ┬┌─┐┬┌┬┐┬┌┐┌┌─┐  ┌┬┐┌─┐┌┬┐┌─┐
+#  │││├─┤│ │ │││││ ┬   │││ │ │ └─┐
+#  └┴┘┴ ┴┴ ┴ ┴┘└┘└─┘  ─┴┘└─┘ ┴ └─┘
 # Uncomment the following line to display red dots whilst waiting for completion.
-# COMPLETION_WAITING_DOTS="true"
+COMPLETION_WAITING_DOTS="true"
+
+expand-or-complete-with-dots() {
+  echo -n "\e[31m…\e[0m"
+  zle expand-or-complete
+  zle redisplay
+}
+zle -N expand-or-complete-with-dots
+bindkey "^I" expand-or-complete-with-dots
+
+
 
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
@@ -71,12 +112,23 @@ ZSH_THEME="fino"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
+#  ┌─┐┬  ┬ ┬┌─┐┬┌┐┌┌─┐
+#  ├─┘│  │ ││ ┬││││└─┐
+#  ┴  ┴─┘└─┘└─┘┴┘└┘└─┘
 # Which plugins would you like to load?
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
+
 plugins=(git)
+
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+# source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
+source /usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
 
 if [ -f $ZSH/oh-my-zsh.sh ]; then
   source $ZSH/oh-my-zsh.sh
@@ -93,7 +145,7 @@ fi
 # if [[ -n $SSH_CONNECTION ]]; then
 #   export EDITOR='vim'
 # else
-#   export EDITOR='mvim'
+#   export EDITOR='nvim'
 # fi
 
 # Compilation flags
@@ -107,18 +159,40 @@ if [ -f /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.z
   source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 fi
 
+#  ┌─┐┌─┐┬ ┬  ┌─┐┌─┐┌─┐┬    ┌─┐┌─┐┌┬┐┬┌─┐┌┐┌┌─┐
+#  ┌─┘└─┐├─┤  │  │ ││ ││    │ │├─┘ │ ││ ││││└─┐
+#  └─┘└─┘┴ ┴  └─┘└─┘└─┘┴─┘  └─┘┴   ┴ ┴└─┘┘└┘└─┘
+setopt AUTOCD              # change directory just by typing its name
+setopt PROMPT_SUBST        # enable command substitution in prompt
+setopt MENU_COMPLETE       # Automatically highlight first element of completion menu
+setopt LIST_PACKED		     # The completion menu takes less space.
+setopt AUTO_LIST           # Automatically list choices on ambiguous completion.
+setopt HIST_IGNORE_DUPS	   # Do not write events to history that are duplicates of previous events
+setopt HIST_FIND_NO_DUPS   # When searching history don't display results already cycled through twice
+setopt COMPLETE_IN_WORD    # Complete from both ends of a word.
 setopt GLOB_DOTS
 #share commands between terminal instances or not
-unsetopt SHARE_HISTORY
-#setopt SHARE_HISTORY
+setopt SHARE_HISTORY
+#unsetopt SHARE_HISTORY
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+#  ┬  ┬┌─┐┬─┐┌─┐
+#  └┐┌┘├─┤├┬┘└─┐
+#   └┘ ┴ ┴┴└─└─┘
+export HISTORY_IGNORE="(ls|cd|pwd|exit|sudo reboot|history|cd -|cd ..)"
 export HISTCONTROL=ignoreboth:erasedups
 
-# Make nvim the default editor
+#  ┬ ┬┬┌─┐┌┬┐┌─┐┬─┐┬ ┬
+#  ├─┤│└─┐ │ │ │├┬┘└┬┘
+#  ┴ ┴┴└─┘ ┴ └─┘┴└─ ┴ 
+HISTFILE=~/.config/zsh/zhistory
+HISTSIZE=5000
+SAVEHIST=5000
 
+
+# Make nvim the default editor
 export EDITOR='nvim'
 export VISUAL='nvim'
 
@@ -130,6 +204,24 @@ fi
 
 if [ -d "$HOME/.local/bin" ] ;
   then PATH="$HOME/.local/bin:$PATH"
+fi
+
+#  ┌─┐┬ ┬┌─┐┌┐┌┌─┐┌─┐  ┌┬┐┌─┐┬─┐┌┬┐┬┌┐┌┌─┐┬  ┌─┐  ┌┬┐┬┌┬┐┬  ┌─┐
+#  │  ├─┤├─┤││││ ┬├┤    │ ├┤ ├┬┘│││││││├─┤│  └─┐   │ │ │ │  ├┤ 
+#  └─┘┴ ┴┴ ┴┘└┘└─┘└─┘   ┴ └─┘┴└─┴ ┴┴┘└┘┴ ┴┴─┘└─┘   ┴ ┴ ┴ ┴─┘└─┘
+function xterm_title_precmd () {
+	print -Pn -- '\e]2;%n@%m %~\a'
+	[[ "$TERM" == 'screen'* ]] && print -Pn -- '\e_\005{g}%n\005{-}@\005{m}%m\005{-} \005{B}%~\005{-}\e\\'
+}
+
+function xterm_title_preexec () {
+	print -Pn -- '\e]2;%n@%m %~ %# ' && print -n -- "${(q)1}\a"
+	[[ "$TERM" == 'screen'* ]] && { print -Pn -- '\e_\005{g}%n\005{-}@\005{m}%m\005{-} \005{B}%~\005{-} %# ' && print -n -- "${(q)1}\e\\"; }
+}
+
+if [[ "$TERM" == (kitty*|alacritty*|termite*|gnome*|konsole*|kterm*|putty*|rxvt*|screen*|tmux*|xterm*) ]]; then
+	add-zsh-hook -Uz precmd xterm_title_precmd
+	add-zsh-hook -Uz preexec xterm_title_preexec
 fi
 
 ### ALIASES ###
@@ -546,12 +638,25 @@ alias ilag='logo-ls -AD'
 alias illg='logo-ls -alD'
 
 ## Helix Runtime Environment Variable 
-HELIX_RUNTIME=~/src/helix/runtime
+#HELIX_RUNTIME=~/src/helix/runtime
 #creating a symbolic link to the runtime
 #ln -Ts $PWD/runtime ~/.config/helix/runtime
 
 
-if [ -e /home/rif/.nix-profile/etc/profile.d/nix.sh ]; then . /home/rif/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
+#if [ -e /home/rif/.nix-profile/etc/profile.d/nix.sh ]; then . /home/rif/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
+
+# Alias for Pokemon Color Script
+alias pok='pokemon-colorscripts'
 
 ## starship shell
 eval "$(starship init zsh)"
+
+# oh-my-posh prompt
+eval "$(oh-my-posh init zsh)"
+
+# Initialize zoxide
+eval "$(zoxide init zsh)"
+
+# Autostart pokemon-colorscripts
+pok -r 5-8      # random pokemon from generations 5 to 8
+
