@@ -4,8 +4,13 @@
   <summary>My Setup </summary>
 </details>
 
-## Following config files are included in the repo:
-* Alacritty
-* Alsi
-* Atom
-
+## Installation
+### Proceed with caution. Make backup of your home directory before following the below instruction.
+1. clone the repo
+git clone "https://github.com/ChrolloRifat/dotfiles-ArcoPlasma.git"
+2. cd into the cloned repo
+cd dotfiles-ArcoPlasma
+3. make the copy.sh script executable
+chmod +x copy.sh 
+4. run the script
+./copy.sh
