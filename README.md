@@ -7,10 +7,13 @@
 ## Installation
 ### Proceed with caution. Make backup of your home directory before following the below instruction.
 1. clone the repo
-git clone "https://github.com/ChrolloRifat/dotfiles-ArcoPlasma.git"
+`git clone "https://github.com/ChrolloRifat/dotfiles-ArcoPlasma.git"`
+
 2. cd into the cloned repo
-cd dotfiles-ArcoPlasma
+`cd dotfiles-ArcoPlasma`
+
 3. make the copy.sh script executable
-chmod +x copy.sh 
+`chmod +x copy.sh`
+
 4. run the script
-./copy.sh
+`./copy.sh `
