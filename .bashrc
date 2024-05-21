@@ -581,6 +581,10 @@ alias personal='cp -Rf /personal/* ~'
 #colorscript random
 #hyfetch
 
+# Aliases for fastfetch
+alias fastfetch="clear && fastfetch"
+alias fast="clear && fastfetch"
+
 ## Aliases for logo-ls
 alias ils='logo-ls'
 alias ila='logo-ls -A'

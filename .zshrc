@@ -622,7 +622,9 @@ alias personal='cp -Rf /personal/* ~'
 #hyfetch
 #export PATH=/opt/Discord:$/home/rif/Downloads/Compressed/Discord
 
-
+# Aliases for fastfetch
+alias fastfetch="clear && fastfetch"
+alias fast="clear && fastfetch"
 
 # Xresources Live Reload
 alias rel="xrdb merge /home/rif/.Xresources && kill -USR1 $(pidof st)"
@@ -649,7 +651,7 @@ alias illg='logo-ls -alD'
 alias pok='pokemon-colorscripts'
 
 ## starship shell
-eval "$(starship init zsh)"
+#eval "$(starship init zsh)"
 
 # oh-my-posh prompt
 eval "$(oh-my-posh init zsh)"
