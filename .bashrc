@@ -1,6 +1,6 @@
 ### EXPORT ###
-export EDITOR='nvim'
-export VISUAL='nvim'
+export EDITOR='nano'
+export VISUAL='nano'
 export HISTCONTROL=ignoreboth:erasedups
 export PAGER='most'
 
@@ -11,175 +11,18 @@ export PAGER='most'
 #export XMODIFIERS=@im=dbus
 #export QT_IM_MODULE=ibus
 
-# Path to your oh-my-bash installation (installed from the website/github)
-export OSH='/home/rif/.oh-my-bash'
-
-# Set name of the theme to load. Optionally, if you set this to "random"
-# it'll load a random theme each time that oh-my-bash is loaded.
-#OSH_THEME="agnoster"
-
-# If you set OSH_THEME to "random", you can ignore themes you don't like.
-# OMB_THEME_RANDOM_IGNORED=("powerbash10k" "wanelo")
-
-# Uncomment the following line to use case-sensitive completion.
-# OMB_CASE_SENSITIVE="true"
-
-# Uncomment the following line to use hyphen-insensitive completion. Case
-# sensitive completion must be off. _ and - will be interchangeable.
-# OMB_HYPHEN_SENSITIVE="false"
-
-# Uncomment the following line to disable bi-weekly auto-update checks.
-# DISABLE_AUTO_UPDATE="true"
-
-# Uncomment the following line to change how often to auto-update (in days).
-# export UPDATE_OSH_DAYS=13
-
-# Uncomment the following line to disable colors in ls.
-# DISABLE_LS_COLORS="true"
-
-# Uncomment the following line to disable auto-setting terminal title.
-# DISABLE_AUTO_TITLE="true"
-
-# Uncomment the following line to enable command auto-correction.
-ENABLE_CORRECTION="true"
-
-# Uncomment the following line to display red dots whilst waiting for completion.
-COMPLETION_WAITING_DOTS="true"
-
-# Uncomment the following line if you want to disable marking untracked files
-# under VCS as dirty. This makes repository status check for large repositories
-# much, much faster.
-# DISABLE_UNTRACKED_FILES_DIRTY="true"
-
-# Uncomment the following line if you don't want the repository to be considered dirty
-# if there are untracked files.
-# SCM_GIT_DISABLE_UNTRACKED_DIRTY="true"
-
-# Uncomment the following line if you want to completely ignore the presence
-# of untracked files in the repository.
-# SCM_GIT_IGNORE_UNTRACKED="true"
-
-# Uncomment the following line if you want to change the command execution time
-# stamp shown in the history command output.  One of the following values can
-# be used to specify the timestamp format.
-# * 'mm/dd/yyyy'     # mm/dd/yyyy + time
-# * 'dd.mm.yyyy'     # dd.mm.yyyy + time
-# * 'yyyy-mm-dd'     # yyyy-mm-dd + time
-# * '[mm/dd/yyyy]'   # [mm/dd/yyyy] + [time] with colors
-# * '[dd.mm.yyyy]'   # [dd.mm.yyyy] + [time] with colors
-# * '[yyyy-mm-dd]'   # [yyyy-mm-dd] + [time] with colors
-# If not set, the default value is 'yyyy-mm-dd'.
-# HIST_STAMPS='yyyy-mm-dd'
-
-# Uncomment the following line if you do not want OMB to overwrite the existing
-# aliases by the default OMB aliases defined in lib/*.sh
-# OMB_DEFAULT_ALIASES="check"
-
-# Would you like to use another custom folder than $OSH/custom?
-# OSH_CUSTOM=/path/to/new-custom-folder
-
-# To disable the uses of "sudo" by oh-my-bash, please set "false" to
-# this variable.  The default behavior for the empty value is "true".
-OMB_USE_SUDO=true
-
-# To enable/disable display of Python virtualenv and condaenv
-# OMB_PROMPT_SHOW_PYTHON_VENV=true  # enable
-# OMB_PROMPT_SHOW_PYTHON_VENV=false # disable
-
-# Which completions would you like to load? (completions can be found in ~/.oh-my-bash/completions/*)
-# Custom completions may be added to ~/.oh-my-bash/custom/completions/
-# Example format: completions=(ssh git bundler gem pip pip3)
-# Add wisely, as too many completions slow down shell startup.
-completions=(
-  git
-  composer
-  ssh
-)
-
-# Which aliases would you like to load? (aliases can be found in ~/.oh-my-bash/aliases/*)
-# Custom aliases may be added to ~/.oh-my-bash/custom/aliases/
-# Example format: aliases=(vagrant composer git-avh)
-# Add wisely, as too many aliases slow down shell startup.
-aliases=(
-  general
-)
-
-# Which plugins would you like to load? (plugins can be found in ~/.oh-my-bash/plugins/*)
-# Custom plugins may be added to ~/.oh-my-bash/custom/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-# Add wisely, as too many plugins slow down shell startup.
-plugins=(
-  git
-  bashmarks
-)
-
-# Which plugins would you like to conditionally load? (plugins can be found in ~/.oh-my-bash/plugins/*)
-# Custom plugins may be added to ~/.oh-my-bash/custom/plugins/
-# Example format:
-#  if [ "$DISPLAY" ] || [ "$SSH" ]; then
-#      plugins+=(tmux-autoattach)
-#  fi
-
-source "$OSH"/oh-my-bash.sh
-
-# User configuration
-# export MANPATH="/usr/local/man:$MANPATH"
-
-# You may need to manually set your language environment
-# export LANG=en_US.UTF-8
-
-# Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
-
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
-
-# ssh
-# export SSH_KEY_PATH="~/.ssh/rsa_id"
-
-# Set personal aliases, overriding those provided by oh-my-bash libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-bash
-# users are encouraged to define aliases within the OSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias bashconfig="mate ~/.bashrc"
-# alias ohmybash="mate ~/.oh-my-bash"
-
-# Enable the subsequent settings only in interactive sessions
-case $- in
-  *i*) ;;
-    *) return;;
-esac
-
-#  ┌┬┐┬ ┬┌─┐  ┌─┐┬─┐┌─┐┌┬┐┌─┐┌┬┐
-#   │ ├─┤├┤   ├─┘├┬┘│ ││││├─┘ │
-#   ┴ ┴ ┴└─┘  ┴  ┴└─└─┘┴ ┴┴   ┴
-function dir_icon {
-  if [[ "$PWD" == "$HOME" ]]; then
-    echo "%B%F{cyan}%f%b"
-  else
-    echo "%B%F{cyan}%f%b"
-  fi
-}
-
-PS1='%B%F{blue}%f%b  %B%F{magenta}%n%f%b $(dir_icon)  %B%F{red}%~%f%b${vcs_info_msg_0_} %(?.%B%F{green}.%F{red})%f%b '
-
-#PS1='[\u@\h \W]\$ '
+PS1='[\u@\h \W]\$ '
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-if [ -d "$HOME/.bin" ]; then
-	PATH="$HOME/.bin:$PATH"
+
+if [ -d "$HOME/.bin" ] ;
+  then PATH="$HOME/.bin:$PATH"
 fi
 
-if [ -d "$HOME/.local/bin" ]; then
-	PATH="$HOME/.local/bin:$PATH"
+if [ -d "$HOME/.local/bin" ] ;
+  then PATH="$HOME/.local/bin:$PATH"
 fi
 
 #ignore upper and lowercase when TAB completion
@@ -204,10 +47,10 @@ alias spqo='sudo pacman -Qo'
 alias spsii='sudo pacman -Sii'
 
 # show the list of packages that need this package - depends mpv as example
-function_depends() {
-	search=$(echo "$1")
-	sudo pacman -Sii $search | grep "Required" | sed -e "s/Required By     : //g" | sed -e "s/  /\n/g"
-}
+function_depends()  {
+    search=$(echo "$1")
+    sudo pacman -Sii $search | grep "Required" | sed -e "s/Required By     : //g" | sed -e "s/  /\n/g"
+    }
 
 alias depends='function_depends'
 
@@ -302,6 +145,7 @@ alias tofish="sudo chsh $USER -s /bin/fish && echo 'Now log out.'"
 #switch between displaymanager or bootsystem
 alias toboot="sudo /usr/local/bin/arcolinux-toboot"
 alias togrub="sudo /usr/local/bin/arcolinux-togrub"
+alias torefind="sudo /usr/local/bin/arcolinux-torefind"
 alias tolightdm="sudo pacman -S lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings --noconfirm --needed ; sudo systemctl enable lightdm.service -f ; echo 'Lightm is active - reboot now'"
 alias tosddm="sudo pacman -S sddm --noconfirm --needed ; sudo systemctl enable sddm.service -f ; echo 'Sddm is active - reboot now'"
 alias toly="sudo pacman -S ly --noconfirm --needed ; sudo systemctl enable ly.service -f ; echo 'Ly is active - reboot now'"
@@ -319,6 +163,9 @@ alias kpi='killall picom'
 #hardware info --short
 alias hw="hwinfo --short"
 
+#fastfetch --short
+alias ff="fastfetch"
+
 #audio check pulseaudio or pipewire
 alias audio="pactl info | grep 'Server Name'"
 
@@ -329,6 +176,9 @@ alias trizenskip='trizen -S --skipinteg'
 
 #check vulnerabilities microcode
 alias microcode='grep . /sys/devices/system/cpu/vulnerabilities/*'
+
+#approximation of how old your hardware is
+alias howold="sudo lshw | grep -B 3 -A 8 BIOS"
 
 #check cpu
 alias cpu="cpuid -i | grep uarch | head -n 1"
@@ -353,11 +203,11 @@ alias vmware-start="sudo systemctl enable --now vmtoolsd.service"
 alias sv="sudo systemctl enable --now vmtoolsd.service"
 
 #shopt
-shopt -s autocd  # change to named directory
+shopt -s autocd # change to named directory
 shopt -s cdspell # autocorrects cd misspellings
 shopt -s cmdhist # save multi-line commands in history as single line
 shopt -s dotglob
-shopt -s histappend     # do not overwrite history
+shopt -s histappend # do not overwrite history
 shopt -s expand_aliases # expand aliases
 
 #youtube download
@@ -422,16 +272,28 @@ alias nb="$EDITOR ~/.bashrc"
 alias nz="$EDITOR ~/.zshrc"
 alias nf="$EDITOR ~/.config/fish/config.fish"
 alias nneofetch="$EDITOR ~/.config/neofetch/config.conf"
+alias nfastfetch="$EDITOR ~/.config/fastfetch/config.jsonc"
 alias nplymouth="sudo $EDITOR /etc/plymouth/plymouthd.conf"
 alias nvconsole="sudo $EDITOR /etc/vconsole.conf"
 alias nenvironment="sudo $EDITOR /etc/environment"
 alias nloader="sudo $EDITOR /boot/efi/loader/loader.conf"
+alias nrefind="sudo $EDITOR /boot/refind_linux.conf"
+alias nalacritty="nano /home/$USER/.config/alacritty/alacritty.toml"
+
+#removing packages
+alias rvariety="arcolinux-remove-variety"
+alias rkmix="arcolinux-remove-kmix"
+alias rconky="arcolinux-remove-conky"
 
 #reading logs with bat
 alias lcalamares="bat /var/log/Calamares.log"
 alias lpacman="bat /var/log/pacman.log"
 alias lxorg="bat /var/log/Xorg.0.log"
 alias lxorgo="bat /var/log/Xorg.0.log.old"
+
+#reading logs with sublime-text-4
+alias scal="subl /var/log/Calamares.log"
+alias spac="subl /etc/pacman.conf"
 
 #gpg
 #verify signature for isos
@@ -455,8 +317,8 @@ alias fix-keys="/usr/local/bin/arcolinux-fix-pacman-databases-and-keys"
 #alias fix-sddm-config="/usr/local/bin/arcolinux-fix-sddm-config"
 alias fix-pacman-conf="/usr/local/bin/arcolinux-fix-pacman-conf"
 alias fix-pacman-keyserver="/usr/local/bin/arcolinux-fix-pacman-gpg-conf"
-alias fix-grub="/usr/local/bin/arcolinux-fix-grub"
-alias fixgrub="/usr/local/bin/arcolinux-fix-grub"
+alias fix-grub="sudo /usr/local/bin/arcolinux-fix-grub"
+alias fixgrub="sudo /usr/local/bin/arcolinux-fix-grub"
 
 #maintenance
 alias big="expac -H M '%m\t%n' | sort -h | nl"
@@ -485,33 +347,34 @@ alias xdw="ls /usr/share/wayland-sessions"
 alias kernel="ls /usr/lib/modules"
 alias kernels="ls /usr/lib/modules"
 
-#am I on grub or systemd-boot
-alias boot="sudo bootctl status | grep Product"
+#am I on grub,systemd-boot or refind
+alias boot="sudo /usr/local/bin/arcolinux-boot"
 
 # # ex = EXtractor for all kinds of archives
 # # usage: ex <file>
-ex() {
-	if [ -f $1 ]; then
-		case $1 in
-		*.tar.bz2) tar xjf $1 ;;
-		*.tar.gz) tar xzf $1 ;;
-		*.bz2) bunzip2 $1 ;;
-		*.rar) unrar x $1 ;;
-		*.gz) gunzip $1 ;;
-		*.tar) tar xf $1 ;;
-		*.tbz2) tar xjf $1 ;;
-		*.tgz) tar xzf $1 ;;
-		*.zip) unzip $1 ;;
-		*.Z) uncompress $1 ;;
-		*.7z) 7z x $1 ;;
-		*.deb) ar x $1 ;;
-		*.tar.xz) tar xf $1 ;;
-		*.tar.zst) tar xf $1 ;;
-		*) echo "'$1' cannot be extracted via ex()" ;;
-		esac
-	else
-		echo "'$1' is not a valid file"
-	fi
+ex ()
+{
+  if [ -f $1 ] ; then
+    case $1 in
+      *.tar.bz2)   tar xjf $1   ;;
+      *.tar.gz)    tar xzf $1   ;;
+      *.bz2)       bunzip2 $1   ;;
+      *.rar)       unrar x $1   ;;
+      *.gz)        gunzip $1    ;;
+      *.tar)       tar xf $1    ;;
+      *.tbz2)      tar xjf $1   ;;
+      *.tgz)       tar xzf $1   ;;
+      *.zip)       unzip $1     ;;
+      *.Z)         uncompress $1;;
+      *.7z)        7z x $1      ;;
+      *.deb)       ar x $1      ;;
+      *.tar.xz)    tar xf $1    ;;
+      *.tar.zst)   tar xf $1    ;;
+      *)           echo "'$1' cannot be extracted via ex()" ;;
+    esac
+  else
+    echo "'$1' is not a valid file"
+  fi
 }
 
 #wayland aliases
@@ -565,6 +428,7 @@ alias personal='cp -Rf /personal/* ~'
 [[ -f ~/.bashrc-personal ]] && . ~/.bashrc-personal
 
 # reporting tools - install when not installed
+#fastfetch
 #neofetch
 #screenfetch
 #alsi
@@ -580,30 +444,3 @@ alias personal='cp -Rf /personal/* ~'
 #cpufetch
 #colorscript random
 #hyfetch
-
-# Aliases for fastfetch
-alias fastfetch="clear && fastfetch"
-alias fast="clear && fastfetch"
-
-## Aliases for logo-ls
-alias ils='logo-ls'
-alias ila='logo-ls -A'
-alias ill='logo-ls -al'
-#equivalents with Git Status on by Default
-alias ilsg='logo-ls -D'
-alias ilag='logo-ls -AD'
-alias illg='logo-ls -alD'
-
-# Alias for Pokemon Color Script
-alias pok='pokemon-colorscripts'
-pok -r 4-8  # show random pokemon from generation 4 to 8
-
-
-## starship shell
-#eval "$(starship init bash)"
-
-# oh-my-posh prompt
-eval "$(oh-my-posh init bash)"
-
-# Initialize zoxide
-eval "$(zoxide init bash)"
