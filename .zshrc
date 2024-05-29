@@ -178,11 +178,6 @@ setopt SHARE_HISTORY
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-#  ┬  ┬┌─┐┬─┐┌─┐
-#  └┐┌┘├─┤├┬┘└─┐
-#   └┘ ┴ ┴┴└─└─┘
-export HISTORY_IGNORE="(ls|cd|pwd|exit|sudo reboot|history|cd -|cd ..)"
-export HISTCONTROL=ignoreboth:erasedups
 
 #  ┬ ┬┬┌─┐┌┬┐┌─┐┬─┐┬ ┬
 #  ├─┤│└─┐ │ │ │├┬┘└┬┘
@@ -190,9 +185,11 @@ export HISTCONTROL=ignoreboth:erasedups
 HISTFILE=~/.config/zsh/zhistory
 HISTSIZE=5000
 SAVEHIST=5000
+export HISTORY_IGNORE="(ls|cd|pwd|exit|sudo reboot|history|cd -|cd ..)"
+export HISTCONTROL=ignoreboth:erasedups
 
 
-# Make nvim the default editor
+# Make neovim the default editor
 export EDITOR='nvim'
 export VISUAL='nvim'
 
@@ -224,7 +221,9 @@ if [[ "$TERM" == (kitty*|alacritty*|termite*|gnome*|konsole*|kterm*|putty*|rxvt*
 	add-zsh-hook -Uz preexec xterm_title_preexec
 fi
 
-### ALIASES ###
+#  ┌─┐┬  ┬┌─┐┌─┐┌─┐┌─┐
+#  ├─┤│  │├─┤└─┐├┤ └─┐
+#  ┴ ┴┴─┘┴┴ ┴└─┘└─┘└─┘  
 
 #list
 alias ls='ls --color=auto'
