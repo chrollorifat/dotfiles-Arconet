@@ -1,8 +1,0 @@
-Validating found git in: git
-Using git 2.34.1 from git
-Opening repository for path='/home/rifarch/repos/ManjaroXFCE/.git' failed; ex=Failed to execute git {
-  "exitCode": 128,
-  "gitCommand": "rev-parse",
-  "stdout": "",
-  "stderr": "fatal: this operation must be run in a work tree\n"
-}

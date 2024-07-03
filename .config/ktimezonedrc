@@ -1,4 +1,0 @@
-[TimeZones]
-LocalZone=Asia/Dhaka
-ZoneinfoDir=/usr/share/zoneinfo
-Zonetab=/usr/share/zoneinfo/zone.tab
